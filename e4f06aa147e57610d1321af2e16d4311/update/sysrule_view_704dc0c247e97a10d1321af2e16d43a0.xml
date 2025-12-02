@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysrule_view">
+    <sysrule_view action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>true</advanced>
+        <condition/>
+        <description/>
+        <device_type>browser</device_type>
+        <match_conditions>ALL</match_conditions>
+        <name>HR User/Admin Views</name>
+        <order>100</order>
+        <overrides_user_preference>true</overrides_user_preference>
+        <script><![CDATA[(function overrideView(view, is_list) {
+
+    if (
+        g_user.hasRole('admin') ||
+        g_user.hasRole('x_1837836_hr_cas_1_hr_admin') ||
+        g_user.hasRole('x_1837836_hr_cas_0.admin')
+    ) {
+
+        answer = null;
+        return;
+    }
+
+    if (
+        g_user.hasRole('x_1837836_hr_cas_1_hr_case_user') ||
+        g_user.hasRole('x_1837836_hr_cas_1_hr_user')
+    ) {
+        answer = 'Create';   
+        return;
+    }
+
+    answer = null;
+
+})(view, is_list);
+]]></script>
+        <sys_class_name>sysrule_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-02 12:46:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>704dc0c247e97a10d1321af2e16d43a0</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>HR User/Admin Views</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HR Case Management" source="x_1837836_hr_cas_1">e4f06aa147e57610d1321af2e16d4311</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
+        <sys_update_name>sysrule_view_704dc0c247e97a10d1321af2e16d43a0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-02 13:59:33</sys_updated_on>
+        <table>x_1837836_hr_cas_1_hr_case</table>
+        <view/>
+    </sysrule_view>
+</record_update>
