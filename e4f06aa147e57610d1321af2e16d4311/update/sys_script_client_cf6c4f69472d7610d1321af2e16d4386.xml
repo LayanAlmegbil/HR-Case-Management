@@ -8,43 +8,53 @@
         <global>false</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>Category behavior (incident &amp; mandatory </name>
+        <name>Category behavior incident &amp; mandatory </name>
         <order/>
-        <script><![CDATA[function onChange(control, oldValue, newValue) {
-    if (!newValue) {
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    // استخدم القيمة الحالية للـ Category سواء في اللود أو التغيير
+    var cat = g_form.getValue('category');
+
+    // لو ما فيه قيمة، رجّع الحقل عادي وغير إلزامي
+    if (!cat) {
         g_form.setVisible('subcategory', true);
         g_form.setMandatory('subcategory', false);
         return;
     }
 
-    if (newValue == 'incident') {
-        g_form.setValue('subcategory', '');
-        g_form.setVisible('subcategory', false);
+    // لو Incident → نخفي Subcategory تماماً
+    if (cat == 'incident') {
+        // امسحي أي قيمة موجودة
+        g_form.clearValue('subcategory');
+
+        // شيل الإلزام وأخفي الحقل
         g_form.setMandatory('subcategory', false);
+        g_form.setVisible('subcategory', false);
 
         g_form.addInfoMessage(
             'For Incidents, please use the standard Incident module instead of HR Case.'
         );
     } else {
+        // أي Category ثانية → أظهري Subcategory وخليه mandatory
         g_form.setVisible('subcategory', true);
         g_form.setMandatory('subcategory', true);
     }
-}]]></script>
+}
+]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-12-01 13:20:14</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>cf6c4f69472d7610d1321af2e16d4386</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Category behavior (incident &amp; mandatory </sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Category behavior incident &amp; mandatory </sys_name>
         <sys_overrides/>
         <sys_package display_value="HR Case Management" source="x_1837836_hr_cas_1">e4f06aa147e57610d1321af2e16d4311</sys_package>
         <sys_policy/>
         <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
         <sys_update_name>sys_script_client_cf6c4f69472d7610d1321af2e16d4386</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-12-01 13:20:14</sys_updated_on>
+        <sys_updated_on>2025-12-14 07:05:33</sys_updated_on>
         <table>x_1837836_hr_cas_1_hr_case</table>
         <type>onChange</type>
         <ui_type>10</ui_type>

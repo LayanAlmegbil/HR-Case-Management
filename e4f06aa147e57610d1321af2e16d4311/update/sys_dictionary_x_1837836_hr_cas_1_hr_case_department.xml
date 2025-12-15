@@ -2,7 +2,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="department" table="x_1837836_hr_cas_1_hr_case">
         <active>true</active>
         <array>false</array>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true,encode_utf8=false</attributes>
         <audit>false</audit>
         <calculation/>
         <choice>0</choice>
@@ -47,7 +47,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-12-01 13:08:33</sys_created_on>
-        <sys_id>f4f9c325472d7610d1321af2e16d4301</sys_id>
         <sys_name>Department</sys_name>
         <sys_package display_value="HR Case Management" source="x_1837836_hr_cas_1">e4f06aa147e57610d1321af2e16d4311</sys_package>
         <sys_policy/>

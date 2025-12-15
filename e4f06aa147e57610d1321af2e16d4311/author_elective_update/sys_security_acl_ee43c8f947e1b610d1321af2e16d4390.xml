@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <applies_to/>
+        <condition/>
+        <controlled_by_refs/>
+        <decision_type>allow</decision_type>
+        <description/>
+        <local_or_existing>Existing</local_or_existing>
+        <name>x_1837836_hr_cas_1_hr_case</name>
+        <operation display_value="write">write</operation>
+        <script><![CDATA[// Allow admins and hr_admins to always update
+if (gs.hasRole('admin') || gs.hasRole('x_1837836_hr_cas_1.hr_admin') || gs.hasRole('x_1837836_hr_cas_0.admin')) {
+    answer = true;
+} else {
+    // Get the display value of the state (e.g., 'New', 'In Progress', 'Closed', 'Cancelled')
+    var stateDisplay = current.state.getDisplayValue();
+
+    // Block update if state is Closed or Cancelled
+    if (stateDisplay == 'Closed' || stateDisplay == 'Cancelled') {
+        answer = false;
+    } else {
+        answer = true;
+    }
+}
+]]></script>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-01 17:20:49</sys_created_on>
+        <sys_id>ee43c8f947e1b610d1321af2e16d4390</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1837836_hr_cas_1_hr_case</sys_name>
+        <sys_package display_value="HR Case Management" source="x_1837836_hr_cas_1">e4f06aa147e57610d1321af2e16d4311</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
+        <sys_update_name>sys_security_acl_ee43c8f947e1b610d1321af2e16d4390</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-01 17:20:49</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</application>
+        <file_path/>
+        <instance_id>ac3f14e63b4ba258872712c5e4e45a7e</instance_id>
+        <instance_name>dev351794</instance_name>
+        <name>sys_security_acl_ee43c8f947e1b610d1321af2e16d4390</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_security_acl"&gt;&lt;sys_security_acl action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;admin_overrides&gt;true&lt;/admin_overrides&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;applies_to/&gt;&lt;condition/&gt;&lt;controlled_by_refs/&gt;&lt;decision_type&gt;allow&lt;/decision_type&gt;&lt;description/&gt;&lt;local_or_existing&gt;Existing&lt;/local_or_existing&gt;&lt;name&gt;x_1837836_hr_cas_1_hr_case&lt;/name&gt;&lt;operation display_value="write"&gt;write&lt;/operation&gt;&lt;script&gt;&lt;![CDATA[// Allow admins and hr_admins to always update
+if (gs.hasRole('admin') || gs.hasRole('x_1837836_hr_cas_1.hr_admin') || gs.hasRole('x_1837836_hr_cas_0.admin')) {
+    answer = true;
+} else {
+    // Get the display value of the state (e.g., 'New', 'In Progress', 'Closed', 'Cancelled')
+    var stateDisplay = current.state.getDisplayValue();
+
+    // Block update if state is Closed or Cancelled
+    if (stateDisplay == 'Closed' || stateDisplay == 'Cancelled') {
+        answer = false;
+    } else {
+        answer = true;
+    }
+}
+]]&gt;&lt;/script&gt;&lt;security_attribute/&gt;&lt;sys_class_name&gt;sys_security_acl&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-01 17:20:49&lt;/sys_created_on&gt;&lt;sys_id&gt;ee43c8f947e1b610d1321af2e16d4390&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_1837836_hr_cas_1_hr_case&lt;/sys_name&gt;&lt;sys_package display_value="HR Case Management" source="x_1837836_hr_cas_1"&gt;e4f06aa147e57610d1321af2e16d4311&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="HR Case Management"&gt;e4f06aa147e57610d1321af2e16d4311&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_security_acl_ee43c8f947e1b610d1321af2e16d4390&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-01 17:20:49&lt;/sys_updated_on&gt;&lt;type display_value="record"&gt;record&lt;/type&gt;&lt;/sys_security_acl&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1240621896</payload_hash>
+        <record_name>x_1837836_hr_cas_1_hr_case</record_name>
+        <reverted_from/>
+        <source>60f06aa147e57610d1321af2e16d43c2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-01 17:20:49</sys_created_on>
+        <sys_id>14b3083d47e1b610d1321af2e16d4371</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19adaee69cd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-01 17:20:49</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>d0b3083d63e1b6101bcd046dfeaaf870</update_guid>
+        <update_guid_history>d0b3083d63e1b6101bcd046dfeaaf870:-1240621896</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-01 17:27:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>8293581d9f654ae89d0de96bf9bdb090</sys_id>
+        <sys_metadata>ee43c8f947e1b610d1321af2e16d4390</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1837836_hr_cas_1_hr_case</sys_name>
+        <sys_package display_value="HR Case Management" source="x_1837836_hr_cas_1">e4f06aa147e57610d1321af2e16d4311</sys_package>
+        <sys_parent display_value="x_1837836_hr_cas_1_hr_case">f532a26547e57610d1321af2e16d43ac</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
+        <sys_scope_delete display_value="">0855ea1441d943bc8406fb2f65521b71</sys_scope_delete>
+        <sys_update_name>sys_security_acl_ee43c8f947e1b610d1321af2e16d4390</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_ee43c8f947e1b610d1321af2e16d4390">14b3083d47e1b610d1321af2e16d4371</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-01 17:27:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

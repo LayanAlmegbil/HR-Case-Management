@@ -58,6 +58,8 @@
         <state>available</state>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-12-01 10:09:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>0df06aa147e57610d1321af2e16d43f1</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>

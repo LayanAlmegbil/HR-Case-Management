@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_1837836_hr_cas_1.glide.ui.banner.logo</name>
+        <read_roles/>
+        <suffix>glide.ui.banner.logo</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-09 07:57:55</sys_created_on>
+        <sys_id>c66ecbc447797210d1321af2e16d43b2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_1837836_hr_cas_1.glide.ui.banner.logo</sys_name>
+        <sys_package display_value="HR Case Management" source="x_1837836_hr_cas_1">e4f06aa147e57610d1321af2e16d4311</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
+        <sys_update_name>sys_properties_c66ecbc447797210d1321af2e16d43b2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-09 08:07:39</sys_updated_on>
+        <type>string</type>
+        <value>sys_id=cd2f8f8847797210d1321af2e16d4324</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=c66ecbc447797210d1321af2e16d43b2"/>
+</record_update>

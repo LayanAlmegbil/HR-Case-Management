@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-01 10:14:56</sys_created_on>
+        <sys_id>3132a26547e57610d1321af2e16d438f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1837836_hr_cas_1_hr_case.x_1837836_hr_cas_1.hr_case_user</sys_name>
+        <sys_package display_value="HR Case Management" source="x_1837836_hr_cas_1">e4f06aa147e57610d1321af2e16d4311</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
+        <sys_security_acl display_value="x_1837836_hr_cas_1_hr_case">3932a26547e57610d1321af2e16d4389</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_3132a26547e57610d1321af2e16d438f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-01 10:14:56</sys_updated_on>
+        <sys_user_role display_value="x_1837836_hr_cas_1.hr_case_user" name="x_1837836_hr_cas_1.hr_case_user">65322e2547e57610d1321af2e16d4309</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</application>
+        <file_path/>
+        <instance_id>ac3f14e63b4ba258872712c5e4e45a7e</instance_id>
+        <instance_name>dev351794</instance_name>
+        <name>sys_security_acl_role_3132a26547e57610d1321af2e16d438f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-12-01 10:14:56</sys_created_on><sys_id>3132a26547e57610d1321af2e16d438f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1837836_hr_cas_1_hr_case.x_1837836_hr_cas_1.hr_case_user</sys_name><sys_package display_value="HR Case Management" source="x_1837836_hr_cas_1">e4f06aa147e57610d1321af2e16d4311</sys_package><sys_policy/><sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope><sys_security_acl display_value="x_1837836_hr_cas_1_hr_case">3932a26547e57610d1321af2e16d4389</sys_security_acl><sys_update_name>sys_security_acl_role_3132a26547e57610d1321af2e16d438f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-12-01 10:14:56</sys_updated_on><sys_user_role display_value="x_1837836_hr_cas_1.hr_case_user" name="x_1837836_hr_cas_1.hr_case_user">65322e2547e57610d1321af2e16d4309</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>1204226958</payload_hash>
+        <record_name>x_1837836_hr_cas_1_hr_case.x_1837836_hr_cas_1.hr_case_user</record_name>
+        <reverted_from/>
+        <source>60f06aa147e57610d1321af2e16d43c2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-01 10:14:56</sys_created_on>
+        <sys_id>b132a26547e57610d1321af2e16d4394</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19ad968823a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-01 10:14:56</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>7132a26573e576100ffb288591c89f93</update_guid>
+        <update_guid_history>7132a26573e576100ffb288591c89f93:1204226958</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1837836_hr_cas_1_hr_case.x_1837836_hr_cas_1.hr_case_user">9ddef3a147e1b610d1321af2e16d434f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-01 16:59:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>0c85af3173424da8842f7b5099d59839</sys_id>
+        <sys_metadata>3132a26547e57610d1321af2e16d438f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1837836_hr_cas_1_hr_case.x_1837836_hr_cas_1.hr_case_user</sys_name>
+        <sys_package display_value="HR Case Management" source="x_1837836_hr_cas_1">e4f06aa147e57610d1321af2e16d4311</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
+        <sys_scope_delete display_value="">0855ea1441d943bc8406fb2f65521b71</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_3132a26547e57610d1321af2e16d438f</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_3132a26547e57610d1321af2e16d438f">b132a26547e57610d1321af2e16d4394</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-01 16:59:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

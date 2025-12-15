@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysrule_assignment">
     <sysrule_assignment action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <condition table="x_1837836_hr_cas_1_hr_case">category=leave^EQ<item display_value="Leave" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="leave"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a09bb3e947a1b610d1321af2e16d43a0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Leave Group</sys_name>
         <sys_overrides/>
         <sys_package display_value="HR Case Management" source="x_1837836_hr_cas_1">e4f06aa147e57610d1321af2e16d4311</sys_package>
@@ -37,7 +37,7 @@
         <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
         <sys_update_name>sysrule_assignment_a09bb3e947a1b610d1321af2e16d43a0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-12-01 16:45:45</sys_updated_on>
+        <sys_updated_on>2025-12-09 08:24:12</sys_updated_on>
         <table>x_1837836_hr_cas_1_hr_case</table>
         <user/>
     </sysrule_assignment>

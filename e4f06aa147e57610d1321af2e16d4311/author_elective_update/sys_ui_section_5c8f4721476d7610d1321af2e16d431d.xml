@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="New Section" section_id="5c8f4721476d7610d1321af2e16d431d" sys_domain="global" table="x_1837836_hr_cas_1_hr_case" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-01 13:32:49</sys_created_on>
+            <sys_id>908f4721476d7610d1321af2e16d4368</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1837836_hr_cas_1_hr_case" sys_domain="global" view="Default view">5c8f4721476d7610d1321af2e16d431d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-01 13:32:49</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-01 13:32:49</sys_created_on>
+            <sys_id>5c8f4721476d7610d1321af2e16d4368</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1837836_hr_cas_1_hr_case" sys_domain="global" view="Default view">5c8f4721476d7610d1321af2e16d431d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-01 13:32:49</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-01 13:32:49</sys_created_on>
+            <sys_id>188f4721476d7610d1321af2e16d4369</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1837836_hr_cas_1_hr_case" sys_domain="global" view="Default view">5c8f4721476d7610d1321af2e16d431d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-01 13:32:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-01 13:32:49</sys_created_on>
+            <sys_id>d08f4721476d7610d1321af2e16d436a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1837836_hr_cas_1_hr_case" sys_domain="global" view="Default view">5c8f4721476d7610d1321af2e16d431d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-01 13:32:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>New Section</caption>
+            <header>false</header>
+            <name>x_1837836_hr_cas_1_hr_case</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-01 13:32:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5c8f4721476d7610d1321af2e16d431d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1837836_hr_cas_1_hr_case</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="HR Case Management" source="x_1837836_hr_cas_1">e4f06aa147e57610d1321af2e16d4311</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
+            <sys_update_name>sys_ui_section_5c8f4721476d7610d1321af2e16d431d</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-01 13:32:48</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</application>
+        <file_path/>
+        <instance_id>ac3f14e63b4ba258872712c5e4e45a7e</instance_id>
+        <instance_name>dev351794</instance_name>
+        <name>sys_ui_section_5c8f4721476d7610d1321af2e16d431d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="New Section" section_id="5c8f4721476d7610d1321af2e16d431d" sys_domain="global" table="x_1837836_hr_cas_1_hr_case" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-12-01 13:32:49</sys_created_on><sys_id>908f4721476d7610d1321af2e16d4368</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_1837836_hr_cas_1_hr_case" sys_domain="global" view="Default view">5c8f4721476d7610d1321af2e16d431d</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-12-01 13:32:49</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-12-01 13:32:49</sys_created_on><sys_id>5c8f4721476d7610d1321af2e16d4368</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_1837836_hr_cas_1_hr_case" sys_domain="global" view="Default view">5c8f4721476d7610d1321af2e16d431d</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-12-01 13:32:49</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>short_description</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-12-01 13:32:49</sys_created_on><sys_id>188f4721476d7610d1321af2e16d4369</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_1837836_hr_cas_1_hr_case" sys_domain="global" view="Default view">5c8f4721476d7610d1321af2e16d431d</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-12-01 13:32:49</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>description</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-12-01 13:32:49</sys_created_on><sys_id>d08f4721476d7610d1321af2e16d436a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_1837836_hr_cas_1_hr_case" sys_domain="global" view="Default view">5c8f4721476d7610d1321af2e16d431d</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-12-01 13:32:49</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>New Section</caption><header>false</header><name>x_1837836_hr_cas_1_hr_case</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-12-01 13:32:48</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>5c8f4721476d7610d1321af2e16d431d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1837836_hr_cas_1_hr_case</sys_name><sys_overrides/><sys_package display_value="HR Case Management" source="x_1837836_hr_cas_1">e4f06aa147e57610d1321af2e16d4311</sys_package><sys_policy/><sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope><sys_update_name>sys_ui_section_5c8f4721476d7610d1321af2e16d431d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-12-01 13:32:48</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-788383239</payload_hash>
+        <record_name>HR Case</record_name>
+        <reverted_from/>
+        <source>60f06aa147e57610d1321af2e16d43c2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-01 13:32:49</sys_created_on>
+        <sys_id>5c8f4721476d7610d1321af2e16d436d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19ada1dad070000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-01 13:32:49</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>108f47218b6d7610efa364985ac07c6d</update_guid>
+        <update_guid_history>108f47218b6d7610efa364985ac07c6d:-788383239</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-01 13:33:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>3f89be711b3a46e49394de1297747190</sys_id>
+        <sys_metadata>5c8f4721476d7610d1321af2e16d431d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Section</sys_name>
+        <sys_package display_value="HR Case Management" source="x_1837836_hr_cas_1">e4f06aa147e57610d1321af2e16d4311</sys_package>
+        <sys_parent display_value="HR Case">1cc1e22547e57610d1321af2e16d4384</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
+        <sys_scope_delete display_value="">0855ea1441d943bc8406fb2f65521b71</sys_scope_delete>
+        <sys_update_name>sys_ui_section_5c8f4721476d7610d1321af2e16d431d</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_5c8f4721476d7610d1321af2e16d431d">5c8f4721476d7610d1321af2e16d436d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-01 13:33:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

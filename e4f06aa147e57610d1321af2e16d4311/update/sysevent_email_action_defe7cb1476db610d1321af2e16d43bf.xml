@@ -48,6 +48,8 @@
 <p>Regards,<br>HR Case Management System</p>]]></message_html>
         <message_list/>
         <message_text/>
+        <messaging_channels/>
+        <messaging_content/>
         <name>HR Case Closed/Cancelled - Review</name>
         <omit_watermark>false</omit_watermark>
         <order>100</order>

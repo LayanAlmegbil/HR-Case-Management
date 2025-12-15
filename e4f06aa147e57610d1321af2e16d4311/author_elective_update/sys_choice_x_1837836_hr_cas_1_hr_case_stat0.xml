@@ -6,7 +6,6 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-12-01 13:08:37</sys_created_on>
-            <sys_id>3df9c725472d7610d1321af2e16d4397</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>stat0</sys_name>
             <sys_package display_value="HR Case Management" source="x_1837836_hr_cas_1">e4f06aa147e57610d1321af2e16d4311</sys_package>
@@ -30,7 +29,6 @@
             <sys_created_on>2025-12-01 14:05:27</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>22f6dbed476d7610d1321af2e16d4306</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-12-01 14:05:27</sys_updated_on>
@@ -50,7 +48,6 @@
             <sys_created_on>2025-12-01 18:50:50</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>cb4898f547a5b610d1321af2e16d430c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-12-01 18:50:50</sys_updated_on>
@@ -70,7 +67,6 @@
             <sys_created_on>2025-12-01 13:08:37</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>f9f9c725472d7610d1321af2e16d43a5</sys_id>
             <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-12-01 14:05:27</sys_updated_on>
@@ -90,7 +86,6 @@
             <sys_created_on>2025-12-01 13:08:37</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>31f9c725472d7610d1321af2e16d43b3</sys_id>
             <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-12-01 14:05:27</sys_updated_on>
@@ -110,7 +105,6 @@
             <sys_created_on>2025-12-01 13:08:37</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>46f9c725472d7610d1321af2e16d43c0</sys_id>
             <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-12-01 14:05:27</sys_updated_on>
@@ -130,7 +124,6 @@
             <sys_created_on>2025-12-01 13:08:37</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>8af9c725472d7610d1321af2e16d43cd</sys_id>
             <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-12-01 14:05:27</sys_updated_on>
@@ -150,7 +143,6 @@
             <sys_created_on>2025-12-01 13:08:37</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>cef9c725472d7610d1321af2e16d43da</sys_id>
             <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-12-01 14:05:27</sys_updated_on>

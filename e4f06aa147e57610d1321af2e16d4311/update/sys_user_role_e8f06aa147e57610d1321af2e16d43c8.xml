@@ -4,6 +4,7 @@
         <can_delegate>true</can_delegate>
         <description>Default admin role</description>
         <elevated_privilege>false</elevated_privilege>
+        <federated_id>gInfOUK9CP/mq86RoKW1j0QJankycNTcgbvgryw72Bg=</federated_id>
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_1837836_hr_cas_1.hr_admin</name>
