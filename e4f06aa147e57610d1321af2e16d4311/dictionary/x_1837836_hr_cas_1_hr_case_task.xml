@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d8dd801a47717a10d1321af2e16d435c" extends="x_1837836_hr_cas_1_hr_case" label="HR Case Task" max_length="40" name="x_1837836_hr_cas_1_hr_case_task" type="collection">
+        <element label="AssignmentGroup" max_length="32" name="assignmentgroup" reference="sys_user_group" type="reference"/>
+        <element label="HRParent" max_length="32" name="hrparent" reference="x_1837836_hr_cas_1_hr_case" type="reference"/>
+        <element label="AssignedTo" max_length="32" name="assignedto" reference="sys_user" type="reference"/>
+    </element>
+</database>
