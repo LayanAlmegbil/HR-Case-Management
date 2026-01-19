@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>true</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>abel.tuter</sys_created_by>
+        <sys_created_on>2025-12-01 15:18:06</sys_created_on>
+        <sys_id>f297a7214721b610d1321af2e16d433f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>True</sys_name>
+        <sys_package display_value="HR Case Management" source="x_1837836_hr_cas_1">e4f06aa147e57610d1321af2e16d4311</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
+        <sys_update_name>sys_ui_view_f297a7214721b610d1321af2e16d433f</sys_update_name>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2025-12-01 15:18:06</sys_updated_on>
+        <title>True</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

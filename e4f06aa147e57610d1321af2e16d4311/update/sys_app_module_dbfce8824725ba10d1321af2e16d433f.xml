@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="HR">e932a26547e57610d1321af2e16d434e</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>DIRECT</link_type>
+        <map_page/>
+        <mobile_title>Knowledge Bases</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1837836_hr_cas_1_hr_case</name>
+        <order>300</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query>/kb_knowledge_base_list.do</query>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_1837836_hr_cas_0.admin,x_1837836_hr_cas_0.user,x_1837836_hr_cas_1.hr_admin,x_1837836_hr_cas_1.hr_case_user,x_1837836_hr_cas_1.hr_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-02 15:00:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dbfce8824725ba10d1321af2e16d433f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Knowledge Bases</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HR Case Management" source="x_1837836_hr_cas_1">e4f06aa147e57610d1321af2e16d4311</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
+        <sys_update_name>sys_app_module_dbfce8824725ba10d1321af2e16d433f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-02 15:41:50</sys_updated_on>
+        <timeline_page/>
+        <title>Knowledge Bases</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

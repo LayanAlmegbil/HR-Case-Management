@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>u_requested_for</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-09 09:11:15</sys_created_on>
+        <sys_id>ee302b8c477d7210d1321af2e16d4367</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_requested_for</sys_name>
+        <sys_package display_value="HR Case Management" source="x_1837836_hr_cas_1">e4f06aa147e57610d1321af2e16d4311</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
+        <sys_update_name>sys_ui_policy_action_ee302b8c477d7210d1321af2e16d4367</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-09 09:11:15</sys_updated_on>
+        <table>x_1837836_hr_cas_1_hr_case</table>
+        <ui_policy display_value="Show Requested For (Reference) + Mandatory">bc00eb4c477d7210d1321af2e16d43a7</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=ee302b8c477d7210d1321af2e16d4367"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</application>
+        <file_path/>
+        <instance_id>ac3f14e63b4ba258872712c5e4e45a7e</instance_id>
+        <instance_name>dev351794</instance_name>
+        <name>sys_ui_policy_action_ee302b8c477d7210d1321af2e16d4367</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>u_requested_for</field><field_message/><field_message_type>none</field_message_type><mandatory>true</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-12-09 09:11:15</sys_created_on><sys_id>ee302b8c477d7210d1321af2e16d4367</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_requested_for</sys_name><sys_package display_value="HR Case Management" source="x_1837836_hr_cas_1">e4f06aa147e57610d1321af2e16d4311</sys_package><sys_policy/><sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope><sys_update_name>sys_ui_policy_action_ee302b8c477d7210d1321af2e16d4367</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-12-09 09:11:15</sys_updated_on><table>x_1837836_hr_cas_1_hr_case</table><ui_policy display_value="Show Requested For (Reference) + Mandatory">bc00eb4c477d7210d1321af2e16d43a7</ui_policy><value/><value_action>ignore</value_action><visible>true</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=ee302b8c477d7210d1321af2e16d4367"/></record_update>]]></payload>
+        <payload_hash>1856074528</payload_hash>
+        <record_name>u_requested_for</record_name>
+        <reverted_from/>
+        <source>ccac34da4761be10d1321af2e16d434c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-09 09:11:15</sys_created_on>
+        <sys_id>fe506b8c477d7210d1321af2e16d43a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19b0261139e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-09 09:11:15</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>be506b8cdf7d7210656f578481495aa3</update_guid>
+        <update_guid_history>be506b8cdf7d7210656f578481495aa3:1856074528</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-10 09:15:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>195bab68a15746fc84db2502aee97a51</sys_id>
+        <sys_metadata>ee302b8c477d7210d1321af2e16d4367</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_requested_for</sys_name>
+        <sys_package display_value="HR Case Management" source="x_1837836_hr_cas_1">e4f06aa147e57610d1321af2e16d4311</sys_package>
+        <sys_parent display_value="">bc00eb4c477d7210d1321af2e16d43a7</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
+        <sys_scope_delete display_value="">0855ea1441d943bc8406fb2f65521b71</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_ee302b8c477d7210d1321af2e16d4367</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_ee302b8c477d7210d1321af2e16d4367">fe506b8c477d7210d1321af2e16d43a4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-10 09:15:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

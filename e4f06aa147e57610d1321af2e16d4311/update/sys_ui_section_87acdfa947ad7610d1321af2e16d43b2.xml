@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Create" section_id="87acdfa947ad7610d1321af2e16d43b2" sys_domain="global" table="x_1837836_hr_cas_1_hr_case" version="3" view="create">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-10 09:11:31</sys_created_on>
+            <sys_id>e40a64a44775b610d1321af2e16d432d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Create" display_value="Create" name="x_1837836_hr_cas_1_hr_case" sys_domain="global" view="1cb532579f2013001e0abde8132e70e4">87acdfa947ad7610d1321af2e16d43b2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-10 09:11:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>stat0</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-10 09:11:31</sys_created_on>
+            <sys_id>a00a64a44775b610d1321af2e16d432e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Create" display_value="Create" name="x_1837836_hr_cas_1_hr_case" sys_domain="global" view="1cb532579f2013001e0abde8132e70e4">87acdfa947ad7610d1321af2e16d43b2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-10 09:11:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>department</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-10 09:11:31</sys_created_on>
+            <sys_id>6c0a64a44775b610d1321af2e16d432e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Create" display_value="Create" name="x_1837836_hr_cas_1_hr_case" sys_domain="global" view="1cb532579f2013001e0abde8132e70e4">87acdfa947ad7610d1321af2e16d43b2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-10 09:11:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_requested_onboarding</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-10 09:11:31</sys_created_on>
+            <sys_id>280a64a44775b610d1321af2e16d432f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Create" display_value="Create" name="x_1837836_hr_cas_1_hr_case" sys_domain="global" view="1cb532579f2013001e0abde8132e70e4">87acdfa947ad7610d1321af2e16d43b2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-10 09:11:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_requested_for</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-10 09:11:31</sys_created_on>
+            <sys_id>e00a64a44775b610d1321af2e16d4330</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Create" display_value="Create" name="x_1837836_hr_cas_1_hr_case" sys_domain="global" view="1cb532579f2013001e0abde8132e70e4">87acdfa947ad7610d1321af2e16d43b2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-10 09:11:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-10 09:11:31</sys_created_on>
+            <sys_id>ac0a64a44775b610d1321af2e16d4330</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Create" display_value="Create" name="x_1837836_hr_cas_1_hr_case" sys_domain="global" view="1cb532579f2013001e0abde8132e70e4">87acdfa947ad7610d1321af2e16d43b2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-10 09:11:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>descriptio0</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-10 09:11:31</sys_created_on>
+            <sys_id>680a64a44775b610d1321af2e16d4331</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Create" display_value="Create" name="x_1837836_hr_cas_1_hr_case" sys_domain="global" view="1cb532579f2013001e0abde8132e70e4">87acdfa947ad7610d1321af2e16d43b2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-10 09:11:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-10 09:11:31</sys_created_on>
+            <sys_id>240a64a44775b610d1321af2e16d4332</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Create" display_value="Create" name="x_1837836_hr_cas_1_hr_case" sys_domain="global" view="1cb532579f2013001e0abde8132e70e4">87acdfa947ad7610d1321af2e16d43b2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-10 09:11:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-10 09:11:31</sys_created_on>
+            <sys_id>ec0a64a44775b610d1321af2e16d4332</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Create" display_value="Create" name="x_1837836_hr_cas_1_hr_case" sys_domain="global" view="1cb532579f2013001e0abde8132e70e4">87acdfa947ad7610d1321af2e16d43b2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-10 09:11:31</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>caller</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-10 09:11:31</sys_created_on>
+            <sys_id>a80a64a44775b610d1321af2e16d4333</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Create" display_value="Create" name="x_1837836_hr_cas_1_hr_case" sys_domain="global" view="1cb532579f2013001e0abde8132e70e4">87acdfa947ad7610d1321af2e16d43b2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-10 09:11:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>email</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-10 09:11:31</sys_created_on>
+            <sys_id>640a64a44775b610d1321af2e16d4334</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Create" display_value="Create" name="x_1837836_hr_cas_1_hr_case" sys_domain="global" view="1cb532579f2013001e0abde8132e70e4">87acdfa947ad7610d1321af2e16d43b2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-10 09:11:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>category</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-10 09:11:31</sys_created_on>
+            <sys_id>200a64a44775b610d1321af2e16d4335</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Create" display_value="Create" name="x_1837836_hr_cas_1_hr_case" sys_domain="global" view="1cb532579f2013001e0abde8132e70e4">87acdfa947ad7610d1321af2e16d43b2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-10 09:11:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>subcategory</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-10 09:11:31</sys_created_on>
+            <sys_id>e80a64a44775b610d1321af2e16d4335</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Create" display_value="Create" name="x_1837836_hr_cas_1_hr_case" sys_domain="global" view="1cb532579f2013001e0abde8132e70e4">87acdfa947ad7610d1321af2e16d43b2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-10 09:11:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Create</caption>
+            <header>false</header>
+            <name>x_1837836_hr_cas_1_hr_case</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-01 14:30:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>87acdfa947ad7610d1321af2e16d43b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1837836_hr_cas_1_hr_case</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="HR Case Management" source="x_1837836_hr_cas_1">e4f06aa147e57610d1321af2e16d4311</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
+            <sys_update_name>sys_ui_section_87acdfa947ad7610d1321af2e16d43b2</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-01 14:30:21</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Create" name="create">1cb532579f2013001e0abde8132e70e4</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

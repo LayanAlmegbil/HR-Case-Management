@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Set caller to logged in user</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    // يشتغل فقط إذا كان السجل جديد
+    if (!g_form.isNewRecord()) {
+        return;
+    }
+
+    // 1) إذا الحقل Caller فاضي، خلي caller = المستخدم الحالي
+    if (!g_form.getValue('caller')) {
+        g_form.setValue('caller', g_user.userID);
+    }
+
+    // 2) بعد ما نتأكد من الـ Caller، نجيب بياناته (الإيميل + القسم)
+    var callerId = g_form.getValue('caller');
+
+    if (!callerId) {
+        // لو لسبب ما ما فيه Caller، فضّي الحقول
+        g_form.setValue('email', '');
+        g_form.setValue('department', '');
+        return;
+    }
+
+    g_form.getReference('caller', function(user) {
+        // Email
+        if (user.email) {
+            g_form.setValue('email', user.email);
+        } else {
+            g_form.setValue('email', '');
+        }
+
+        // Department
+        if (user.department) {
+            g_form.setValue('department', user.department);
+        } else {
+            g_form.setValue('department', '');
+        }
+    });
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-01 13:14:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6bea87a5472d7610d1321af2e16d4346</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Set caller to logged in user</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HR Case Management" source="x_1837836_hr_cas_1">e4f06aa147e57610d1321af2e16d4311</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
+        <sys_update_name>sys_script_client_6bea87a5472d7610d1321af2e16d4346</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-14 06:57:50</sys_updated_on>
+        <table>x_1837836_hr_cas_1_hr_case</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

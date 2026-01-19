@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="588f4721476d7610d1321af2e16d4320" sys_domain="global" table="x_1837836_hr_cas_1_hr_case" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-01 13:32:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5c8f4721476d7610d1321af2e16d433f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1837836_hr_cas_1_hr_case" name="x_1837836_hr_cas_1_hr_case" sys_domain="global" view="Default view">588f4721476d7610d1321af2e16d4320</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1837836_hr_cas_1_hr_case" sys_domain="global" view="Default view">325c66a947297610d1321af2e16d4318</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-01 13:32:49</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1837836_hr_cas_1_hr_case</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-01 13:32:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>588f4721476d7610d1321af2e16d4320</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1837836_hr_cas_1_hr_case</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="HR Case Management" source="x_1837836_hr_cas_1">e4f06aa147e57610d1321af2e16d4311</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
+            <sys_update_name>sys_ui_form_sections_588f4721476d7610d1321af2e16d4320</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-01 13:32:48</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
