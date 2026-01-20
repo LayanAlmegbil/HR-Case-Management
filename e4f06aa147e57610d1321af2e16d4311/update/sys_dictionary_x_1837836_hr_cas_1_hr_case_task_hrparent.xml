@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="stat0" table="x_1837836_hr_cas_1_hr_case">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="hrparent" table="x_1837836_hr_cas_1_hr_case_task">
         <active>true</active>
         <array>false</array>
-        <attributes>edge_encryption_enabled=true</attributes>
+        <attributes/>
         <audit>false</audit>
-        <calculation/>
-        <choice>3</choice>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>State</column_label>
+        <column_label>HRParent</column_label>
         <comments/>
         <create_roles/>
-        <default_value>new</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -21,21 +26,21 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>stat0</element>
+        <element>hrparent</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Choice">choice</internal_type>
+        <internal_type display_value="Reference">reference</internal_type>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
-        <name>x_1837836_hr_cas_1_hr_case</name>
+        <max_length>32</max_length>
+        <name>x_1837836_hr_cas_1_hr_case_task</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference/>
+        <reference display_value="" name="x_1837836_hr_cas_1_hr_case">x_1837836_hr_cas_1_hr_case</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -46,14 +51,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-12-01 13:08:33</sys_created_on>
-        <sys_name>State</sys_name>
+        <sys_created_on>2025-12-16 08:06:21</sys_created_on>
+        <sys_name>HRParent</sys_name>
         <sys_package display_value="HR Case Management" source="x_1837836_hr_cas_1">e4f06aa147e57610d1321af2e16d4311</sys_package>
         <sys_policy/>
         <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
-        <sys_update_name>sys_dictionary_x_1837836_hr_cas_1_hr_case_stat0</sys_update_name>
+        <sys_update_name>sys_dictionary_x_1837836_hr_cas_1_hr_case_task_hrparent</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-12-28 09:31:07</sys_updated_on>
+        <sys_updated_on>2025-12-16 08:06:21</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

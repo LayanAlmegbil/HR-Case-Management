@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_email_template">
+    <sysevent_email_template action="INSERT_OR_UPDATE">
+        <collection>x_1837836_hr_cas_1_hr_case</collection>
+        <email_layout display_value="HR Email Template">0a42fdf2471aba18d1321af2e16d4391</email_layout>
+        <message/>
+        <message_html/>
+        <message_list/>
+        <message_text/>
+        <name>HR Email Template</name>
+        <sms_alternate/>
+        <subject>HR Notification - ${number}</subject>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-11 10:40:48</sys_created_on>
+        <sys_id>cd603d3e47d6ba18d1321af2e16d4387</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>HR Email Template</sys_name>
+        <sys_package display_value="HR Case Management" source="x_1837836_hr_cas_1">e4f06aa147e57610d1321af2e16d4311</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
+        <sys_update_name>sysevent_email_template_cd603d3e47d6ba18d1321af2e16d4387</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-11 11:57:54</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+</record_update>

@@ -41,7 +41,7 @@
                 <element dependent_value="travel" inactive_on_update="false" label="Holiday" sequence="15" value="holiday"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="3" label="State" max_length="40" name="stat0" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="new" label="State" max_length="40" name="stat0" type="choice">
             <choice>
                 <element inactive_on_update="false" label="New" sequence="0" value="new"/>
                 <element inactive_on_update="false" label="On Hold" sequence="2" value="on_hold"/>

@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=428215000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=1384463000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>28100</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -15,20 +15,20 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>hr_case_flow</internal_name>
-        <label_cache>[{"name":"Created_1.current.caller.manager","label":"Trigger - Record Created➛HR Case Record➛Caller➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager","usedInstances":{"681830b5-34a7-4ecb-9518-5a995811bb22":["approval_conditions"],"9b3161d0-8520-499e-9073-add2747184ad":["approval_conditions"],"2aac3c5d-fce6-4888-a189-1ca790dcf525":["approval_conditions"],"b8be3778-1081-41e2-a49a-bc3f9e74634c":["approval_conditions"]}},{"name":"{{static.62826bf03710200044e0bfc8bcbe5df1}}","label":"Abel Tuter","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{"681830b5-34a7-4ecb-9518-5a995811bb22":["approval_conditions"]}},{"name":"{{static.f0b8bf2547a1b610d1321af2e16d4376}}","label":"Leave Resolvers Group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"9b3161d0-8520-499e-9073-add2747184ad":["approval_conditions"]}},{"name":"{{static.db98fb2547a1b610d1321af2e16d43a4}}","label":"Offboarding Resolvers Group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"b8be3778-1081-41e2-a49a-bc3f9e74634c":["approval_conditions"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛HR Case Record","reference":"x_1837836_hr_cas_1_hr_case","reference_display":"HR Case","type":"reference","base_type":"reference","usedInstances":{"681830b5-34a7-4ecb-9518-5a995811bb22":["record"],"b8be3778-1081-41e2-a49a-bc3f9e74634c":["record"],"9b3161d0-8520-499e-9073-add2747184ad":["record"],"2aac3c5d-fce6-4888-a189-1ca790dcf525":["record"]},"attributes":{}},{"name":"Created_1.current.category","label":"Trigger - Record Created➛HR Case Record➛Category","reference":"","reference_display":"Category","type":"choice","base_type":"choice","parent_table_name":"x_1837836_hr_cas_1_hr_case","column_name":"category","choices":[{"label":"-- None --","image":"","used":false,"reference":false,"rawLabel":"-- None --","selected":false,"missing":false,"value":""},{"label":"Onboarding","image":"","used":false,"reference":false,"rawLabel":"Onboarding","selected":false,"missing":false,"value":"onboarding","parameters":{"name":"x_1837836_hr_cas_1_hr_case","dependent_values":[""]}},{"label":"Offboarding","image":"","used":false,"reference":false,"rawLabel":"Offboarding","selected":false,"missing":false,"value":"offboarding","parameters":{"name":"x_1837836_hr_cas_1_hr_case","dependent_values":[""]}},{"label":"Payroll","image":"","used":false,"reference":false,"rawLabel":"Payroll","selected":false,"missing":false,"value":"payroll","parameters":{"name":"x_1837836_hr_cas_1_hr_case","dependent_values":[""]}},{"label":"Leave","image":"","used":false,"reference":false,"rawLabel":"Leave","selected":false,"missing":false,"value":"leave","parameters":{"name":"x_1837836_hr_cas_1_hr_case","dependent_values":[""]}},{"label":"Travel","image":"","used":false,"reference":false,"rawLabel":"Travel","selected":false,"missing":false,"value":"travel","parameters":{"name":"x_1837836_hr_cas_1_hr_case","dependent_values":[""]}},{"label":"Others","image":"","used":false,"reference":false,"rawLabel":"Others","selected":false,"missing":false,"value":"others","parameters":{"name":"x_1837836_hr_cas_1_hr_case","dependent_values":[""]}},{"label":"Incident","image":"","used":false,"reference":false,"rawLabel":"Incident","selected":false,"missing":false,"value":"incident","parameters":{"name":"x_1837836_hr_cas_1_hr_case","dependent_values":[""]}}],"usedInstances":{"3012f297-9e4b-4672-a86f-537e973014d1":["condition"],"1bd5ac69-ae5b-48bf-8893-5c512557b914":["condition"],"4278cc85-6381-403c-9455-9e5575e59e04":["condition"],"501ec9f6-d03e-47cd-9db8-2677151c520a":["condition"]}},{"name":"{{static.5358f32547a1b610d1321af2e16d4397}}","label":"Onboarding Resolvers Group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"681830b5-34a7-4ecb-9518-5a995811bb22":["approval_conditions"]}},{"name":"{{static.e6b8ff2547a1b610d1321af2e16d4353}}","label":"Travel Resolvers Group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"2aac3c5d-fce6-4888-a189-1ca790dcf525":["approval_conditions"]}},{"name":"Created_1.current.u_requested_for.manager","label":"Trigger - Record Created➛HR Case Record➛Requested For (Other Categories)➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager","usedInstances":{}}]</label_cache>
+        <label_cache>[{"name":"Created_1.current.u_requested_for.name","label":"Trigger - Record Created➛HR Case Record➛Requested For (Other Categories)➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name","usedInstances":{"8c42ba3a-0e4b-4fec-8ac1-0a4c1bb1ca70":["short_descriptio0"],"3f6210ed-cbb0-466a-9a47-379d499f5acc":["short_descriptio0"],"3afe3548-b14c-479c-95f0-947ba30a477c":["short_descriptio0"]}},{"name":"Created_1.current.description","label":"Trigger - Record Created➛HR Case Record➛Description (description)","reference":"","reference_display":"Description (description)","type":"string","base_type":"string","parent_table_name":"x_1837836_hr_cas_1_hr_case","column_name":"description","usedInstances":{"03a710bf-9772-46b9-ae32-eff1b42d1747":["description"],"8c42ba3a-0e4b-4fec-8ac1-0a4c1bb1ca70":["description"],"3f6210ed-cbb0-466a-9a47-379d499f5acc":["description"],"3afe3548-b14c-479c-95f0-947ba30a477c":["description"]}},{"name":"Created_1.current.parent","label":"Trigger - Record Created➛HR Case Record➛Parent","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","parent_table_name":"x_1837836_hr_cas_1_hr_case","column_name":"parent","usedInstances":{"03a710bf-9772-46b9-ae32-eff1b42d1747":["parent"],"8b229133-212f-46ad-88ef-1965d95f9205":["parent"]}},{"name":"681830b5-34a7-4ecb-9518-5a995811bb22.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"fbf1348b-ac81-439b-9bbe-e45e7f2e0710":["condition"],"605a4d4d-59ce-423a-a6cb-219bb6cd8766":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.u_requested_for.manager","label":"Trigger - Record Created➛HR Case Record➛Requested For (Other Categories)➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager","usedInstances":{}},{"name":"Created_1.current.category","label":"Trigger - Record Created➛HR Case Record➛Category","reference":"","reference_display":"Category","type":"choice","base_type":"choice","parent_table_name":"x_1837836_hr_cas_1_hr_case","column_name":"category","choices":[{"label":"-- None --","used":false,"reference":false,"selected":false,"missing":false,"rawLabel":"-- None --","image":"","value":""},{"used":false,"label":"Onboarding","reference":false,"selected":false,"missing":false,"rawLabel":"Onboarding","image":"","value":"onboarding","parameters":{"name":"x_1837836_hr_cas_1_hr_case","dependent_values":[""]}},{"used":false,"label":"Offboarding","reference":false,"selected":false,"missing":false,"rawLabel":"Offboarding","image":"","value":"offboarding","parameters":{"name":"x_1837836_hr_cas_1_hr_case","dependent_values":[""]}},{"used":false,"label":"Payroll","reference":false,"selected":false,"missing":false,"rawLabel":"Payroll","image":"","value":"payroll","parameters":{"name":"x_1837836_hr_cas_1_hr_case","dependent_values":[""]}},{"used":false,"label":"Leave","reference":false,"selected":false,"missing":false,"rawLabel":"Leave","image":"","value":"leave","parameters":{"name":"x_1837836_hr_cas_1_hr_case","dependent_values":[""]}},{"used":false,"label":"Travel","reference":false,"selected":false,"missing":false,"rawLabel":"Travel","image":"","value":"travel","parameters":{"name":"x_1837836_hr_cas_1_hr_case","dependent_values":[""]}},{"used":false,"label":"Others","reference":false,"selected":false,"missing":false,"rawLabel":"Others","image":"","value":"others","parameters":{"name":"x_1837836_hr_cas_1_hr_case","dependent_values":[""]}},{"used":false,"label":"Incident","reference":false,"selected":false,"missing":false,"rawLabel":"Incident","image":"","value":"incident","parameters":{"name":"x_1837836_hr_cas_1_hr_case","dependent_values":[""]}}],"usedInstances":{"3012f297-9e4b-4672-a86f-537e973014d1":["condition"],"1bd5ac69-ae5b-48bf-8893-5c512557b914":["condition"],"4278cc85-6381-403c-9455-9e5575e59e04":["condition"],"501ec9f6-d03e-47cd-9db8-2677151c520a":["condition"],"03a710bf-9772-46b9-ae32-eff1b42d1747":["category"],"8c42ba3a-0e4b-4fec-8ac1-0a4c1bb1ca70":["category"],"3f6210ed-cbb0-466a-9a47-379d499f5acc":["category"],"3afe3548-b14c-479c-95f0-947ba30a477c":["category"]}},{"name":"{{static.db98fb2547a1b610d1321af2e16d43a4}}","label":"Offboarding Resolvers Group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"b8be3778-1081-41e2-a49a-bc3f9e74634c":["approval_conditions"]}},{"name":"Created_1.current.short_descriptio0","label":"Trigger - Record Created➛HR Case Record➛Short Description (short_descriptio0)","reference":"","reference_display":"Short Description (short_descriptio0)","type":"string","base_type":"string","parent_table_name":"x_1837836_hr_cas_1_hr_case","column_name":"short_descriptio0","usedInstances":{"ab454731-a97f-4492-b2b6-725b9818f591":["short_descriptio0"],"8c42ba3a-0e4b-4fec-8ac1-0a4c1bb1ca70":["short_descriptio0"],"3f6210ed-cbb0-466a-9a47-379d499f5acc":["short_descriptio0"],"3afe3548-b14c-479c-95f0-947ba30a477c":["short_descriptio0"],"8b229133-212f-46ad-88ef-1965d95f9205":["short_descriptio0"]}},{"name":"Created_1.current.u_requested_for","label":"Trigger - Record Created➛HR Case Record➛Requested For (Other Categories)","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1837836_hr_cas_1_hr_case","column_name":"u_requested_for","usedInstances":{"8c42ba3a-0e4b-4fec-8ac1-0a4c1bb1ca70":["short_descriptio0"],"3f6210ed-cbb0-466a-9a47-379d499f5acc":["short_descriptio0"],"3afe3548-b14c-479c-95f0-947ba30a477c":["short_descriptio0"]}},{"name":"{{static.62826bf03710200044e0bfc8bcbe5df1}}","label":"Abel Tuter","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{"681830b5-34a7-4ecb-9518-5a995811bb22":["approval_conditions"]}},{"name":"Created_1.current.sys_id","label":"Trigger - Record Created➛HR Case Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_1837836_hr_cas_1_hr_case","column_name":"sys_id","choices":[{"order":0.0}],"usedInstances":{"3f6210ed-cbb0-466a-9a47-379d499f5acc":["parent"],"3afe3548-b14c-479c-95f0-947ba30a477c":["parent"],"03a710bf-9772-46b9-ae32-eff1b42d1747":["parent"],"8c42ba3a-0e4b-4fec-8ac1-0a4c1bb1ca70":["parent"]}},{"name":"{{static.f0b8bf2547a1b610d1321af2e16d4376}}","label":"Leave Resolvers Group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"9b3161d0-8520-499e-9073-add2747184ad":["approval_conditions"]}},{"name":"{{static.e6b8ff2547a1b610d1321af2e16d4353}}","label":"Travel Resolvers Group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"2aac3c5d-fce6-4888-a189-1ca790dcf525":["approval_conditions"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛HR Case Record","reference":"x_1837836_hr_cas_1_hr_case","reference_display":"HR Case","type":"reference","base_type":"reference","usedInstances":{"681830b5-34a7-4ecb-9518-5a995811bb22":["record"],"b8be3778-1081-41e2-a49a-bc3f9e74634c":["record"],"9b3161d0-8520-499e-9073-add2747184ad":["record"],"2aac3c5d-fce6-4888-a189-1ca790dcf525":["record"],"296573bc-2739-4166-a577-d49f62f90b6f":["record"],"00d9bc71-9b21-435d-a03f-e5638192ce5e":["record"],"fc2e3b51-1ac7-4422-9aa9-0ffaf4c88dde":["record"],"0236cd0a-7cdb-4b63-b845-5b0cbc7b501d":["record"],"ab454731-a97f-4492-b2b6-725b9818f591":["parent","hrparent"],"8c42ba3a-0e4b-4fec-8ac1-0a4c1bb1ca70":["parent","hrparent"],"3f6210ed-cbb0-466a-9a47-379d499f5acc":["parent","hrparent"],"3afe3548-b14c-479c-95f0-947ba30a477c":["parent","hrparent"],"8b229133-212f-46ad-88ef-1965d95f9205":["hrparent"],"03a710bf-9772-46b9-ae32-eff1b42d1747":["parent"]},"attributes":{}},{"name":"{{static.5358f32547a1b610d1321af2e16d4397}}","label":"Onboarding Resolvers Group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"681830b5-34a7-4ecb-9518-5a995811bb22":["approval_conditions"]}},{"name":"Created_1.current.caller.manager","label":"Trigger - Record Created➛HR Case Record➛Caller➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager","usedInstances":{"b8be3778-1081-41e2-a49a-bc3f9e74634c":["approval_conditions"],"9b3161d0-8520-499e-9073-add2747184ad":["approval_conditions"],"2aac3c5d-fce6-4888-a189-1ca790dcf525":["approval_conditions"]}},{"name":"296573bc-2739-4166-a577-d49f62f90b6f.record","label":"4 - Update Record➛HR Case Record","reference":"x_1837836_hr_cas_1_hr_case","reference_display":"HR Case Record","type":"reference","base_type":"reference","usedInstances":{"58ef7dd8-5b94-40fd-b9f2-e98efd272e89":["record"],"fe9b3563-44ad-45c1-bd4f-19829c82e47c":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b8be3778-1081-41e2-a49a-bc3f9e74634c.approval_state","label":"8 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"620d5b01-d9d8-43a9-9c3e-8ba100ba780b":["condition"],"0034a5d3-0236-413f-9a0c-ec1989bd1c25":["condition"],"2b018a3d-1dcb-4b14-90e2-053307fbfb71":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9b3161d0-8520-499e-9073-add2747184ad.approval_state","label":"14 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"033ca525-4c09-4896-8da6-c93ad69beeae":["condition"],"d43a7d49-960d-483e-96e6-7fad8d1e26f8":["condition"],"96b2f65e-69c2-4789-9497-a5af564aab46":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.u_requested_onboarding","label":"Trigger - Record Created➛HR Case Record➛Requested for (Onboarding)","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1837836_hr_cas_1_hr_case","column_name":"u_requested_onboarding","usedInstances":{"8b229133-212f-46ad-88ef-1965d95f9205":["short_descriptio0"],"03a710bf-9772-46b9-ae32-eff1b42d1747":["short_descriptio0"]}},{"name":"Created_1.current.descriptio0","label":"Trigger - Record Created➛HR Case Record➛Description (descriptio0)","reference":"","reference_display":"Description (descriptio0)","type":"journal","base_type":"journal","parent_table_name":"x_1837836_hr_cas_1_hr_case","column_name":"descriptio0","usedInstances":{"ab454731-a97f-4492-b2b6-725b9818f591":["descriptio0"],"8c42ba3a-0e4b-4fec-8ac1-0a4c1bb1ca70":["descriptio0"],"3f6210ed-cbb0-466a-9a47-379d499f5acc":["descriptio0"],"3afe3548-b14c-479c-95f0-947ba30a477c":["descriptio0"],"03a710bf-9772-46b9-ae32-eff1b42d1747":["descriptio0"]}},{"name":"Created_1.current.caller","label":"Trigger - Record Created➛HR Case Record➛Caller","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1837836_hr_cas_1_hr_case","column_name":"caller","usedInstances":{"03a710bf-9772-46b9-ae32-eff1b42d1747":["caller"],"8c42ba3a-0e4b-4fec-8ac1-0a4c1bb1ca70":["caller"],"3f6210ed-cbb0-466a-9a47-379d499f5acc":["caller"],"3afe3548-b14c-479c-95f0-947ba30a477c":["caller"]}},{"name":"Created_1.current.department","label":"Trigger - Record Created➛HR Case Record➛Department","reference":"cmn_department","reference_display":"Department","type":"reference","base_type":"reference","parent_table_name":"x_1837836_hr_cas_1_hr_case","column_name":"department","usedInstances":{"03a710bf-9772-46b9-ae32-eff1b42d1747":["department"],"8c42ba3a-0e4b-4fec-8ac1-0a4c1bb1ca70":["department"],"3f6210ed-cbb0-466a-9a47-379d499f5acc":["department"],"3afe3548-b14c-479c-95f0-947ba30a477c":["department"]}},{"name":"Created_1.current.email","label":"Trigger - Record Created➛HR Case Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_1837836_hr_cas_1_hr_case","column_name":"email","usedInstances":{"03a710bf-9772-46b9-ae32-eff1b42d1747":["email"],"8c42ba3a-0e4b-4fec-8ac1-0a4c1bb1ca70":["email"],"3f6210ed-cbb0-466a-9a47-379d499f5acc":["email"],"3afe3548-b14c-479c-95f0-947ba30a477c":["email"]}},{"name":"Created_1.current.subcategory","label":"Trigger - Record Created➛HR Case Record➛Subcategory","reference":"","reference_display":"Subcategory","type":"choice","base_type":"choice","parent_table_name":"x_1837836_hr_cas_1_hr_case","column_name":"subcategory","choices":[{"label":"-- None --","used":false,"reference":false,"selected":false,"missing":false,"rawLabel":"-- None --","image":"","value":""},{"used":false,"label":"Desktop","reference":false,"selected":false,"missing":false,"rawLabel":"Desktop","image":"","value":"desktop1","parameters":{"name":"x_1837836_hr_cas_1_hr_case","dependent_values":["offboarding"]}},{"used":false,"label":"Laptop","reference":false,"selected":false,"missing":false,"rawLabel":"Laptop","image":"","value":"laptop1","parameters":{"name":"x_1837836_hr_cas_1_hr_case","dependent_values":["offboarding"]}},{"used":false,"label":"Laptop","reference":false,"selected":false,"missing":false,"rawLabel":"Laptop","image":"","value":"laptop","parameters":{"name":"x_1837836_hr_cas_1_hr_case","dependent_values":["onboarding"]}},{"used":false,"label":"Mobile","reference":false,"selected":false,"missing":false,"rawLabel":"Mobile","image":"","value":"mobile","parameters":{"name":"x_1837836_hr_cas_1_hr_case","dependent_values":["onboarding"]}},{"used":false,"label":"Desktop","reference":false,"selected":false,"missing":false,"rawLabel":"Desktop","image":"","value":"desktop","parameters":{"name":"x_1837836_hr_cas_1_hr_case","dependent_values":["onboarding"]}},{"used":false,"label":"ODC Access","reference":false,"selected":false,"missing":false,"rawLabel":"ODC Access","image":"","value":"odc_access","parameters":{"name":"x_1837836_hr_cas_1_hr_case","dependent_values":["onboarding"]}},{"used":false,"label":"Submit ID","reference":false,"selected":false,"missing":false,"rawLabel":"Submit ID","image":"","value":"submit_id","parameters":{"name":"x_1837836_hr_cas_1_hr_case","dependent_values":["offboarding"]}},{"used":false,"label":"Revoke Access","reference":false,"selected":false,"missing":false,"rawLabel":"Revoke Access","image":"","value":"revoke_access","parameters":{"name":"x_1837836_hr_cas_1_hr_case","dependent_values":["offboarding"]}},{"used":false,"label":"Payroll Query","reference":false,"selected":false,"missing":false,"rawLabel":"Payroll Query","image":"","value":"payroll_query","parameters":{"name":"x_1837836_hr_cas_1_hr_case","dependent_values":["payroll"]}},{"used":false,"label":"Payroll Issue","reference":false,"selected":false,"missing":false,"rawLabel":"Payroll Issue","image":"","value":"payroll_issue","parameters":{"name":"x_1837836_hr_cas_1_hr_case","dependent_values":["payroll"]}},{"used":false,"label":"Leave Adjustment","reference":false,"selected":false,"missing":false,"rawLabel":"Leave Adjustment","image":"","value":"leave_adjustment","parameters":{"name":"x_1837836_hr_cas_1_hr_case","dependent_values":["leave"]}},{"used":false,"label":"Leave Query","reference":false,"selected":false,"missing":false,"rawLabel":"Leave Query","image":"","value":"leave_query","parameters":{"name":"x_1837836_hr_cas_1_hr_case","dependent_values":["leave"]}},{"used":false,"label":"Maternity Leave","reference":false,"selected":false,"missing":false,"rawLabel":"Maternity Leave","image":"","value":"maternity_leave","parameters":{"name":"x_1837836_hr_cas_1_hr_case","dependent_values":["leave"]}},{"used":false,"label":"Paternity Leave","reference":false,"selected":false,"missing":false,"rawLabel":"Paternity Leave","image":"","value":"paternity_leave","parameters":{"name":"x_1837836_hr_cas_1_hr_case","dependent_values":["leave"]}},{"used":false,"label":"Onsite","reference":false,"selected":false,"missing":false,"rawLabel":"Onsite","image":"","value":"onsite","parameters":{"name":"x_1837836_hr_cas_1_hr_case","dependent_values":["travel"]}},{"used":false,"label":"Offshore","reference":false,"selected":false,"missing":false,"rawLabel":"Offshore","image":"","value":"offshore","parameters":{"name":"x_1837836_hr_cas_1_hr_case","dependent_values":["travel"]}},{"used":false,"label":"Relocation","reference":false,"selected":false,"missing":false,"rawLabel":"Relocation","image":"","value":"relocation","parameters":{"name":"x_1837836_hr_cas_1_hr_case","dependent_values":["travel"]}},{"used":false,"label":"Holiday","reference":false,"selected":false,"missing":false,"rawLabel":"Holiday","image":"","value":"holiday","parameters":{"name":"x_1837836_hr_cas_1_hr_case","dependent_values":["travel"]}},{"used":false,"label":"Others","reference":false,"selected":false,"missing":false,"rawLabel":"Others","image":"","value":"others","parameters":{"name":"x_1837836_hr_cas_1_hr_case","dependent_values":["others"]}}],"usedInstances":{"03a710bf-9772-46b9-ae32-eff1b42d1747":["subcategory","short_descriptio0"],"8c42ba3a-0e4b-4fec-8ac1-0a4c1bb1ca70":["short_descriptio0","subcategory"],"3f6210ed-cbb0-466a-9a47-379d499f5acc":["short_descriptio0","subcategory"],"3afe3548-b14c-479c-95f0-947ba30a477c":["short_descriptio0","subcategory"]}},{"name":"Created_1.current.u_requested_onboarding.name","label":"Trigger - Record Created➛HR Case Record➛Requested for (Onboarding)➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name","usedInstances":{"03a710bf-9772-46b9-ae32-eff1b42d1747":["short_descriptio0"]}}]</label_cache>
         <master_snapshot>feed9ca847b1b610d1321af2e16d436d</master_snapshot>
         <master_snapshot_digest/>
         <name>HR Case Flow</name>
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <remote_trigger_id>936af8fd477df650d1321af2e16d4386</remote_trigger_id>
+        <remote_trigger_id>a63ab991470af6d0d1321af2e16d43dc</remote_trigger_id>
         <run_as>user</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
-        <status>published</status>
+        <status>draft</status>
         <substatus/>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -36,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c2e81b40473d7210d1321af2e16d4391</sys_id>
-        <sys_mod_count>42</sys_mod_count>
+        <sys_mod_count>195</sys_mod_count>
         <sys_name>HR Case Flow</sys_name>
         <sys_overrides/>
         <sys_package display_value="HR Case Management" source="x_1837836_hr_cas_1">e4f06aa147e57610d1321af2e16d4311</sys_package>
@@ -44,11 +44,11 @@
         <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
         <sys_update_name>sys_hub_flow_c2e81b40473d7210d1321af2e16d4391</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-12-14 07:35:39</sys_updated_on>
+        <sys_updated_on>2026-01-06 10:11:58</sys_updated_on>
         <type>flow</type>
         <updation_source/>
         <version>2</version>
-        <version_record display_value="Created 2025-12-13 23:35:40">2b6a3cfd477df650d1321af2e16d4319</version_record>
+        <version_record display_value="Created 2026-01-06 02:12:01">46cab30547d2b2d4d1321af2e16d43a0</version_record>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=c2e81b40473d7210d1321af2e16d4391"/>
     <sys_variable_value action="delete_multiple" query="document_key=c2e81b40473d7210d1321af2e16d4391"/>
@@ -68,15 +68,15 @@
         <run_when_user_setting>any</run_when_user_setting>
         <sys_class_name>sys_flow_record_trigger</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-12-14 07:35:39</sys_created_on>
+        <sys_created_on>2025-12-25 09:13:09</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>936af8fd477df650d1321af2e16d4386</sys_id>
+        <sys_id>a63ab991470af6d0d1321af2e16d43dc</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_overrides/>
         <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-12-14 07:35:39</sys_updated_on>
+        <sys_updated_on>2025-12-25 09:13:09</sys_updated_on>
         <table>x_1837836_hr_cas_1_hr_case</table>
         <trigger_definition/>
     </sys_flow_record_trigger>
@@ -86,14 +86,14 @@
         <identifier>c2e81b40473d7210d1321af2e16d4391</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-12-14 07:35:39</sys_created_on>
-        <sys_id>5b6af8fd477df650d1321af2e16d4387</sys_id>
+        <sys_created_on>2025-12-25 09:13:09</sys_created_on>
+        <sys_id>6e3ab991470af6d0d1321af2e16d43dd</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-12-14 07:35:39</sys_updated_on>
-        <trigger display_value="">936af8fd477df650d1321af2e16d4386</trigger>
+        <sys_updated_on>2025-12-25 09:13:09</sys_updated_on>
+        <trigger display_value="">a63ab991470af6d0d1321af2e16d43dc</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=c2e81b40473d7210d1321af2e16d4391^sys_idNOT IN5b6af8fd477df650d1321af2e16d4387"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=c2e81b40473d7210d1321af2e16d4391^sys_idNOT IN6e3ab991470af6d0d1321af2e16d43dd"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=c2e81b40473d7210d1321af2e16d4391"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=c2e81b40473d7210d1321af2e16d4391^sys_idNOT INcae89704473d7210d1321af2e16d43fb"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -301,7 +301,103 @@
         <trigger_type>record_create</trigger_type>
         <updation_source/>
     </sys_hub_trigger_instance_v2>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=c2e81b40473d7210d1321af2e16d4391^sys_idNOT IN494b946047b1b610d1321af2e16d43ba,7bdadcec4771b610d1321af2e16d4342,92d210a04731b610d1321af2e16d4324,f9d750e04771b610d1321af2e16d4368"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=c2e81b40473d7210d1321af2e16d4391^sys_idNOT IN0d77945e47f17a10d1321af2e16d4324,1017141a47717a10d1321af2e16d43e3,14bf981e47757a10d1321af2e16d43a1,2886185a47f17a10d1321af2e16d4313,494b946047b1b610d1321af2e16d43ba,7bdadcec4771b610d1321af2e16d4342,7d90201e47f17a10d1321af2e16d430c,90131c1e47b17a10d1321af2e16d4380,92d210a04731b610d1321af2e16d4324,9610249e47757a10d1321af2e16d4300,bb0c77684742be90d1321af2e16d4366,f9d750e04771b610d1321af2e16d4368"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="HR Case Flow">c2e81b40473d7210d1321af2e16d4391</flow>
+        <generation_source/>
+        <order>22</order>
+        <parent_ui_id>2b018a3d-1dcb-4b14-90e2-053307fbfb71</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-15 18:19:49</sys_created_on>
+        <sys_id>0d77945e47f17a10d1321af2e16d4324</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-06 07:26:28</sys_updated_on>
+        <ui_id>0236cd0a-7cdb-4b63-b845-5b0cbc7b501d</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1UXWvbMBT9K8HPxthxmqV5Gw1he1gL2ehL14lr6ToRyB+T5TRZyH/flSynabt1oQTGYH6y7se551wddLcLpAimwQhFnFwmY54maTqM4+FklGTjNEuGIgXEJAiDEgqkSo280oLOa1CtDex2VxrBoGBJxFutsTT7PeWFbGoF21tfRhG+kkpQPpje3YdBDZoQDepgunuWMtsamYIMFTXOKt4WBDr4OCOMU9n23Yue7nP6dgadhUdn0gYpZfkkcRjgxmApkMbloBoMgwJKAabS22BqdEsBUi1uSrU9VKxkaTqlBWwa+YPwR7Gty5Gkcb+Fw5H5DfXLqSTHm9rIquwiBjLVb65SbVFedxLsbjGHVpmj3bYN4WFtKVsSHcP886p6WPTz5rJ06jxbVXFQhxMYo2XWGmzsdaBCt5QC6lqWS1brai1dM1EpoqWiQ5Sr6oFmNnJZRsAt74gWBNGc4jMXvgUtrYhPBEPNeyeefW/t3E6GJ8ycZieYuYui0oZrWZv3BLxGT3MfertmF68ZgF8+3vcR5qNlNyyZpO8m6ZitNOPQsMT/4EvfflgMrrrE2+z7xRIYXHcETiX/pPk3YryBn8S8fy/O5t/JX/KvZ/SPGfhPto2Hr75bRzftnNocWRYc4Nc2jlPhQL81BkzcBTjQdpRC8dK+J/e90d1Y0DSDg25eeLLOHmAuUYnmF8J7e/sBbO0HHJ7os3k8Gcfu+/9Sn/Glvv8J521wl1oIAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=0d77945e47f17a10d1321af2e16d4324"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="HR Case Flow">c2e81b40473d7210d1321af2e16d4391</flow>
+        <generation_source/>
+        <order>16</order>
+        <parent_ui_id>0034a5d3-0236-413f-9a0c-ec1989bd1c25</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-15 18:18:07</sys_created_on>
+        <sys_id>1017141a47717a10d1321af2e16d43e3</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-06 07:26:28</sys_updated_on>
+        <ui_id>fc2e3b51-1ac7-4422-9aa9-0ffaf4c88dde</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1UXWvbMBT9K8HPxthxmqV5Gw1he1gL2ehL14lr6ToRyB+T5TRZyH/flSynabt1oQTGYH6y7se551wddLcLpAimwQhFnFwmY54maTqM4+FklGTjNEuGIgXEJAiDEgqkSo280oLOa1CtDex2VxrBoGBJxFutsTT7PeWFbGoF21tfRhG+kkpQPpje3YdBDZoQDepgunuWMtsamYIMFTXOKt4WBDr4OCOMU9n23Yue7nP6dgadhUdn0gYpZfkkcRjgxmApkMbloBoMgwJKAabS22BqdEsBUi1uSrU9VKxkaTqlBWwa+YPwR7Gty5Gkcb+Fw5H5DfXLqSTHm9rIquwiBjLVb65SbVFedxLsbjGHVpmj3bYN4WFtKVsSHcP886p6WPTz5rJ06jxbVXFQhxMYo2XWGmzsdaBCt5QC6lqWS1brai1dM1EpoqWiQ5Sr6oFmNnJZRsAt74gWBNGc4jMXvgUtrYhPBEPNeyeefW/t3E6GJ8ycZieYuYui0oZrWZv3BLxGT3MfertmF68ZgF8+3vcR5qNlNyyZpO8m6ZitNOPQsMT/4EvfflgMrrrE2+z7xRIYXHcETiX/pPk3YryBn8S8fy/O5t/JX/KvZ/SPGfhPto2Hr75bRzftnNocWRYc4Nc2jlPhQL81BkzcBTjQdpRC8dK+J/e90d1Y0DSDg25eeLLOHmAuUYnmF8J7e/sBbO0HHJ7os3k8Gcfu+/9Sn/Glvv8J521wl1oIAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=1017141a47717a10d1321af2e16d43e3"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="HR Case Flow">c2e81b40473d7210d1321af2e16d4391</flow>
+        <generation_source/>
+        <order>12</order>
+        <parent_ui_id>033ca525-4c09-4896-8da6-c93ad69beeae</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-15 18:55:49</sys_created_on>
+        <sys_id>14bf981e47757a10d1321af2e16d43a1</sys_id>
+        <sys_mod_count>27</sys_mod_count>
+        <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-06 08:00:21</sys_updated_on>
+        <ui_id>8c42ba3a-0e4b-4fec-8ac1-0a4c1bb1ca70</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VTW8aMRD9Kyuft6s1SwjhVqVKe2ki0SiXECzvehasej9ie0ko4r93bC+BtiGKqqpVpXDC4zcz742fvbcbIgWZkJGA9OyMjoqMZtkgTQfjIc1HWU4HIuNAcxKTmleAyBVXHRhc+z8YaLmG2s66NM3EZnOugVsQjCZFp91GYtaGSbHdzrkxclFXGFvopmv7jBkR0rSKr2dkMiNXZZk3XAtZL6IpmEatQJvoo8eTeBaaeqTIz8ZlPjgZnnJkSlNBswHl5QDoSAwzPvTw0PuV+O3cLBttmQBTaNla2aSB4yGpa26+Ru+iZ4V2eYGhRaPX2y1ipnCPk7JR2ehn8R3TAYFRxCRuwDimffv6+FAPQJhScKVAH0eHfV8bT8tWL57XHoMJUHGpjmP9ticQdL9EYTeZ+cGcXnDN4TDRbb1Jbt5M92a6v2a6YimVwB0yub2LnedwWBY0mWx+2rLrFpjiOSj05jVUaC0LUTBr/OoXdlfgQoIS5pkn17XBte0bsFXfoNHCsaIxgUcLtQBsWHJlICYVrwW3KIhMrO4wgKLFVa3WT4ilrC0WJQ77aOQ37EBHqf85dAmosoCAeFqy/v6EcLFsZAFX3hkhYnmu+pyiUV1VXwYp7iZDyTtldzcZI53BetA64o5K4Fl+WTYP012/C1l7iT1n1aC7nlbcWi3zzuKM8GRAgfMRq3jb4uVhrW5W0icjlSpZKFwkpWoe3J3DtyHhheOd4Jh4coHxDz58w7V0Ij5jGUzeevHsvnN9g4yeMPOavWDmDwyh4Z68x8Ir6Glu492nlkJ6ctQIMNyf+0HN/ef2kdFxdjrORmypWcENo/0fYBafiV+fyk/T6Bx3/SPy+552VKLLQOW1Mn5IPiJrZ+nDWG/n9E/ZefyPjNwz+s+cfMy/d98B2DizqCwKAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=14bf981e47757a10d1321af2e16d43a1"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="HR Case Flow">c2e81b40473d7210d1321af2e16d4391</flow>
+        <generation_source/>
+        <order>10</order>
+        <parent_ui_id>620d5b01-d9d8-43a9-9c3e-8ba100ba780b</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-15 18:15:41</sys_created_on>
+        <sys_id>2886185a47f17a10d1321af2e16d4313</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-06 07:26:28</sys_updated_on>
+        <ui_id>00d9bc71-9b21-435d-a03f-e5638192ce5e</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1UXWvbMBT9K8HPxthxmqV5Gw1he1gL2ehL14lr6ToRyB+T5TRZyH/flSynabt1oQTGYH6y7se551wddLcLpAimwQhFnFwmY54maTqM4+FklGTjNEuGIgXEJAiDEgqkSo280oLOa1CtDex2VxrBoGBJxFutsTT7PeWFbGoF21tfRhG+kkpQPpje3YdBDZoQDepgunuWMtsamYIMFTXOKt4WBDr4OCOMU9n23Yue7nP6dgadhUdn0gYpZfkkcRjgxmApkMbloBoMgwJKAabS22BqdEsBUi1uSrU9VKxkaTqlBWwa+YPwR7Gty5Gkcb+Fw5H5DfXLqSTHm9rIquwiBjLVb65SbVFedxLsbjGHVpmj3bYN4WFtKVsSHcP886p6WPTz5rJ06jxbVXFQhxMYo2XWGmzsdaBCt5QC6lqWS1brai1dM1EpoqWiQ5Sr6oFmNnJZRsAt74gWBNGc4jMXvgUtrYhPBEPNeyeefW/t3E6GJ8ycZieYuYui0oZrWZv3BLxGT3MfertmF68ZgF8+3vcR5qNlNyyZpO8m6ZitNOPQsMT/4EvfflgMrrrE2+z7xRIYXHcETiX/pPk3YryBn8S8fy/O5t/JX/KvZ/SPGfhPto2Hr75bRzftnNocWRYc4Nc2jlPhQL81BkzcBTjQdpRC8dK+J/e90d1Y0DSDg25eeLLOHmAuUYnmF8J7e/sBbO0HHJ7os3k8Gcfu+/9Sn/Glvv8J521wl1oIAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=2886185a47f17a10d1321af2e16d4313"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
         <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
@@ -311,19 +407,19 @@
         <display_text/>
         <flow display_value="HR Case Flow">c2e81b40473d7210d1321af2e16d4391</flow>
         <generation_source/>
-        <order>8</order>
+        <order>20</order>
         <parent_ui_id>501ec9f6-d03e-47cd-9db8-2677151c520a</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-12-10 08:07:06</sys_created_on>
         <sys_id>494b946047b1b610d1321af2e16d43ba</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>37</sys_mod_count>
         <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
-        <sys_updated_by>abel.tuter</sys_updated_by>
-        <sys_updated_on>2025-12-14 07:36:38</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-06 07:26:28</sys_updated_on>
         <ui_id>2aac3c5d-fce6-4888-a189-1ca790dcf525</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/+1YW2/iOBT+K8jPlEkIhMBbVVTtrOYitZ15KVVk7BPwyiTUTjplEP99T2LnMlAorJiHbucF4XOxv3PyfbGd+zURnIzIIIi6MBx2nanrOJ7jBH3mBB5MvYE/8ChzSJvEdAEYqYAliuP4icosN6zXVwpoCjx0OyxTCuJ0s0E/F3op6eq7DUMLmwvJ0U9G9w9tsqQKZ0xBkdF6y3UsJEmnIDH0psS0jTFdLfMxT1i2QFyhKI2fbObYelofx+jBpByO0ybwnELMAXFEVGpokwWNOU0TtSKjVGVowJr511iuqoi5iFNT54I+a/ETF/a6eVwEWBizPaiGoe2PMUdjmtJbnJmlmaralQgG2rSEQ0QzmV41bSbg6zIVSWxSUjqVZXYis0X8xTSEVBM0HkemEQQs8zpz5Kas6Hae/LgpQV6LuOiILVEmjMpqRNNUiWmW5nDWBCQULV7Q5VLEs3CpkidRJCOURWcmcdCJZPID19RiFncoy3F3sKu0c432cWH+TpXIi/iM02Dypk30Sl9JqnVdCvYwfMxyJKYwW0JYdMG0IM9jSizTS1zlCSzmTdvSfcoOcovVVDLT1Wx/Dt3AGwSeH85VyKgOXfsHdin/103ryjhOY/4R6Erm31l4W2gt74thWPh+pX2R1vpiHJb17mHWW0tNe8OXF1gfOG+I9basN0/71xgPPd/r488g8hy36zoB+EHAhg5lge/3e17NIUSANVAZ4qPWOHfN/Uvrad3AYyYU8NZ1olp3ij4hqXbY/0r0aZI4An4pica6Fv/ewqxMND7QeLYlkdvSaOXRPVEe+3cF139PAsnE3VaXjWWnz79HSfly32LxmMHHnEd+d+oPnYBf8MiZXvQCr39BGTgX4Lt96HOf9V3vN6jPcQ+90XnwAkkjAbJ5zCodu0JreE4T1RGodkR1bWHtg2slVQxf2nmK/K2d53zSChznLWnrPR252EGyQWMD+ifJVHxAAeFc6IIZe5XQiDhNEUeALBXxt0G5LYht8P9FD94fPfz/9dDrH6Ra41BfsZolMRc5Yr1zKAN9Ga++3b9wF+9gvySoDhKIzkBtNg/7jmonznGaso4ot7rNZxL0a+VbXdVnOpvU1FZ9ErROq6/eue73b0xe7+Wuww5yLRrW3OIZNgi53vycNSEG9oSMJiROYpiQ9oTkUWFOrsKMEQiuchS29XqzMZZMUTuB2xjW2ZyudBGp2Rw4crOw/mIJCzFY+zm+ph3Rk1J/4wxaY9OU3TaVV6YSp+mL2NnXbm1AMdOHO9Hc3/pn2996f+R3jgtSWF0hcPPCt98ZNfnwL/2Zy9tiFgAA</values>
+        <values>H4sIAAAAAAAA/+1Y32/iOBD+V1CeKecQEgJv1Vbo9nR3K7XdfSlVZOwJ+GSc1Em65RD/+44TB1JoU47j1NvVviA8nh/fzHzjOLlbO4I7Y2cYxn0Yjfpk5hLiERL6jIQezLxhMPQoI07XUXQJqKmBJZrj+pHKwgjW6w8aaA48cnus0BpUvtngPhdZKunqi1VDCVsIyXHfGd/dd52UavSYg3bG672tfJVCJOkMJBpeJaxYotPOxyv0cSza2vq6hrsP38TANbfeI2GEuGXwkK4DTzkoDhgtpjKDrrOkitM80StnnOsCBZg0/6TkaquxECqvEl3Sp0z8je69vtGLATNjtgjbZWQLVNcmEQw+pblIVCXJ6UzWhUtksVR/VhmY0kJMC5k3Sltk6A9SA9mAqBDGN4vk63UdbyJUmZxFKxNG5XZF81yLWZFDZroBEsqaLGmaCjWPUp08itIYoSx7c4mLXiyTrxgzE3PVo8zg7mGBaG+C8qtS/IVqYZL4A92g8aZMPnooTNwqDQs4KnOuEkatjGmR5pfo8xEswk3XEnXGWlvPdp2u3O14+hS5oTcMvSBa6IjRLHLtHzgk66/XnQ/VxmmcvTWxO2XDukfjfmZ8mIclbLmMVOXa8tVt56uVHEPYkLwPYS2i74yxb5EVBoHn488w9ojbd0kIQRiyEaEsDAJ/4O2ajPEQMZURNilD3zvaXtqdzjU8FEID70wS3bnV9BHJckDcN7RPY/MNVlrNayYfkVRt2EBjs3o1XcvurA5lmd0/G7Pd4DuldiFu92pTSX7f785/MwMm3GclHgr4aLof9GfBiIT8gsdkdjEIPf+CMiAXELg++Dxgvuv967khbtthycMXiBQLkM1bSb1xOCKNndPGYWJCPTvcj8B7MBITC/i1ROxAlMu94/58QxES8k5T8ePeUFgrGaBx6P+VFFq1cDdaiKxs6ascbmici8tHwK+Nf6vw71N5P60WJns/mfw/ZvLAb6UCvHB6sURxYfBlB1cYyC7V6vPdC6+LPayOBN3DztM56M3m/rWLzT/0cdpM7G4thYSsnosjirF957R2rcWxU7G7CVkjOxmDc72Cvt9g/Jh3etbKg3i06zsvsBzI0ua3kqlTgZw646mjEgVTpzt1jFZkCFGKUQPBbTdK2Xq92VSSQlPrwG0sd9acrrJSM2ML4EiqUvpMUjHdys/5qebGBuhcIe5fbkXjqfJ21bbfe4rK/sVC1q8JdSZV5UTzmeKf7Zky+Dk4ey8C0fbyjI8QPIJOnqb7b6JFiRR5FAAA</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=494b946047b1b610d1321af2e16d43ba"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
@@ -335,21 +431,69 @@
         <display_text/>
         <flow display_value="HR Case Flow">c2e81b40473d7210d1321af2e16d4391</flow>
         <generation_source/>
-        <order>6</order>
+        <order>14</order>
         <parent_ui_id>4278cc85-6381-403c-9455-9e5575e59e04</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-12-10 08:05:23</sys_created_on>
         <sys_id>7bdadcec4771b610d1321af2e16d4342</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
-        <sys_updated_by>abel.tuter</sys_updated_by>
-        <sys_updated_on>2025-12-14 07:36:38</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-06 07:26:28</sys_updated_on>
         <ui_id>9b3161d0-8520-499e-9073-add2747184ad</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/+1YXW/iOBT9K8jPlE0IhMBbVVTtrGZnpLYzL6WKjH0D3jUOdZK2LOK/z03sfBQoCyvmodt5Qfh+2OfenBPbuV8TwcmIDIKoC8Nh15m6juM5TtBnTuDB1Bv4A48yh7SJogvASA0s1hzHT1RmuWG9vtJAU+Ch22GZ1qDSzQb9XCRLSVffbRha2FxIjn4yun9okyXVOGMKmozWW65jIUk6BYmhNyWmbYzpapmPecyyBeIKRWn8bDPH1tP6NEYPJuVwnDaBlxQUB8QRUZlAmyyo4jSN9YqMUp2hAWvmX5VcVRFzoVJT54K+JOIfXNjr5nERYGHM9qAahrY/xhyNaUpvcWaWZrpqVywYJKYlHCKayfSqaTMBX5epiJVJSelUltmxzBbqi2kIqSZoPI4sQRCwzOvMkZuyott5/HxTgrwWquiILVHGjMpqRNNUi2mW5nDWBCQULV7Q5VKoWbjU8ZMokhHKojOTOOhEMn7GNRMxUx3Kctwd7CrtXKN9XJi/Uy3yIv7EaTB50ybJKrmSNEnqUrCH4WOWIzGF2RLCogumBXke02KZXuIqT2Axb9qW7lN2kFusppKZrmb7S+gG3iDw/HCuQ0aT0LV/YJfyv9+0rozjNOYfga5k/p2Ft4XW8r4YhoXvNe2LtNYX47Csdw+z3lpq2hu+7GF94Lwj1tuy3j3t/43x0PO9Pv4MIs9xu64TgB8EbOhQFvh+v+fVHEIEWAOVIT7qBOeuuX9pPa0beMyEBt66jnXrM9CnPeQ/HHyaII4AXwqisaxF/2ZZViQJPk412xLIbWm04uieKI639wTX/0jyyMTdVpeNZafPP0dH+XLflHjM4FPOI7879YdOwC945EwveoHXv6AMnAvw3T70uc/6rvcTtOe4h97nPNhD0kiAbB6ySseuzhqe00R1BKodUV1bWG/BtZIqhvv2nSJ/a985n7QCx3lP2vpIBy52kGzQ2H7+ijOt9ijgOdZ/hyrOi9/RwCvfaSo4Alipgj8Msm0RbAP+Lxrwfmng/6+BXv8g1RrH+Oq9ymLFRY442TmGQXKpVt/u99y+O9gvCbqDBKIz0JvNw1unsxPnOE1ZR5Rb3d8zWUj3YPlWV/U5ziY1tVWf/qzT6qt3rhv9O5PXR7ndsINci4Y1t3iGDUKuNz9gTYiBPSGjCVGxgglpT0geFebkKswYgeAqR2FbrzcbY8k0tRO4jWGdzekqKSITNgeO3CysryxhIQZrP8f3syN6UupvnEFrbJqy26bymlTiNH0RO/varQ0oZvrtTjT3t/7Z9rfeL/md41IUVtcG3Lzw7XdGTT78ACkp2tFUFgAA</values>
+        <values>H4sIAAAAAAAA/+1YUXPaOBD+K4yfCSdjbAxvmWaY9qZ3nUnSvoSMR0hrUE/Ijmwn4Rj+e1e2DASIy3Hc5NrpC4N2tbvf7n4ry75bOoI7Q6cfxl0YDLpk4hLiERL6jIQeTLx+0PcoI07bUXQOuFMDSzTH9SOVhREsl+800Bx45HZYoTWofLVCPRdZKunii92GEjYTkqPeGd7dt52UavSYg3aGyx1VvkghknQCEg2vElbM0WnrwxX6OBZtbX1dw92Fb2LgmlvvkTBCVBk8pO3Acw6KA0aLqcyg7cyp4jRP9MIZ5rpAASbNPym5WO+YCZVXic7pcyb+Rvde1+yLATNjtgjrZWQLVNcmEQw+pblIVCXJ6UTWhUtkMVd/VhmY0kJMC5lvlbbI0B+kBrIBUSGMb2bJ03UdbyRUmZxFKxNG5XpF81yLSZFDZroBEsqazGmaCjWNUp08itIYocw7U4mLTiyTJ4yZianqUGZwd7BAtDNC+VUp/kK1MEn8gW7QeFUmHz0UJm6VhgUclTlXCeOujGmR5pfo8xEswlXbEnXCGlvPNp2u3G14+hy5odcPvSCa6YjRLHLtH9gn6/vr1rtKcRpnb03sVtmw9tG4Xxjv52EJWy4jVbm2fHWb+WolxxA2JG9DWIvoB2Ps98gKvcDz8acfe8TtuiSEIAzZgFAWBoHf8zZNxniImMoIm5Sh7w1tL62mdQ0PhdDAW6NEtz4CfTzA2+bNp3H5BuuspjWPj0ipNtwCY3N6NVnL7awOZXndPRuv3eAHJXYhbndqU0k+7nbnv5kAE+6zEg8FfDDdD7qTYEBCfsFjMrnohZ5/QRmQCwhcH3weMN/1/vXUELfpqOThASLFAuT2naRW7E/Ilua0cRiZUC+O9iPw7o3EyAJ+LRE7EOVy57A/31CEhLzRVPy89xPWSAbYOvK/JoVWB7j7lOi/IpWYVPfY+0J3Lv4eAbk2/r3CvEvf3VQa2Ov9Yu//mL09v5EKcODEYoniwuDL9i4tkF2qxee7Ay+IHayOBN3BztMp6NXq/rW7zD/0cdpMbG4qhSxH69hirN8yrV1jcexUbG4/1shORu9cL51vNxg/5y2eNfIgHmz6zgssB7J0++vI2KlAjp3h2FGJgrHTHjtmV2QIUYpxB4JbK0rZcrlaVZJCU+vA3VpurDldZOXOjM2AI6lK6QtJxXQrP+fHmRsboHWFuH+7FVtPle9Xbf2Fp6jsDxayfjWoM6kqJ7afKf7Znim9X4Ozc/mP1hdmfITgEXTyNN1/Axv7hWprFAAA</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=7bdadcec4771b610d1321af2e16d4342"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="HR Case Flow">c2e81b40473d7210d1321af2e16d4391</flow>
+        <generation_source/>
+        <order>24</order>
+        <parent_ui_id>96b2f65e-69c2-4789-9497-a5af564aab46</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-15 18:59:45</sys_created_on>
+        <sys_id>7d90201e47f17a10d1321af2e16d430c</sys_id>
+        <sys_mod_count>25</sys_mod_count>
+        <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-06 08:02:29</sys_updated_on>
+        <ui_id>3afe3548-b14c-479c-95f0-947ba30a477c</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VTW8aMRD9Kyuf6WrNkg3hVqVKe2ki0SiXECzvehasej9ie0ko4r93bC+BtiGKqlZVpXDC4zcz742fvbcbIgWZkExAcnZGsyKlaTpMkuF4RPMszelQpBxoTgak5hUgcsVVBwbX/g8GWq6htrMuSVKx2Zxr4BYEo3HRabcRm7VhUmy3c26MXNQVxha66do+Y0aENK3i6xmZzMi15itQ0RRMo1agTfTRQ8lgFvp5EGT5uCyHJ6NTjiRpImg6pLwcAs3EKD1JPTy0fSV+OzfLRlsmwBRatlY2SaDX87nm5mv0LnpWXpcXGFo0er3dImYK9zgfG5WNfhbfMR0QGEVM7MaKw9l3ro+P8gCEKQVXCvRxdNj3tfGMbPXiKe0xmAAVl+o41m97AkH3SxR2k5kfzOkFrxwOEz3WW+PmzWpvVvvLViuWUgncIZPbu4FzGg7LgiaTzU9bdt0CUzwHhY68hgoNZSEKFh28+jXdFbiQoIR55nl1bXBt+wZs1TdotHCs6IDAo4VaADYsuTIwIBWvBbcoiEys7jCAosVVrdZPiKWsLRYlDvto5DfsQLPE/xy6BFRZQEA8LVl/a0K4WDaygCvvjBCxPFd9TtGorqovgxR3f6HknbK7+4uRzmA9aB1xRyXwLL8sm4fprt+FrL3EnrNq0F1PK26tlnlncUZ4MqDA+YhVvG1lvWCtblbSJyOVKl4oXMSlah7cdcMXIeaF4x3jmHh8gfEPPnzDtXQiPmMZTN568ey+c32DjJ4w85q9YOYPDKHhnrzHwivoaW4Hu88qheTkqBFgtD/3g5r7T+sjo+P0dJxmbKlZwQ2j/R9gFp+JXx/IT9PoHHf9I/L7nnZUostA5bUyfkg+Imtn6cNYb+fkT9l5/I+M3DP6z5x8zL933wGcplTjGAoAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7d90201e47f17a10d1321af2e16d430c"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="HR Case Flow">c2e81b40473d7210d1321af2e16d4391</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id>fbf1348b-ac81-439b-9bbe-e45e7f2e0710</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-15 18:00:39</sys_created_on>
+        <sys_id>90131c1e47b17a10d1321af2e16d4380</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-06 07:26:28</sys_updated_on>
+        <ui_id>296573bc-2739-4166-a577-d49f62f90b6f</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1UXWvbMBT9K8HPwdhxmqV5Gw1he1gL2ehL14pr6aYRyB+T5TRZ8H/flSy76SehBMZgfrLu1znn6qCbfSBFMAvGKKL4PJ7wJE6SURSNpuM4nSRpPBIJIMbBMMghQ6rUyAst6LwBVdvAfn+hEQwKFoe81hpz0zSUF7IqFeyufRlF+FoqQflgdnM7DErQNNGgDmb7ZymzK5EpSFFR47zgdUZDB1/nNONYtl33sqP7nL7FoLPw05m0QUpZPnE0DHBrMBdIcCtQFQ6DDHIBptC7YGZ0TQFSLa5ytesr1jI3rdIMtpX8TfPHka1bIUnjfgv9kfkNdcspJMer0sgibyMGUtVtrlB1ll+2EuxucQW1Mge7rSuah6WlbEm0DFff18XDssNbyNyp82xVwUH1JzBGy7Q2WNnrQIVuKRmUpczvWamLjXTNRCUL7xUdwpUqHgizkvd5CNzyDmlBEC4oPnfha9DSivhGY6i5ceLZr9ritjI8YeY0O8HMXRSVVlzL0nymwRvsabZBS9FfJP29Utg0zdA7Oz17zyv8/NEaB/CP7t6yeJp8miYTttaMQ8Vi/4MvLf5lObhoEx9z+g9LYHDZEjiW/JPmN8R4rz+Jeaufnczq079kdc/oH/P6Gw7vbRuN3n3iDm7aObU6sGxlwEQ/6yhKBAfahVIo7sChtFGH9NK+R/d90N2YEZrBQYs3PFpnN2AhUYnqFeGdvT0A23iA/jU/mcfjSeS+/4/66R715vYPKyYP/IUIAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=90131c1e47b17a10d1321af2e16d4380"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
         <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
@@ -365,15 +509,63 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-12-10 07:30:20</sys_created_on>
         <sys_id>92d210a04731b610d1321af2e16d4324</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
-        <sys_updated_by>abel.tuter</sys_updated_by>
-        <sys_updated_on>2025-12-14 07:36:38</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-06 07:26:28</sys_updated_on>
         <ui_id>681830b5-34a7-4ecb-9518-5a995811bb22</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/+1Y0XLaOBT9FUbPhNoYjOEtEybT7uw2M0nal5DxCOk6qCtkIttJKON/77UlYwcICzv0IW1fMtG9uvI51+dYEncrIjgZkUEQdWE47DpT13E8xwn6zAk8mHoDf+BR5pA2UXQOOFMDizXH8ROVWRFYrS400BR46HZYpjWoNM8xz0WykHT51U7DCJsJyTFPRnf3bbKgGldMQZPRaiN1KCRJpyBx6nWFaRNjulwUYx6zbI64QlEF/7aVY5tpfRpjBosKOE6bwEsKigPiiKhMoE3mVHGaxnpJRqnOMICc+ZWSy/WMmVCp4TmnL4n4jg/2usW8CJAYsz1YD0PbHxOOxjSlN7gySzO9blcsGCSmJRwimsn0ohkzE64WqYiVKUnpVFbVsczm6rNpCFkv0HgdWYIgYFHwLJAbWtHNLH6+rkBeClV2xFKUMaNyPaJpqsU0Sws4KwISyhbP6WIh1EO40PGTKIsRyrzzIHHQiWT8jM9MxIPqUFbg7mBXaecS4+My/JVqUZD4B5fB4rxNkmVyIWmS1FSwh+FjViAxxCyFsOyCaUFRx7RYpOf4lCewmPO2lfuU7dUWq6VklqvV/hK6gTcIPD+c6ZDRJHTtP7At+Y/XrQuTOE75B6CrlH9r4W2gtbovh2GZey37sqz12SSs6t39qreRWvZGLztUHzjvSPWW1ruX/X8pHnq+18c/g8hz3K7rBOAHARs6lAW+3+95tYYQAXKgMsRXneDatfbPbaZ1DY+Z0MBbl7FuXalpTDVH8tsOOKDiOGscQKOyRuPZlsebBK1dEnyxJaamVW6qoLVJ90ibvL07uP7vZJRM3G502US2+vxzHFU87osSjxl8KnTkd6f+0An4GY+c6Vkv8PpnlIFzBr7bhz73Wd/1foILHXffl50HO0QaCZDN41aV2DZbI3OcqQ5AtWWqSwvrLbjWUuVw1w5U1m/sQKezVuA478lbv9PRi+0VGzQ2om9xptUOBzzH+t9QxQX5LQ+8yh3nggOAVS74yyDbNMEm4P/jAe+PB359D/T6e6XWONCvv6ssVlwUiJOtAxkk52r55W7HPbyD/ZKgOygg+gA6z+/fOqIducZxzjqA7vomn8nSunvpW1/V5zhb1PRWffqzSeuv3qnu9u/MXr/4PacKFlB3iQbDuwyZ19vSXo1Gw1qTPMPGokeaP4FNiKE7IaMJUbGCCWlPSDErLERZhnEGklonythqlecmkmlqF3Abw7qa02VSzkzYDDhquoy+ioSliWz8FL/AHdCTyrfjDFpj05TtNlXXqwqn6YvY2g9v7IRypQ+3orkv9k+2L/b+2PYUl6lwfd3ATQ+/mie8Ld3/AKBDmxeWFgAA</values>
+        <values>H4sIAAAAAAAA/+1YUXPaOBD+K4yfCbUxNoa3TDPM9eaumUlyfbiQ8cjSOuhOyI5sJ+EY//db2TImQCildNJ2+pKJVtrd71t9K0vcLi3OrLE1DOI+jEZ9O3Js27XtwKN24ELkDv2hS6htdS1J5oArFdBEMRw/ElFow3L5XgHJgYVOjxZKgczLEucZz1JBFp/MMrTQGRcM563x7V3XSonCiDkoa7zcmMoXKYSCRCDQ8SKhxRyDdj5cYIxD0TbeVw3cTfg6B46ZiR5ybcQpjcfuWvCcg2SA2WIiMuhacyIZyRO1sMa5KtCApNmlFIvVihmXeU10Tp4z/h+Gd/t6XQzIjJoirIahKVBTm4RTuExznsjakpNINIVLRDGXH2sGurQQk0Lka6UtMowHqYasQdQI4+tZ8nTV5JtwWZEzaEVCiViNSJ4rHhU5ZHo3QEBVkzlJUy7vw1Qlj7xyRijz3r3AQS8WyRPmzPi97BGqcfewQKQ3QftFZf5EFNck/sQw6FxW5MOHQuetaRjAYcW5JoyrMqp4mp9jzEcwCMuuEWpE9249bXe6Dtfq9Dl0AncYuH44UyElWeiYf2BbrL9ddd7XE8dp9kbn7lQb1j0Y9wvnbR5GsNUwlHVoo1dnv16N5RDBBvbbCNYg+sEU+zmxwsB3PfwzjF3b6Tt2AH4Q0JFNaOD73sBtNxnzIWIiQtykDGO3sj03M50reCi4AtaZJKpzKaOEKIZUt8V7gMdxqr7Gilfuh5JrHNcQGXav0jYqz5pURuH9kync8X9QiRf8ZqM2teWPzd35Nr2g0/0l+UMBH/Tu+/3IH9kBO2OxHZ0NAtc7IxTsM/AdDzzmU89xv7p/bGffocmCHUKKOYj120kzsd0mazPHtcNEp3pxyB+Ad6slJgbwa0RMQ1TDjWP/dE0R2PYbdcXPe1Ohe8UAa4f/P0mh5A7tPiXq31AmmuqWel/MnUq/B0BunH+vMW/Kd5PKHvW6v9T7Hat34O2VAuw4sWgiGdf4sq3rC2TncvH37Y6nYg+rI0D1cOfJPaiyvHvtQvOFMY7rifamUoiqtQ4txuq9afz2Fsd0RXv7MU6mMwanen6+XWP8VPf5xqiB7dpQNO9qpbL9FOzVTzxq9cIKLCOqe/33lalVk5ta46klEwlTqzu19KpQC6ky4woktZqobMtlWdaWQhETwFkbtt6MLLJqZUZnwFCMlfWFpe4QYz/lzzvXJkHnAnG/u+FrX6PPV231G1FR++8sZPOkaJjUlePr3yLvZN+iwa+G23g0hKuLNn568Og6+lVw9z86DqBvrRQAAA==</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=92d210a04731b610d1321af2e16d4324"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="HR Case Flow">c2e81b40473d7210d1321af2e16d4391</flow>
+        <generation_source/>
+        <order>18</order>
+        <parent_ui_id>d43a7d49-960d-483e-96e6-7fad8d1e26f8</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-15 18:57:35</sys_created_on>
+        <sys_id>9610249e47757a10d1321af2e16d4300</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-06 08:00:57</sys_updated_on>
+        <ui_id>3f6210ed-cbb0-466a-9a47-379d499f5acc</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VTU8bMRD9Kyuf09U6G0LIDVHRHlqQUsSFgOVdzyZWvR/Y3kAa7X/v2N6QtCUIVa2qSuQUj9/MvDd+9t5siBRkSsYCkpMTOs5TmqbDJBlORjQbpxkdipQDzciAVLwERK64asHg2v/BQMM1VHbeJkkqNpszDdyCYDTOW+02YrM2TIquu+PGyEVVYmyh67bpM+ZESNMovp6T6Zx8Ar6CaAamVivQJvrgkWQwD+08pkiySVYMj0bHHDnSRNB0SHkxBDoWo/R47OGh6yvx3Z1Z1toyASbXsrGyTgK7QOeKm6/Ru+hZcW2WY2hR63XXIWYG9zgdGxW1fhbfMh0QGEVM7IaKo9k1rg4Pcg+EKTlXCvRhdNj3tfGEbPniGe0wmAAll+ow1m97AkH3SxS2k7nbm9MLTtkfJjqsN8b1m9HejPZXjZYvpRK4Q6Y3twPnMxyWBU2mm5+27LoBpngGCv14BSXayUIUDDp49Uu6LXAuQQnzzNPq2uDa9g3Yqm9Qa+FY0QGBRwuVAGxYcGVgQEpeCW5REJla3WIARYvLSq2fEEtZWSxKHPbRyG/YgY4T/3PoAlBlDgHxtGT9nQnhfFnLHC69M0LE8kz1OXmt2rK6CFLc7YWCt8puby9GWoP1oHHEHZXAs/iyrB9m237nsvISe86qRnc9rbi1WmatxRnhyYAC5yNW8qaR1YI1ul5Jn4xUynihcBEXqn5wtw3fg5jnjneMY+LxOcbf+/A119KJ+IxlMLnz4tl96/oGGT1h5jV7wcwfGELDPTnFwivoaXaD7SeVQnJ00Agw2p37Xs3dZ/WR0Ul6PEnHbKlZzg2j/R9gFp+JX5/Hj7PoDHf9I/L7nnZUootA5bUyfkg+IGtr6f1Yb+fkT9l58o+M3DP6z5x8yL+33wFoq7lZFAoAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=9610249e47757a10d1321af2e16d4300"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="HR Case Flow">c2e81b40473d7210d1321af2e16d4391</flow>
+        <generation_source/>
+        <order>6</order>
+        <parent_ui_id>605a4d4d-59ce-423a-a6cb-219bb6cd8766</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-23 10:44:57</sys_created_on>
+        <sys_id>bb0c77684742be90d1321af2e16d4366</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-06 07:59:49</sys_updated_on>
+        <ui_id>03a710bf-9772-46b9-ae32-eff1b42d1747</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Vy27bMBD8FYFnVxAt23F8K1KkvTQB0iCXOCYocWUTpR4hKSeuIaD/0D/Ml3RJyY+2sREUBYIC8clcDndnlsPV7ZpIQSZkJCA6PaWjNKZx3I+i/nhAk1Gc0L6IOdCE9EjBc0DkkqsaDK79HwxwY+S8yKGwc13W1bSOolisp0RIUym+mpLJlFwWScm1kMU8uAJTqiVoE3z0cNKbtqk8cBgPx1ncHw5OONankaBxn/KsD3QkBvHpiYeblWFSvBDfzMyi1JYJMKmWlZVl1FLc43TNzdfg6fuPYL0+08AtCEbDtNYaRYWmTlIMzUu9apogeIcK7rEDNshKHUz1c0dqplsMRsttmdB1sGlmFXegrk/PFfTyEJhypUAfBrb7CBSAOW1+NOsOgwcg51IdxvptT6DVfYzCpjOzvT4d0bbfzNnuTopjxLegpkHfdb66ebPfm/1ewX7pQiqBO2Rye9cjKAq7akGTyfq3LbuqgCmegEKXXkOObrQQtLbtvXjqbhKcS1DCPDOGXRlc264AW3YFSi0cK9oj8GihEIAFM64M9EjOC8Et9oBMrK4xgKLRj2q1RSxkYTEpcdhHI79hBTqK/M+hM0CVKbSI7ZJ1T64Np4tSpnDpG9dGLE9UdyYtVZ0XF60U96Yh47WymzeNkdpgPqgccUel5Zl9WZQPV5t657LwEjvOqkRDblfcWi2T2mKP8GZAgbMey3lV4VNglS6X0h9GKnk4V7gIM1U+uHeK4yTkqeMdYpt4eI7xDz58w7V0Ij5jGjzcePHsvnZ1WxkdYeY1e8HMXxhCWxu9x8RL6Gg2vc3nl0I0PGgEGOzufS/n7hP8yOg4PhnHI7bQLOWG0e4PMIuz5c+h+ekqOMNdP3n+3tOOSnDRUnmpjF8OH5C1sfR+rLNz9K/sPH4lI3eM/jMnH/Lv3U+pJlOVQAoAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=bb0c77684742be90d1321af2e16d4366"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
         <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
@@ -383,23 +575,50 @@
         <display_text/>
         <flow display_value="HR Case Flow">c2e81b40473d7210d1321af2e16d4391</flow>
         <generation_source/>
-        <order>4</order>
+        <order>8</order>
         <parent_ui_id>1bd5ac69-ae5b-48bf-8893-5c512557b914</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-12-10 07:52:08</sys_created_on>
         <sys_id>f9d750e04771b610d1321af2e16d4368</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
-        <sys_updated_by>abel.tuter</sys_updated_by>
-        <sys_updated_on>2025-12-14 07:36:38</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-06 07:26:28</sys_updated_on>
         <ui_id>b8be3778-1081-41e2-a49a-bc3f9e74634c</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/+1YXXPiNhT9K4yeCbUxGMNbJkym22k3M0l2X0LGI6RrUCtkIttJKMN/77UlfwQIhQ77kGZfGHQ/pHOvz7EkP6yJ4GREBkHUheGw60xdx/EcJ+gzJ/Bg6g38gUeZQ9pE0QVgpAYWa47jZyqz3LBeX2mgKfDQ7bBMa1DpZoN+LpKlpKvvNgwtbC4kRz8ZPTy2yZJqnDEFTUbrLdexkCSdgsTQ2xLTNsZ0tczHPGbZAnGFojT+bjPH1tP6MkYPJuVwnDaB1xQUB8QRUZlAmyyo4jSN9YqMUp2hAWvmN0quqoi5UKmpc0FfE/E3Lux187gIsDBme1ANQ9sfY47GNKV3ODNLM121KxYMEtMSDhHNZHrVtJmAm2UqYmVSUjqVZXYss4X6ahpCqgkajyNLEAQs8zpz5Kas6G4ev9yWIK+FKjpiS5Qxo7Ia0TTVYpqlOZw1AQlFixd0uRRqFi51/CyKZISy6MwkDjqRjF9wzUTMVIeyHHcHu0o712gfF+bvVIu8iD9wGkzetEmySq4kTZK6FOxh+JTlSExhtoSw6IJpQZ7HtFiml7jKM1jMm7al+5Qd5BarqWSmq9n+GrqBNwg8P5zrkNEkdO0f2KX8r7etK+M4jflHoCuZf2/hbaG1vC+GYeF7S/sirfXVOCzr3cOst5aa9oYve1gfOB+I9basD0/7f2M89Hyvjz+DyHPcrusE4AcBGzqUBb7f73k1hxAB1kBliI86wblr7l9aT+sWnjKhgbeuY926iaJpTDXH6id6VwTHJZ0mkCOKKQXSWN5W826ZVjQJPl412xLMXWm0YumeKJb39wjX/0xyycT9VpeNZafPP0ZX+XLflHjK4EvOI7879YdOwC945EwveoHXv6AMnAvw3T70uc/6rvcDtOi4h97vPNhD0kiAbB66Sseu3hqe00R1BKodUV1bWO/BtZIqhvv2oSJ/ax86n7QCx/lI2vpMBzB2kGzQ2I7+jDOt9ijgJdZ/hSrOi9/RwBvfaSo4Alipgt8Msm0RbAP+Lxrwfmrg/6+BXv8g1RrH+uq9ymLFRY442TmWQXKpVt8e9tzGO9gvCbqDBKIz0JvN43untBPnOE1ZR5Rb3eczWUj3YPlWV/U5ziY1tVWf/qzT6qt3rhv+B5PXZ7ntsINci4Y1t3iGDUKuNz9oTYiBPSGjCVGxgglpT0geFebkKswYgeAqR2FbrzcbY8k0tRO4jWGdzekqKSITNgeO3CysbyxhIQZrP8f3tCN6UupvnEFrbJqy26bymlTiNH0RO/vanQ0oZvrlXjT3t/7Z9rfeT/md41IUVtcG3Lzw7XdGTT7+AyCYqWhkFgAA</values>
+        <values>H4sIAAAAAAAA/+1YUW/iOBD+KyjPlHMICYG3ait0e7q7Sm13X0oVOfYEfGcc6iRtOcR/v3HiQAqU5VhWvV3tC8IznplvZr5xnNwvHcGdodMPky4MBl0Su4R4hIQ+I6EHsdcP+h5lxGk7is4Ad2pgqea4fqKyMILl8oMGmgOP3A4rtAaVr1ao5yKbS7r4bLehhE2F5Kh3hvcPbWdONXrMQTvD5ZYqX8whkjQGiYZXKStm6LT18Qp9HIu2tr6p4W7DNzFwza33SBghqgwe0nbgJQfFAaMlVGbQdmZUcZqneuEMc12gAJPm10ou1jumQuVVojP6kol/0L3XNfsSwMyYLcJ6GdkC1bVJBYPreS5SVUlyGsu6cKksZurPKgNTWkhoIfNGaYsM/cHcQDYgKoTJ7TR9vqnjjYQqk7NoZcqoXK9onmsRFzlkphsgoazJjM7nQk2iuU6fRGmMUGadicRFJ5HpM8bMxER1KDO4O1gg2hmh/KoUf6ZamCT+QDdovCqTjx4LE7dKwwKOypyrhHFXxrSY55fo8wkswlXbEjVmB1vPNp2u3G14+hK5odcPvSCa6ojRLHLtH9gl6683rQ+V4jTO3pnYrbJh7aNxvzLezcMStlxGqnJt+eoe5quVHEPYkLwPYS2i74yxXyIr9ALPx59+4hG365IQgjBkA0JZGAR+z9s0GeMhYiojbFKGvje0vbSa1g08FkIDb41S3bpOkjilmmOuY73L3+OMTuP2LdZdTWpeH5FibdgAZXN8M3nL9awOZXnePRvP3eA7JXoh7rZqU0l+3+7Ot5kIE+6TEo8FfDTdD7pxMCAhv+AJiS96oedfUAbkAgLXB58HzHe9r54i4h46Onm4h0iJANm8o9SK3UlpaE4bh5EJ9eqoPwLvzkiMLOC3ErEDUS63Dv/zDUVIyDtNxY97X2EHyQCNR8BfaaHVHu4+p/rvSKUm1R32vtKdi79HQK6Nf6swb9N3O5UD7PV+svd/zN6ef5AKsOfEYqniwuDLdi4xkF2qxaf7PS+MHayOBN3BztMJ6NXq4a07zX/0cdpMbG4qhSxH69hirN86rd3B4tip2Nx+rJGdjN65XkLfbzB+zFs9O8iDZLDpOy+wHMjS5teSsVOBHDvDsaNSBWOnPXbMrsgQohTjDgS3VpSy5XK1qiSFptaB21hurDldZOXOjE2BI6lK6StJxXQrP+fHmlsboHWFuH+5E42nypertv7iU1T2ewtZvxrUmVSVE81nin+2Z0rv5+BsXf6j9YUZHyF4BJ08TQ//AqPRwdh7FAAA</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=f9d750e04771b610d1321af2e16d4368"/>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=c2e81b40473d7210d1321af2e16d4391"/>
-    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=c2e81b40473d7210d1321af2e16d4391^sys_idNOT IN252bdc2047b1b610d1321af2e16d43b6,4fba94ec4771b610d1321af2e16d4378,ca5210204731b610d1321af2e16d43f1,faa7d4a04771b610d1321af2e16d43a7"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=c2e81b40473d7210d1321af2e16d4391^sys_idNOT IN1e00ac5e47757a10d1321af2e16d43f5,252bdc2047b1b610d1321af2e16d43b6,4fba94ec4771b610d1321af2e16d4378,5d6064de47757a10d1321af2e16d4381,8727941e47f17a10d1321af2e16d43a1,8819d89e47f17a10d1321af2e16d4314,bac6189a47f17a10d1321af2e16d439a,ca5210204731b610d1321af2e16d43f1,da7f1cda47757a10d1321af2e16d4389,f0d2d4da47b17a10d1321af2e16d4394,faa7d4a04771b610d1321af2e16d43a7,fd46581a47f17a10d1321af2e16d43ba"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">bbd4641247f57a10d1321af2e16d4384</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="HR Case Flow">c2e81b40473d7210d1321af2e16d4391</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>17</order>
+        <outputs_assigned/>
+        <parent_ui_id>4278cc85-6381-403c-9455-9e5575e59e04</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-15 18:57:18</sys_created_on>
+        <sys_id>1e00ac5e47757a10d1321af2e16d43f5</sys_id>
+        <sys_mod_count>52</sys_mod_count>
+        <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-06 10:11:58</sys_updated_on>
+        <ui_id>d43a7d49-960d-483e-96e6-7fad8d1e26f8</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1UTW/bMAz9K4PPjiHbcRLnFmwoMGBbgbXoZSsMWpITYbLkSXLSLMh/H+WPNGgTbBh63M16FMn3qEcfAt26pnX2Xq+sFWsVLL89hoFQHsPvQ6Cg5sEyoFox4YRWRQeEwRZk6wOrpjF6yxlCTNhGwv7hdYRuhGSGD9UbMFjDcRMsDy9Cbt/wQkLJJRa4c0aoNaYLhqeKQBXnNKZpMksTQpLFNC5naRknLAUOKd4bE9+PZN996pDwqgrfD3E7dtKGeVoxCQP+5LhiSH9ZgbQ8DGpQDJw2+xNiOLBbJZ+BjVAOywX+8pMVv7B2kmX+YsVRI+V98HQshpH1MN1oQflt4wn2iINSDjlUy7ZWX3odfti8gla6cdiItBbr8caT9iwGStXdRu++jg1vhOoEDkGpKcjTCRyOoWwdt/5huOQ1FipqaBocTuEfU3TJyKWO1hIPUSX1Dpt650RAPfEIZwTRDeIfOvgBjPAqPmMZTO5plmAFLTqXYTlnUMKxG0vxs/WEeoGDlKKfBl6w1IjGrbDPlg+sj+Fri56583DIyzSexYxMFllCJtM855OczNMJMJbMp/N4MQUWQWdVkIV14Pjx+L0lJGVw1dpvVfYt9iKHrMpikl3ei+ns0l5c2Ijry5D8YRn88/3lLhBC/i/D+TIIW/SmHrR1zf95Fx698fsOtvcN41RYJHLvsY/jX90H9mgAQc+hnTY/vIRn7PgbNHzjax8GAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
         <attributes/>
         <block display_value="">ad2bdc2047b1b610d1321af2e16d43b5</block>
@@ -411,20 +630,20 @@
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>7</order>
+        <order>19</order>
         <outputs_assigned/>
         <parent_ui_id/>
         <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-12-10 08:06:35</sys_created_on>
         <sys_id>252bdc2047b1b610d1321af2e16d43b6</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>93</sys_mod_count>
         <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-12-14 07:35:37</sys_updated_on>
+        <sys_updated_on>2026-01-06 10:11:58</sys_updated_on>
         <ui_id>501ec9f6-d03e-47cd-9db8-2677151c520a</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/+1Uy27bMBD8lUJnQdAjMhrfghQBCrQN0AS5tAGxIlc2UYpUScqOK/jfu9TDNhIHfaDH3rRD7u7McKA+Mp1vO+/uzZVzcqWj5ZfHOJI6YPTdRxoajJYRN1pIL41mAxBHG1BdOKBPIV2rYPdwRPhaKmFxmtaCpR6PNlr2z478rkWmoEJFjXfeSr2idimoqlOos0ue8SJfFHma5m8vsmpRVFkuCkAo6N7ceD2Te/NhQOJXWYd9hLt5k7Ei0MrSOMInj1ogra5BOYyjBrQAb+zugFgEcavVEVhL7UfFDTw5+YNm52UZLtZIGvlkx6Fkk1WzS0ZyvG0DwRHxUKnZQqO6Rn8adQSTsYZO+ROTO0fzsA2kA4uJUn23NtvP88IbqQeB06EyHNShAk82VJ1HFx4GFTY0iDXQtmQOa63ZyKGZuDTJSlGR1MpsaWlISgI8EE/II0huCH83wA9gZVDxkcZQ80izAic5G1JF47wlCfvBFva9C4RGgZMUNrpBFxy3svVXtGeDE+t9/DKSJ2ns+2t6JI+CZQnvLHngE071ip5xv//apWkhvIXNEJJnuf2j3n+R8Eso6zJLy/MJv1icS/iZbL8e6/wXsQ4P8ZupTtP0f6xPYy0dG+M5aRuW/3WqH0OExw1uzI1ALh0RuQ/Y+/l/HA52FADJT6Gtsd+ChCO2/wmiDqt82QUAAA==</values>
+        <values>H4sIAAAAAAAA/+2UXWvbMBSG/0rQtTH+aMKau5JRGGwrrKE3WzHH0nEiJkueJCfNQv77jvyRhi2ha9nl7qxX5+s9evCemdY3rXdLc+OcXGk2//oYMamDRt97pqFGNmfcaCG9NLrohIhtQLXhYgEeV8buJt/aJMnFZGlhg4oChHSNgt3DS3F8LZWwOHRuwFJ9j5bN979d+V2DhYKSsubs3lupV5QuBZ2qBKr0mqc8z2Z5liTZu6u0nOVlmokcEHKKGxMXo5HJx06JLjoM/Uh3YydjRRgrTSKGTx61QGpdgXIYsRq0AE/2jopFEHdaPQtrqT2VYyH4ycmfVDubTkNgheSRY395PBbDAnuZr43keNeEAXvFQ6mGHG5UW+vPvY+weqygVX5cPSmto3rYhKHDFMNI1f3abL+MDW+l7gwOl8pwUMcTeFpD2Xp04WFQYU2FihqahpZTNNZsZJdMs9TxStEhrpTZUtNAVQw8DB7TjiC+Jf19Jz+AlcHFJypDyf2YJTjJi45AKuctWTh0ayl+tGGg3uBgpei3QQGOW9n4G+qzwWHqQ/Qnvifk7vcLeiSPokhj3lragY/5QOnh0GPqL9D8qtx/Qfg1TKtpmkzPE341O0f4GbYvY529gHV4iL+kOkmS/1ifYi1d0eM5eOuav5nqx4Bw38H13Ajk0tEgy6B9GP/d4WJHAEh+Km2N/R4sPGuHXwafpjoFBgAA</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
@@ -438,20 +657,128 @@
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>5</order>
+        <order>13</order>
         <outputs_assigned/>
         <parent_ui_id/>
         <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-12-10 08:04:47</sys_created_on>
         <sys_id>4fba94ec4771b610d1321af2e16d4378</sys_id>
-        <sys_mod_count>23</sys_mod_count>
+        <sys_mod_count>90</sys_mod_count>
         <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-12-14 07:35:36</sys_updated_on>
+        <sys_updated_on>2026-01-06 10:11:58</sys_updated_on>
         <ui_id>4278cc85-6381-403c-9455-9e5575e59e04</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/+1Uy27bMBD8lUJnQdAjMhrfghQBCrQN0AS5tAGxIlc2UYpUScqOK/jfu9TDNhIHfaDH3rRD7u7McKA+Mp1vO+/uzZVzcqWj5ZfHOJI6YPTdRxoajJYRN1pIL41mAxBHG1BdOKBPIV2rYPdwRPhaKmFxmtaCpR6PNlr2z478rkWmoEJFjXfeSr2idimoqlOos0ue8SJfFHma5m8vsmpRVFkuCkAo6N7ceD2Te/NhQOJXWYd9hLt5k7Ei0MrSOMInj1ogra5BOYyjBrQAb+zugFgEcavVEVhL7UfFDTw5+YNm52UZLtZIGvlkx6Fkk1WzS0ZyvG0DwRHxUKnZQqO6Rn8adQSTsYZO+ROTO0fzsA2kA4uJUn23NtvP88IbqQeB06EyHNShAk82VJ1HFx4GFTY0iDXQtmQOa63ZyKGZuDTJSlGR1MpsaWlISgI8EE/II0huCH83wA9gZVDxkcZQ80izAic5G1JF47wlCfvBFva9C4RGgZMUNrpBFxy3svVXtGeDE+t9/DKSJ2ns+2t6JI+CZQnvLHngE071ip5xv//apWkhFMIGX8b2T1r/Rb4voazLLC3P5/ticS7fZ5L9eqjzX4Q6PMNvZjpN0/+hPg21dGwM56RtWP7XmX4MAR43uDE3Arl0ROQ+YO/nv3E42FEAJD+FtsZ+CxKO2P4nuxBRB9cFAAA=</values>
+        <values>H4sIAAAAAAAA/+2UXWvbMBSG/0rwtTH+qMOau5JRGHQrrKU3WzHH0nEiJkueJCfNQv77jiw7DV1Kt7HL3Vnv0fl4jx68j3Tvut7Ze31lrVipaPHlMY6E8hp97yMFLUaLiGnFhRNaVYMQRxuQvQ8sweFKm93sa5+mBZ/dIGx8nAvbSdg9vHGNrYXkBse+HRiq7tBEi/2LkNt1WEmoUVK1O2eEWlG64HRqUmiyS5axIp8XeZrm7y6yel7UWc4LQCjo3pS4nGzMbgYlftWf70e6nTppw/1YWRpH+ORQcaTWDUiLcdSC4uDI3VExCPxWyWdhLZSjcpG//GTFD6qdl6W/2CB5ZBiCx2M17i/IbK0Fw9vODxgUB7Ucc5iWfas+BR9+89hAL920eVJ6S/Ww80P7KcaRmru13n6eGl4LNRgcg1IzkMcTOFpD3Tu0/mFQYkuFqha6jpZTdUZvxJBMs7TJStIhaaTeUlPPVALMD57QjiC5Jv39ID+AEd7FRypDyWHMGqxg1cAflXOGLByGtVTfez9QMDhaqcI26IJlRnTuivoQVWHqQ/wrvCfc7vdLeiSHvMoS1hvagUvYCOnhECiV51n+k9R/wfcllE2ZpeV5vi/m5/g+Q/brUOdvQO2f4TeZTtP0P9SnUAtbBThHb0Pzv2b60QMcOtjADUcmLA1y77UP03/bB3YEgGCn0labb97Cs3b4CSBvOqsBBgAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">fbd4641247f57a10d1321af2e16d438d</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="HR Case Flow">c2e81b40473d7210d1321af2e16d4391</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>23</order>
+        <outputs_assigned/>
+        <parent_ui_id>501ec9f6-d03e-47cd-9db8-2677151c520a</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-15 18:58:53</sys_created_on>
+        <sys_id>5d6064de47757a10d1321af2e16d4381</sys_id>
+        <sys_mod_count>52</sys_mod_count>
+        <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-06 10:11:58</sys_updated_on>
+        <ui_id>96b2f65e-69c2-4789-9497-a5af564aab46</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1UTY/TMBD9KyjnNMpHU9reKtBKSMBK7GovsIom9qS1cOxgO+2Wqv+dcT66FdsKhPbILX7jmXlv/CaHQLeuaZ291ytrxVoFy6+PYSCUx+j7ECioMVgGTCsunNCq6IAw2IJsfWDVNEZvkRPEhW0k7B9eRthGSG5wqN6AoRoOTbA8/BZy+wYLCSVKKnDnjFBrShecTlUMVbJgCcvSWZbGcTqfJuUsK5OUZ4CQ0b0x8d1I9s3HDgmvqvD9CLdjJ224p5XEYYBPDhUn+ssKpMUwqEFxcNrsT4hB4LdKPgMboRyVC/zlJyt+Uu00z/3FCkkjwz54OhbDyHqYbbRgeNt4gj3ioJRDDtOyrdXnXocfNlbQSjcOm5DWUj1sPGnPYqBU3W307svY8EaoTuAQlJqBPJ3A0RjK1qH1D4MSaypU1NA0NJzCP6bokolLHa0lHaJK6h019c6JgHniEc0IohvC33fwAxjhVXyiMpTc0yzBClZ0LqNyzpCEYzeW4kfrCfUCBylFPw26YJkRjVtRny0OrI/hS4ueufNwSAFYxnI+qRjOJtP5fD6BZL6YJAzeLmLOqjzNI+isCrKwDhwej9/aOM44XLX2a5V9jb1YQF7lSZxf3ovp7NJeXNiI68uQ/mEZ/PP95S7Ecfx/Gc6XQdiiN/WgrWv+z7vw6I3fd7C9bzgyYYnIvcc+jH91H9iTAQQ7h3bafPcSnrHjL2S+pH4fBgAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">fbd4641247f57a10d1321af2e16d438a</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="HR Case Flow">c2e81b40473d7210d1321af2e16d4391</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>21</order>
+        <outputs_assigned/>
+        <parent_ui_id>501ec9f6-d03e-47cd-9db8-2677151c520a</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-15 18:18:35</sys_created_on>
+        <sys_id>8727941e47f17a10d1321af2e16d43a1</sys_id>
+        <sys_mod_count>65</sys_mod_count>
+        <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-06 10:11:58</sys_updated_on>
+        <ui_id>2b018a3d-1dcb-4b14-90e2-053307fbfb71</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Uy27bMBD8lVZnWdDLju1b0CJAgbYBkiCXNhBW5MpmS5EqSdlxDf97l3o4RuOgRZFjb+YsOTuz2vE+0K1rWmfv9KW1YqWC5ZeHMBDKY/R7HyioMVgGTCsunNCq6IAw2IBsfeEGvyFzyAniwjYSdvfPK2wtJDc4sDdgiMOhCZb730pu12AhoURJBLfOCLWi54LTqYqhShYsYVk6y9I4Tud5Us6yMkl5BggZ3RsfvhvFvvnYIeGLLnw/wu3YSRvuZSVxGOCjQ8VJ/rICaTEMalAcnDa7I2IQ+LWST8BaKEd0gb/8aMVP4k6nU3+xQvLIsC8ej8Uwsh5may0YXjdeYI84KOXwhmnZ1upz78MPGytopRuHTUhriQ8bL9qrGCRVt2u9vRkbXgnVGRyKUjOQxxM4GkPZOrT+w6DEmoiKGpqGhlM0Rm9E95i01NFK0iGqpN5SU785ETAvPKIZQXRF+PsOvgcjvItPREOPe5klWMGKbsuIzhmycOjGUvxovaDe4GCl6KdBFywzonGX1GeDg+pD+HxFT7Zzvy/nJWYXF/NJEs+TSZ5gOoF8AZOSZdUCL/JZlrOItJE7kIV14PBwePu1jeOM9/C53X413tdIxgKm1TSJp+eTkc/OJeNMJl6OQ/qHOPgP+JdpiOP4fxxO4yBs0a/14K1r/s9pePCr33ew/d5wZMKSkDuPfRj/131hRwsg2Cm01ea7t/CEHX4BmCLarCEGAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">bfd4641247f57a10d1321af2e16d4371</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="HR Case Flow">c2e81b40473d7210d1321af2e16d4391</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <parent_ui_id>3012f297-9e4b-4672-a86f-537e973014d1</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-15 18:26:50</sys_created_on>
+        <sys_id>8819d89e47f17a10d1321af2e16d4314</sys_id>
+        <sys_mod_count>51</sys_mod_count>
+        <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-06 10:11:58</sys_updated_on>
+        <ui_id>605a4d4d-59ce-423a-a6cb-219bb6cd8766</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1UTY/TMBD9KyjnNMpHU9reKtBKSMBK7GovsIom9qS1cOxgO+2Wqv+dcT66FdsKhPbILX7jmXlv/CaHQLeuaZ291ytrxVoFy6+PYSCUx+j7ECioMVgGTCsunNCq6IAw2IJsfWDVNEZvkRPEhW0k7B9eRthGSG5wqN6AoRoOTbA8/BZy+wYLCSVKKnDnjFBrShecTlUMVbJgCcvSWZbGcTqfJuUsK5OUZ4CQ0b0x8d1I9s3HDgmvqvD9CLdjJ224p5XEYYBPDhUn+ssKpMUwqEFxcNrsT4hB4LdKPgMboRyVC/zlJyt+Uu00z/3FCkkjwz54OhbDyHqYbbRgeNt4gj3ioJRDDtOyrdXnXocfNlbQSjcOm5DWUj1sPGnPYqBU3W307svY8EaoTuAQlJqBPJ3A0RjK1qH1D4MSaypU1NA0NJzCP6bokolLHa0lHaJK6h019c6JgHniEc0IohvC33fwAxjhVXyiMpTc0yzBClZ0LqNyzpCEYzeW4kfrCfUCBylFPw26YJkRjVtRny0OrI/hS4ueufNwmM2TeRaX+SSbwtvJFFk5WeTJfJLDYpHPk6Qs0zSCzqogC+vA4fH4rY3jjMNVa79W2dfYiwXkVZ7E+eW9mM4u7cWFjbi+DOkflsE/31/uQhzH/5fhfBmELXpTD9q65v+8C4/e+H0H2/uGIxOWiNx77MP4V/eBPRlAsHNop813L+EZO/4CVphNJh8GAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">bbd4641247f57a10d1321af2e16d4381</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="HR Case Flow">c2e81b40473d7210d1321af2e16d4391</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>15</order>
+        <outputs_assigned/>
+        <parent_ui_id>4278cc85-6381-403c-9455-9e5575e59e04</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-15 18:16:56</sys_created_on>
+        <sys_id>bac6189a47f17a10d1321af2e16d439a</sys_id>
+        <sys_mod_count>64</sys_mod_count>
+        <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-06 10:11:58</sys_updated_on>
+        <ui_id>0034a5d3-0236-413f-9a0c-ec1989bd1c25</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Uy27bMBD8lVZnWdDLju1b0CJAgbYBkiCXNhBW5MpmS5EqSdlxDf97l3o4RuOgRZFjb+YsOTuz2vE+0K1rWmfv9KW1YqWC5ZeHMBDKY/R7HyioMVgGTCsunNCq6IAw2IBsfeEGvyFzyAniwjYSdvfPK2wtJDc4sDdgiMOhCZb730pu12AhoURJBLfOCLWi54LTqYqhShYsYVk6y9I4Tud5Us6yMkl5BggZ3RsfvhvFvvnYIeGLLnw/wu3YSRvuZSVxGOCjQ8VJ/rICaTEMalAcnDa7I2IQ+LWST8BaKEd0gb/8aMVP4k6nU3+xQvLIsC8ej8Uwsh5may0YXjdeYI84KOXwhmnZ1upz78MPGytopRuHTUhriQ8bL9qrGCRVt2u9vRkbXgnVGRyKUjOQxxM4GkPZOrT+w6DEmoiKGpqGhlM0Rm9E95i01NFK0iGqpN5SU785ETAvPKIZQXRF+PsOvgcjvItPREOPe5klWMGKbsuIzhmycOjGUvxovaDe4GCl6KdBFywzonGX1GeDg+pD+HxFT7Zzvy/nJWYXF/NJEs+TSZ5gOoF8AZOSZdUCL/JZlrOItJE7kIV14PBwePu1jeOM9/C53X413tdIxgKm1TSJp+eTkc/OJeNMJl6OQ/qHOPgP+JdpiOP4fxxO4yBs0a/14K1r/s9pePCr33ew/d5wZMKSkDuPfRj/131hRwsg2Cm01ea7t/CEHX4BmCLarCEGAAA=</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
@@ -472,13 +799,67 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-12-10 07:28:08</sys_created_on>
         <sys_id>ca5210204731b610d1321af2e16d43f1</sys_id>
-        <sys_mod_count>31</sys_mod_count>
+        <sys_mod_count>76</sys_mod_count>
         <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-12-14 07:35:36</sys_updated_on>
+        <sys_updated_on>2026-01-06 10:11:58</sys_updated_on>
         <ui_id>3012f297-9e4b-4672-a86f-537e973014d1</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/+1Uy27bMBD8lUJnQdAjMhrfghQBCrQN0AS5tIGwIlc2UYpUScqOK/jfuxQl20gc9IEee9MOubszw4GGSPeu652911fWipWKll8e40goj9H3ECloMVpGTCsunNCqGoE42oDs/QF9cmE7CbuHI8LWQnKD07QODPU4NNFyeHbkdh1WEmqU1HjnjFArahecqiaFJrtkGSvyRZGnaf72IqsXRZ3lvACEgu7NjdczuTcfRiR+lbXfR7idN2nDPa0sjSN8cqg40uoGpMU4akFxcNrsDohB4LdKHoG1UC4obuHJih80Oy9Lf7FB0sgmOw5lNVk1u6QFw9vOEwyIg1rOFmrZt+pT0OFNxgZ66U5M7i3Nw86T9iwmSs3dWm8/zwtvhBoFTodSM5CHChzZUPcOrX8YlNjSoKqFriNzqs7ojRibiUubrCQVSSP1lpb6pCTAPPGEPILkhvB3I/wARngVH2kMNQeaNVjBqjFVNM4ZkrAfbam+955QEDhJqYIbdMEyIzp3RXs2OLHexy8jeZLGYbimR3LIqyxhvSEPXMKoXtEz7vdf+zQtuFa1BsNDAJ5l94/7/0XSL6Fsyiwtzyf9YnEu6Wcy/nq881/E2z/Ib6Y7TdP/8T6Nt7BViOmkbVz+1+l+9FEOG2zIDUcmLBG599j7+b/sD3YUAMFOoa0237yEI7b/CfTr9XnhBQAA</values>
+        <values>H4sIAAAAAAAA/+2Uy27bMBBFf8XQWhD0iI3Gu8BFgAJtDTRBNm0gjMiRTZQiVZKy4xr+9w5FyTFS59Giy+7My+HMvaMD7yPdubZz9lZfWStWKpp/vY8jobxGv/eRggajecS04sIJrcpeiKMNyM5fLMDhSpvd5FuXpgWfLFWlwXChVlTEhW0l7O7eUsvWQnKDg4MWDM1xaKL5/smV27VYSqhQUssbZ8JzwelUp1BnlyxjRT4r8jTN311k1ayospwXgFBQ3fhwMQaafOyV+Nmkfh7pdpykDfe2sjSO8MGh4kija5AW46gBxcFRxKNiEPhSyUdhLZSjdpEvfrDiJ/XOp1NfWCNlZBguj8dyWGKQ2VoLhsvWGwyKg0oOb5iWXaM+hxx+/VhDJ924flI6S/2w9aa9i8FSfbPW2y/jwGuh+oDDpdQM5PEEjtZQdQ6t/zAosaFGZQNtS8spW6M3on9MXppkJemQ1FJvaainKwHmjSe0I0iuSX/fy3dghE/xidrQ42CzAitY2ZNI7ZyhCId+LeWPzhsKAYcoZdgGFVhmROuuaM4GB9eH+HeMTwje7xf0kRzyMktYZ2gHLmEDqYdDQFW/QPUfv/8XpF/CtJ5m6fQ86Rezc6SfYfx5vPNX8PYf5I10p2n6H+9TvIUtA6ZDtn74X9N971EOE2zghiMTlozceu3D+F/uL3YEgGCn0lab7z7Co3b4BbBEIdwVBgAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">7bd4641247f57a10d1321af2e16d437b</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="HR Case Flow">c2e81b40473d7210d1321af2e16d4391</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>11</order>
+        <outputs_assigned/>
+        <parent_ui_id>1bd5ac69-ae5b-48bf-8893-5c512557b914</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-15 18:54:51</sys_created_on>
+        <sys_id>da7f1cda47757a10d1321af2e16d4389</sys_id>
+        <sys_mod_count>53</sys_mod_count>
+        <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-06 10:11:58</sys_updated_on>
+        <ui_id>033ca525-4c09-4896-8da6-c93ad69beeae</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Uy27bMBD8lUJnW9DLz5vRIkCBtgGaIJc2EFbkyiZKkSpJ2XEN/3uXejhGYqNFkWNv4ix3d2Y5q0OgG1c3zt7rlbVirYLlt8dRIJTH6PsQKKgwWAZMKy6c0CpvgVGwBdn4wKqujd4iJ4gLW0vYP7yOsI2Q3GBfvQZDNRyaYHl4EXL7GnMJBUoqcOeMUGtKF5xOZQRlvGAxS5NpmkRRMs/iYpoWccJTQEjp3pD4fiD77lOLjK6q8P0It0MnbbinFUejAJ8cKk70lyVIi6OgAsXBabM/IQaB3yr5DGyEclQu8JefrPhFtZPJxF8skTQy7IKnY96PrIPZRguGt7Un2CEOCtnnMC2bSn3pdPhhYwmNdMOwCWks1cPak/Ysekrl3Ubvvg4Nb4RqBfZBqRnI0wkcjaFoHFr/MCixokJ5BXVNw8n9Y4o2mbhU4VrSISyl3lFT75wQmCce0owgvCH8Qws/gBFexWcqQ8kdzQKsYHnrMirnDEk4tmPJfzaeUCewl5J306ALlhlRuxX12WLP+jh6bdEzdx4OxbzAdDabj+NoHo+zGJMxZAsYFywtFzjLpmnGQmitCjK3Dhwej9+bKEo5XLX2W5V9i71YwKScxNHk8l5k00t7cWEjri9D8odl8M/3l7sQRdH/ZThfBmHzztS9trb5P+/Cozd+18F2vuHIhCUi9x77OPzVfWBPBhDsHNpp88NLeMaOvwHmnt2mHwYAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">f7d4641247f57a10d1321af2e16d4361</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="HR Case Flow">c2e81b40473d7210d1321af2e16d4391</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <parent_ui_id>3012f297-9e4b-4672-a86f-537e973014d1</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-15 17:59:35</sys_created_on>
+        <sys_id>f0d2d4da47b17a10d1321af2e16d4394</sys_id>
+        <sys_mod_count>49</sys_mod_count>
+        <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-06 10:11:58</sys_updated_on>
+        <ui_id>fbf1348b-ac81-439b-9bbe-e45e7f2e0710</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Uy27bMBD8lUJnWaAky7V9C1oEKNA2QBLk0gbCilrZbClSJSk7ruF/71IPx2hstChy7M2cJXdnVjPeB7p1Tevsvb6yVqxUsPzyGAZCeYx+7wMFNQbLgGtVCie0yjsgDDYgW1+4xW/IHZYElcI2EnYPLyt8LWRpcOjegKEeDk2w3P9WcrsGcwkFSmpw54xQK3ouSjpVDKp4wWOeJrM0YSyZT+NilhZxUqaAkNK98eG7keybjx0SXlTh5xFux0nalJ5WzMIAnxyqkugvK5AWw6AGVYLTZndEDEJ5o+QzsBbKUbvAX36y4if1TrLMX6yQNHLsi8djPqysh/laC443jSfYIw4KObzhWra1+tzr8MvGClrpxmUT0lrqh40n7VkMlKq7td7ejgOvheoEDkWpOcjjCRytoWgdWv9hUGJNjfIamoaWkzdGb0T3mLjU0UrSIaqk3tJQ75wIuCce0Y4guib8fQc/gBFexSdqQ497mgVYwfPOZdTOGZJw6NaS/2g9oV7gICXvt0EXLDeicVc0Z4MD60P40qIn7tzvZ/N4nrIim6RTeDuZIi8miyyeTzJYLLJ5HBdFkkTEjdSBzK0Dh4fD15axlFx5ydqv1fY1crGArMpilp3PxXR2LhdnEnE5DMkfwuA/319mgTH2PwynYRA27009aOuG/3MWHr3x+wm2902JXFgicu+xD+O/ui/syACCn0Jbbb57Cc/Y4RckIgqDHwYAAA==</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
@@ -492,20 +873,47 @@
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>3</order>
+        <order>7</order>
         <outputs_assigned/>
         <parent_ui_id/>
         <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-12-10 07:51:23</sys_created_on>
         <sys_id>faa7d4a04771b610d1321af2e16d43a7</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>86</sys_mod_count>
         <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-12-14 07:35:36</sys_updated_on>
+        <sys_updated_on>2026-01-06 10:11:58</sys_updated_on>
         <ui_id>1bd5ac69-ae5b-48bf-8893-5c512557b914</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/+1Uy27bMBD8lUJnQdAjMhrfghQBCrQN0AS5tIGwIlc2UYpUScqOK/jfuxQl20gc9IEee9MOubszw4GGSPeu652911fWipWKll8e40goj9H3ECloMVpGTCsunNCqGoE42oDs/QF9cmE7CbuHI8LWQnKD07QODPU4NNFyeHbkdh1WEmqU1HjnjFArahecqiaFJrtkGSvyRZGnaf72IqsXRZ3lvACEgu7NjdczuTcfRiR+lbXfR7idN2nDPa0sjSN8cqg40uoGpMU4akFxcNrsDohB4LdKHoG1UC4obuHJih80Oy9Lf7FB0sgmOw5lNVk1u6QFw9vOEwyIg1rOFmrZt+pT0OFNxgZ66U5M7i3Nw86T9iwmSs3dWm8/zwtvhBoFTodSM5CHChzZUPcOrX8YlNjSoKqFriNzqs7ojRibiUubrCQVSSP1lpb6pCTAPPGEPILkhvB3I/wARngVH2kMNQeaNVjBqjFVNM4ZkrAfbam+955QEDhJqYIbdMEyIzp3RXs2OLHexy8jeZLGYbimR3LIqyxhvSEPXMKoXtEz7vdf+zQtuG6aWoPhIQHPwvvnA/5F1i+hbMosLc9n/WJxLutnUv56wPNfBNw/yW/mO03T/wE/DbiwVQjqpG1c/tf5fvRhDhtsyA1HJiwRuffY+/nP7A92FADBTqGtNt+8hCO2/wnQjpPm4wUAAA==</values>
+        <values>H4sIAAAAAAAA/+2Uy27bMBBFf8XQWhD0iI3Gu8BFgAJtDTRBNm0gjMiRTZQiVZKy4xr+9w5FyTFS59Giy+7My+HMvaMD7yPdubZz9lZfWStWKpp/vY8jobxGv/eRggajecS04sIJrcpeiKMNyM5fLMDhSpvd5FuXpgWfLOu60mC4UCuq4sK2EnZ3bypmayG5wcFDC4YmOTTRfP/kyu1aLCVUKKnnjTPhueB0qlOos0uWsSKfFXma5u8usmpWVFnOC0AoqG58uBgjTT72SvxsVj+PdDtO0oZ7W1kaR/jgUHGk0TVIi3HUgOLgKONRMQh8qeSjsBbKUbvIFz9Y8ZN659OpL6yRMjIMl8djOWwxyGytBcNl6w0GxUElhzdMy65Rn0MOv3+soZNu3D8pnaV+2HrT3sVgqb5Z6+2XceC1UH3A4VJqBvJ4AkdrqDqH1n8YlNhQo7KBtqXllK3RG9E/Ji9NspJ0SGqptzTU85UA88YT2hEk16S/7+U7MMKn+ERt6HGwWYEVrOxZpHbOUIRDv5byR+cNhYBDlDJsgwosM6J1VzRng4PrQ/w7yCcM7/cL+kgOeZklrDO0A5ewAdXDIbCqX+L6zxv8C9YvYVpPs3R6nvWL2TnWz1D+POD5K4D7T/JGvtM0/Q/4KeDClgHUIVs//K/5vvcwhwk2cMORCUtGbr32Yfw/9xc7AkCwU2mrzXcf4VE7/AKFdgmlGQYAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">7bd4641247f57a10d1321af2e16d4378</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="HR Case Flow">c2e81b40473d7210d1321af2e16d4391</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>9</order>
+        <outputs_assigned/>
+        <parent_ui_id>1bd5ac69-ae5b-48bf-8893-5c512557b914</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-15 18:14:40</sys_created_on>
+        <sys_id>fd46581a47f17a10d1321af2e16d43ba</sys_id>
+        <sys_mod_count>58</sys_mod_count>
+        <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-06 10:11:58</sys_updated_on>
+        <ui_id>620d5b01-d9d8-43a9-9c3e-8ba100ba780b</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1UTW/bMAz9K53PTuCvfN6KDcUGbCvQFr1shUHLdKJNljxJTpoF+e+lLDst1nQbhh53sx4p8j2Kz/tAtbZprblR58bwlQyWX+7CgEuH0fc+kFBjsAyYkiW3XMm8A8JgA6J1gSv8hswFzt6DLAWXKwqW3DQCdre/y2FrLkqNfccGNNW1qIPl/peQ3TWYCyhQUKlrq/11XtKpiqCKFyxmaTJNkyhK5llcTNMiTsoUEFLKGy6+HQScfeyQ8EVlrh/hZuikdOloxVEY4L1FWSK1rkAYDIOa9IBVendENEJ5KcUjsObSUrnAJd8b/pNqJ5OJS6yQNDL0weMx74fnYbZWnOFl4wh6xEIh+jtMibaWn70ON3asoBV2GDshraF62DjSjkVPqbpeq+3V0PCCy05gHxSKgTiewNIYitaicQ+DAmsqlNfQNDScvNFqw7vLxKUerwQdxpVQW2rqtmkM3bOPaUYwviD8XQffguZOxScqQ5c9zQIMZ3m3eVTOapJw6MaS/2gdIS+wl5L7aVCCYZo39pz6bLBnfQifr+2Tjd3vi3mB6Ww2H8XRPB5lMSYjyBYwKlhaLXCWTdOMjYkbqQORGwsWD4c3X9soSksP0wo82/JXq/sazljApJrE0eS0M7LpKWec8MTLdkj+YAf3gH/phiiK/tvhqR24yf1a99q65v/shju3+r6D8XtTIuOGiNw47MPwr3eBHS0AZ0+hrdLfnYRH7PAAKmJiUzUGAAA=</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=c2e81b40473d7210d1321af2e16d4391"/>
@@ -572,7 +980,7 @@
         <description/>
         <flow_priority>MEDIUM</flow_priority>
         <internal_name>hr_case_flow</internal_name>
-        <label_cache>[{"name":"Created_1.current.caller.manager","label":"Trigger - Record Created➛HR Case Record➛Caller➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager","usedInstances":{"681830b5-34a7-4ecb-9518-5a995811bb22":["approval_conditions"],"9b3161d0-8520-499e-9073-add2747184ad":["approval_conditions"],"2aac3c5d-fce6-4888-a189-1ca790dcf525":["approval_conditions"],"b8be3778-1081-41e2-a49a-bc3f9e74634c":["approval_conditions"]}},{"name":"{{static.62826bf03710200044e0bfc8bcbe5df1}}","label":"Abel Tuter","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{"681830b5-34a7-4ecb-9518-5a995811bb22":["approval_conditions"]}},{"name":"{{static.f0b8bf2547a1b610d1321af2e16d4376}}","label":"Leave Resolvers Group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"9b3161d0-8520-499e-9073-add2747184ad":["approval_conditions"]}},{"name":"{{static.db98fb2547a1b610d1321af2e16d43a4}}","label":"Offboarding Resolvers Group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"b8be3778-1081-41e2-a49a-bc3f9e74634c":["approval_conditions"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛HR Case Record","reference":"x_1837836_hr_cas_1_hr_case","reference_display":"HR Case","type":"reference","base_type":"reference","usedInstances":{"681830b5-34a7-4ecb-9518-5a995811bb22":["record"],"b8be3778-1081-41e2-a49a-bc3f9e74634c":["record"],"9b3161d0-8520-499e-9073-add2747184ad":["record"],"2aac3c5d-fce6-4888-a189-1ca790dcf525":["record"]},"attributes":{}},{"name":"Created_1.current.category","label":"Trigger - Record Created➛HR Case Record➛Category","reference":"","reference_display":"Category","type":"choice","base_type":"choice","parent_table_name":"x_1837836_hr_cas_1_hr_case","column_name":"category","choices":[{"label":"-- None --","image":"","used":false,"reference":false,"rawLabel":"-- None --","selected":false,"missing":false,"value":""},{"label":"Onboarding","image":"","used":false,"reference":false,"rawLabel":"Onboarding","selected":false,"missing":false,"value":"onboarding","parameters":{"name":"x_1837836_hr_cas_1_hr_case","dependent_values":[""]}},{"label":"Offboarding","image":"","used":false,"reference":false,"rawLabel":"Offboarding","selected":false,"missing":false,"value":"offboarding","parameters":{"name":"x_1837836_hr_cas_1_hr_case","dependent_values":[""]}},{"label":"Payroll","image":"","used":false,"reference":false,"rawLabel":"Payroll","selected":false,"missing":false,"value":"payroll","parameters":{"name":"x_1837836_hr_cas_1_hr_case","dependent_values":[""]}},{"label":"Leave","image":"","used":false,"reference":false,"rawLabel":"Leave","selected":false,"missing":false,"value":"leave","parameters":{"name":"x_1837836_hr_cas_1_hr_case","dependent_values":[""]}},{"label":"Travel","image":"","used":false,"reference":false,"rawLabel":"Travel","selected":false,"missing":false,"value":"travel","parameters":{"name":"x_1837836_hr_cas_1_hr_case","dependent_values":[""]}},{"label":"Others","image":"","used":false,"reference":false,"rawLabel":"Others","selected":false,"missing":false,"value":"others","parameters":{"name":"x_1837836_hr_cas_1_hr_case","dependent_values":[""]}},{"label":"Incident","image":"","used":false,"reference":false,"rawLabel":"Incident","selected":false,"missing":false,"value":"incident","parameters":{"name":"x_1837836_hr_cas_1_hr_case","dependent_values":[""]}}],"usedInstances":{"3012f297-9e4b-4672-a86f-537e973014d1":["condition"],"1bd5ac69-ae5b-48bf-8893-5c512557b914":["condition"],"4278cc85-6381-403c-9455-9e5575e59e04":["condition"],"501ec9f6-d03e-47cd-9db8-2677151c520a":["condition"]}},{"name":"{{static.5358f32547a1b610d1321af2e16d4397}}","label":"Onboarding Resolvers Group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"681830b5-34a7-4ecb-9518-5a995811bb22":["approval_conditions"]}},{"name":"{{static.e6b8ff2547a1b610d1321af2e16d4353}}","label":"Travel Resolvers Group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"2aac3c5d-fce6-4888-a189-1ca790dcf525":["approval_conditions"]}},{"name":"Created_1.current.u_requested_for.manager","label":"Trigger - Record Created➛HR Case Record➛Requested For (Other Categories)➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager","usedInstances":{}}]</label_cache>
+        <label_cache>[{"name":"681830b5-34a7-4ecb-9518-5a995811bb22.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"fbf1348b-ac81-439b-9bbe-e45e7f2e0710":["condition"],"605a4d4d-59ce-423a-a6cb-219bb6cd8766":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.parent","label":"Trigger - Record Created➛HR Case Record➛Parent","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","parent_table_name":"x_1837836_hr_cas_1_hr_case","column_name":"parent","usedInstances":{"03a710bf-9772-46b9-ae32-eff1b42d1747":["parent"],"8b229133-212f-46ad-88ef-1965d95f9205":["parent"]}},{"name":"Created_1.current.u_requested_for.manager","label":"Trigger - Record Created➛HR Case Record➛Requested For (Other Categories)➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager","usedInstances":{}},{"name":"{{static.db98fb2547a1b610d1321af2e16d43a4}}","label":"Offboarding Resolvers Group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"b8be3778-1081-41e2-a49a-bc3f9e74634c":["approval_conditions"]}},{"name":"Created_1.current.category","label":"Trigger - Record Created➛HR Case Record➛Category","reference":"","reference_display":"Category","type":"choice","base_type":"choice","parent_table_name":"x_1837836_hr_cas_1_hr_case","column_name":"category","choices":[{"label":"-- None --","used":false,"reference":false,"selected":false,"missing":false,"rawLabel":"-- None --","image":"","value":""},{"used":false,"label":"Onboarding","reference":false,"selected":false,"missing":false,"rawLabel":"Onboarding","image":"","value":"onboarding","parameters":{"name":"x_1837836_hr_cas_1_hr_case","dependent_values":[""]}},{"used":false,"label":"Offboarding","reference":false,"selected":false,"missing":false,"rawLabel":"Offboarding","image":"","value":"offboarding","parameters":{"name":"x_1837836_hr_cas_1_hr_case","dependent_values":[""]}},{"used":false,"label":"Payroll","reference":false,"selected":false,"missing":false,"rawLabel":"Payroll","image":"","value":"payroll","parameters":{"name":"x_1837836_hr_cas_1_hr_case","dependent_values":[""]}},{"used":false,"label":"Leave","reference":false,"selected":false,"missing":false,"rawLabel":"Leave","image":"","value":"leave","parameters":{"name":"x_1837836_hr_cas_1_hr_case","dependent_values":[""]}},{"used":false,"label":"Travel","reference":false,"selected":false,"missing":false,"rawLabel":"Travel","image":"","value":"travel","parameters":{"name":"x_1837836_hr_cas_1_hr_case","dependent_values":[""]}},{"used":false,"label":"Others","reference":false,"selected":false,"missing":false,"rawLabel":"Others","image":"","value":"others","parameters":{"name":"x_1837836_hr_cas_1_hr_case","dependent_values":[""]}},{"used":false,"label":"Incident","reference":false,"selected":false,"missing":false,"rawLabel":"Incident","image":"","value":"incident","parameters":{"name":"x_1837836_hr_cas_1_hr_case","dependent_values":[""]}}],"usedInstances":{"3012f297-9e4b-4672-a86f-537e973014d1":["condition"],"1bd5ac69-ae5b-48bf-8893-5c512557b914":["condition"],"4278cc85-6381-403c-9455-9e5575e59e04":["condition"],"501ec9f6-d03e-47cd-9db8-2677151c520a":["condition"]}},{"name":"Created_1.current.short_descriptio0","label":"Trigger - Record Created➛HR Case Record➛Short Description (short_descriptio0)","reference":"","reference_display":"Short Description (short_descriptio0)","type":"string","base_type":"string","parent_table_name":"x_1837836_hr_cas_1_hr_case","column_name":"short_descriptio0","usedInstances":{"ab454731-a97f-4492-b2b6-725b9818f591":["short_descriptio0"],"8c42ba3a-0e4b-4fec-8ac1-0a4c1bb1ca70":["short_descriptio0"],"3f6210ed-cbb0-466a-9a47-379d499f5acc":["short_descriptio0"],"3afe3548-b14c-479c-95f0-947ba30a477c":["short_descriptio0"],"8b229133-212f-46ad-88ef-1965d95f9205":["short_descriptio0"]}},{"name":"{{static.62826bf03710200044e0bfc8bcbe5df1}}","label":"Abel Tuter","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{"681830b5-34a7-4ecb-9518-5a995811bb22":["approval_conditions"]}},{"name":"Created_1.current.u_requested_for","label":"Trigger - Record Created➛HR Case Record➛Requested For (Other Categories)","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1837836_hr_cas_1_hr_case","column_name":"u_requested_for","usedInstances":{"8c42ba3a-0e4b-4fec-8ac1-0a4c1bb1ca70":["short_descriptio0"],"3f6210ed-cbb0-466a-9a47-379d499f5acc":["short_descriptio0"],"3afe3548-b14c-479c-95f0-947ba30a477c":["short_descriptio0"]}},{"name":"{{static.f0b8bf2547a1b610d1321af2e16d4376}}","label":"Leave Resolvers Group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"9b3161d0-8520-499e-9073-add2747184ad":["approval_conditions"]}},{"name":"{{static.e6b8ff2547a1b610d1321af2e16d4353}}","label":"Travel Resolvers Group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"2aac3c5d-fce6-4888-a189-1ca790dcf525":["approval_conditions"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛HR Case Record","reference":"x_1837836_hr_cas_1_hr_case","reference_display":"HR Case","type":"reference","base_type":"reference","usedInstances":{"681830b5-34a7-4ecb-9518-5a995811bb22":["record"],"b8be3778-1081-41e2-a49a-bc3f9e74634c":["record"],"9b3161d0-8520-499e-9073-add2747184ad":["record"],"2aac3c5d-fce6-4888-a189-1ca790dcf525":["record"],"296573bc-2739-4166-a577-d49f62f90b6f":["record"],"00d9bc71-9b21-435d-a03f-e5638192ce5e":["record"],"fc2e3b51-1ac7-4422-9aa9-0ffaf4c88dde":["record"],"0236cd0a-7cdb-4b63-b845-5b0cbc7b501d":["record"],"ab454731-a97f-4492-b2b6-725b9818f591":["parent","hrparent"],"8c42ba3a-0e4b-4fec-8ac1-0a4c1bb1ca70":["parent","hrparent"],"3f6210ed-cbb0-466a-9a47-379d499f5acc":["parent","hrparent"],"3afe3548-b14c-479c-95f0-947ba30a477c":["parent","hrparent"],"8b229133-212f-46ad-88ef-1965d95f9205":["hrparent"],"03a710bf-9772-46b9-ae32-eff1b42d1747":["parent"]},"attributes":{}},{"name":"{{static.5358f32547a1b610d1321af2e16d4397}}","label":"Onboarding Resolvers Group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"681830b5-34a7-4ecb-9518-5a995811bb22":["approval_conditions"]}},{"name":"Created_1.current.caller.manager","label":"Trigger - Record Created➛HR Case Record➛Caller➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager","usedInstances":{"b8be3778-1081-41e2-a49a-bc3f9e74634c":["approval_conditions"],"9b3161d0-8520-499e-9073-add2747184ad":["approval_conditions"],"2aac3c5d-fce6-4888-a189-1ca790dcf525":["approval_conditions"]}},{"name":"296573bc-2739-4166-a577-d49f62f90b6f.record","label":"4 - Update Record➛HR Case Record","reference":"x_1837836_hr_cas_1_hr_case","reference_display":"HR Case","type":"reference","base_type":"reference","usedInstances":{"58ef7dd8-5b94-40fd-b9f2-e98efd272e89":["record"],"fe9b3563-44ad-45c1-bd4f-19829c82e47c":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9b3161d0-8520-499e-9073-add2747184ad.approval_state","label":"14 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"033ca525-4c09-4896-8da6-c93ad69beeae":["condition"],"d43a7d49-960d-483e-96e6-7fad8d1e26f8":["condition"],"96b2f65e-69c2-4789-9497-a5af564aab46":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b8be3778-1081-41e2-a49a-bc3f9e74634c.approval_state","label":"8 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"620d5b01-d9d8-43a9-9c3e-8ba100ba780b":["condition"],"0034a5d3-0236-413f-9a0c-ec1989bd1c25":["condition"],"2b018a3d-1dcb-4b14-90e2-053307fbfb71":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.descriptio0","label":"Trigger - Record Created➛HR Case Record➛Description (descriptio0)","reference":"","reference_display":"Description (descriptio0)","type":"journal","base_type":"journal","parent_table_name":"x_1837836_hr_cas_1_hr_case","column_name":"descriptio0","usedInstances":{"ab454731-a97f-4492-b2b6-725b9818f591":["descriptio0"],"8c42ba3a-0e4b-4fec-8ac1-0a4c1bb1ca70":["descriptio0"],"3f6210ed-cbb0-466a-9a47-379d499f5acc":["descriptio0"],"3afe3548-b14c-479c-95f0-947ba30a477c":["descriptio0"]}},{"name":"Created_1.current.u_requested_onboarding","label":"Trigger - Record Created➛HR Case Record➛Requested for (Onboarding)","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1837836_hr_cas_1_hr_case","column_name":"u_requested_onboarding","usedInstances":{"8b229133-212f-46ad-88ef-1965d95f9205":["short_descriptio0"],"03a710bf-9772-46b9-ae32-eff1b42d1747":["short_descriptio0"]}}]</label_cache>
         <master>true</master>
         <name>HR Case Flow</name>
         <natlang/>
@@ -589,7 +997,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>feed9ca847b1b610d1321af2e16d436d</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -597,7 +1005,7 @@
         <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-12-14 07:35:38</sys_updated_on>
+        <sys_updated_on>2025-12-25 09:13:08</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow_snapshot>
@@ -681,14 +1089,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-12-10 08:18:42</sys_created_on>
         <sys_id>b2ed9ca847b1b610d1321af2e16d4372</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-12-14 07:35:38</sys_updated_on>
+        <sys_updated_on>2025-12-25 09:13:07</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -765,14 +1173,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-12-10 08:18:42</sys_created_on>
         <sys_id>b6ed9ca847b1b610d1321af2e16d4390</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-12-14 07:35:38</sys_updated_on>
+        <sys_updated_on>2025-12-25 09:13:07</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -810,7 +1218,7 @@
         <trigger_type>record_create</trigger_type>
         <updation_source/>
     </sys_hub_trigger_instance_v2>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=feed9ca847b1b610d1321af2e16d436d^sys_idNOT IN03ed9ca847b1b610d1321af2e16d43ab,43ed9ca847b1b610d1321af2e16d43ac,8fed9ca847b1b610d1321af2e16d43a8,cfed9ca847b1b610d1321af2e16d43a9"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=feed9ca847b1b610d1321af2e16d436d^sys_idNOT IN03ed9ca847b1b610d1321af2e16d43ab,2f9553d247313e10d1321af2e16d4348,38bdaddd4706f6d0d1321af2e16d43d6,43ed9ca847b1b610d1321af2e16d43ac,6f9553d247313e10d1321af2e16d4349,8fed9ca847b1b610d1321af2e16d43a8,a39553d247313e10d1321af2e16d434b,a79553d247313e10d1321af2e16d4343,a79553d247313e10d1321af2e16d4346,cfed9ca847b1b610d1321af2e16d43a9,e39553d247313e10d1321af2e16d434c,e79553d247313e10d1321af2e16d4347"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
         <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
@@ -820,22 +1228,70 @@
         <display_text/>
         <flow display_value="HR Case Flow">feed9ca847b1b610d1321af2e16d436d</flow>
         <generation_source/>
-        <order>6</order>
+        <order>14</order>
         <parent_ui_id>4278cc85-6381-403c-9455-9e5575e59e04</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-12-10 08:18:42</sys_created_on>
         <sys_id>03ed9ca847b1b610d1321af2e16d43ab</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-12-14 07:35:38</sys_updated_on>
+        <sys_updated_on>2025-12-16 08:10:40</sys_updated_on>
         <ui_id>9b3161d0-8520-499e-9073-add2747184ad</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1YXW/iOBT9K8jPlE0IhMBbVVTtrGZnpLYzL6WKjH0D3jUOdZK2LOK/z03sfBQoCyvmodt5Qfh+2OfenBPbuV8TwcmIDIKoC8Nh15m6juM5TtBnTuDB1Bv4A48yh7SJogvASA0s1hzHT1RmuWG9vtJAU+Ch22GZ1qDSzQb9XCRLSVffbRha2FxIjn4yun9okyXVOGMKmozWW65jIUk6BYmhNyWmbYzpapmPecyyBeIKRWn8bDPH1tP6NEYPJuVwnDaBlxQUB8QRUZlAmyyo4jSN9YqMUp2hAWvmX5VcVRFzoVJT54K+JOIfXNjr5nERYGHM9qAahrY/xhyNaUpvcWaWZrpqVywYJKYlHCKayfSqaTMBX5epiJVJSelUltmxzBbqi2kIqSZoPI4sQRCwzOvMkZuyott5/HxTgrwWquiILVHGjMpqRNNUi2mW5nDWBCQULV7Q5VKoWbjU8ZMokhHKojOTOOhEMn7GNRMxUx3Kctwd7CrtXKN9XJi/Uy3yIv7EaTB50ybJKrmSNEnqUrCH4WOWIzGF2RLCogumBXke02KZXuIqT2Axb9qW7lN2kFusppKZrmb7S+gG3iDw/HCuQ0aT0LV/YJfyv9+0rozjNOYfga5k/p2Ft4XW8r4YhoXvNe2LtNYX47Csdw+z3lpq2hu+7GF94Lwj1tuy3j3t/43x0PO9Pv4MIs9xu64TgB8EbOhQFvh+v+fVHEIEWAOVIT7qBOeuuX9pPa0beMyEBt66jnXrM9CnPeQ/HHyaII4AXwqisaxF/2ZZViQJPk412xLIbWm04uieKI639wTX/0jyyMTdVpeNZafPP0dH+XLflHjM4FPOI7879YdOwC945EwveoHXv6AMnAvw3T70uc/6rvcTtOe4h97nPNhD0kiAbB6ySseuzhqe00R1BKodUV1bWG/BtZIqhvv2nSJ/a985n7QCx3lP2vpIBy52kGzQ2H7+ijOt9ijgOdZ/hyrOi9/RwCvfaSo4Alipgj8Msm0RbAP+Lxrwfmng/6+BXv8g1RrH+Oq9ymLFRY442TmGQXKpVt/u99y+O9gvCbqDBKIz0JvNw1unsxPnOE1ZR5Rb3d8zWUj3YPlWV/U5ziY1tVWf/qzT6qt3rhv9O5PXR7ndsINci4Y1t3iGDUKuNz9gTYiBPSGjCVGxgglpT0geFebkKswYgeAqR2FbrzcbY8k0tRO4jWGdzekqKSITNgeO3CysryxhIQZrP8f3syN6UupvnEFrbJqy26bymlTiNH0RO/varQ0oZvrtTjT3t/7Z9rfeL/md41IUVtcG3Lzw7XdGTT78ACkp2tFUFgAA</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=03ed9ca847b1b610d1321af2e16d43ab"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="HR Case Flow">feed9ca847b1b610d1321af2e16d436d</flow>
+        <generation_source/>
+        <order>16</order>
+        <parent_ui_id>0034a5d3-0236-413f-9a0c-ec1989bd1c25</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-16 08:10:40</sys_created_on>
+        <sys_id>2f9553d247313e10d1321af2e16d4348</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-16 08:10:40</sys_updated_on>
+        <ui_id>fc2e3b51-1ac7-4422-9aa9-0ffaf4c88dde</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVXW/aMBT9K8jPKEoIZZS3CYQ2qWslOvHStdHFvgFLzsdsh8IQ/303iRMQVB2V+oLGE75fPufknuRpx6RgI9ZH4Qe3wYCHQRj2fL837AeLQbgIeiIExIB1WQoJUqVGnmlB5zWoogzsdmONYFFEgccLrTG1+z3lhTS5gu3clVGEr6QSlGejp+cuy0HTRIuajXYnqUshKVigotJZg+kUo93m5VlkvEgIVySb4J3rnLhM5/uEMtRUwgn8LsONxVQgAYlBGeyyBFIBNtNbNrK6oACRFg+p2rYVK5nammgCGyP/0M19v6yLkZhxJ0J7jJxAdTiegIVHmsxtoVu9MsnR1JoIjKFQdnwcqwseciuztG6xsFBNd6aKJL2vFWHtgKPnURgCgXnJs0Re04ofV9nrrAE5lWkliaOoMg6qPYG1Wi4KW8LZMVRYaZxAnst0GeU6W8uqmaAk3lLRwYtV9kp3GrlMPeAlbo9UBW9K8UkVnoOWJYkfNIaa911mtmaswJgDFdIw+l2USGpijkJUqVBJEFWbUDZzLXP7la5aowO+77qlX9y8t2H89rBQRzMPi7+JgmH4ZRgOopWOOJgocH/wfPu/zTrjOvExE1wAsTHBz+rRvw3Z+eAsdnfc27mvE84FN5/mguE1ucDRuHob/Gv5/d67r9ejTar23RwtPlQDfxW+H4pq6IuxYP06wIH0UgrFuQku7vuYRy5g0nhkKlEJ8wa1xiCYEGCLUU31xCQu2Zm7ZPu5+DSnBAO/+l2RX/6br8bzX/wZDAAsCQAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=2f9553d247313e10d1321af2e16d4348"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="HR Case Flow">feed9ca847b1b610d1321af2e16d436d</flow>
+        <generation_source/>
+        <order>6</order>
+        <parent_ui_id>605a4d4d-59ce-423a-a6cb-219bb6cd8766</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-25 08:18:24</sys_created_on>
+        <sys_id>38bdaddd4706f6d0d1321af2e16d43d6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-25 09:13:08</sys_updated_on>
+        <ui_id>03a710bf-9772-46b9-ae32-eff1b42d1747</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VUU/bMBD+K5Gfoyhu2lL6NhWxPWwgAeKFguXEl9aaEwfbKXRV//vOcVoqRgWT9oK0PtV339193/l8udsQKciUjCmko1M6LjKaZYM0HUyGNB9nOR2IjAMMSUxqXgEiHc8VsO4QkxVXrTc+MzrJTibZmC0NK7hltP8DzHH7E5FC2kbx9W0f8O0qmqE3ugneYimVMFCT6d19TBpuML0DQ6abV66PklU8B4XQG8/2CHm3bt60fT+MjS6CQxvh+aQxgWcHtQAkUnJlISYVrwV32qzJ1JkWDQa4uKzVeo9YytphQuKxz1b+wrKT1ONKQGUFBN/+yPpmBXN5xh2/xsyFa00PLZZaFmBDTwSUvFVudmgLgMvGSV2HkE5mH61VW9UXoSVkn2B3N2hp8eIENF6nZ97LKK+X+ulqx/Jc1l1LeqfSBVf7E3fOyLx1ns+GgIIKE7GKN42sF6wxeiW7YORSJQuFh6RU+gmLWrmoE1544gm2lSfnaD/rzLfcSK/iB6bB4G1M7NrOFLf2RQs2kT22nklQ1mtgoQ0+pDCycV+wwAp6utt49woEpKdHB4vmL4PUDb49eAFIAhl6lQuj22bepmkmNvPd3M/JdE4u61xzI7AD0RVYrVZgbPS1g5N4HlJ1wFE2mpTZYDQ84VifpoJmA8rLAdCxGGanJx0ctTMpPojfPtilNs73t9MvdRooHnDybzEqtYk2mxmOsAPBaFK0Bm/bJS0z8IiSvVXvY7bbB3ys6O/1vhEY/Nvtnzvgf8veb9lfLsb353e3GM8lKGHfGOjdVoQKL8EBCwP+ajP2zui2d/bbkf6r7UjHaff7RDsyiPv0K/Lga3hkWd7/BkTGBSM0CAAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=38bdaddd4706f6d0d1321af2e16d43d6"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
         <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
         <attributes/>
@@ -844,21 +1300,45 @@
         <display_text/>
         <flow display_value="HR Case Flow">feed9ca847b1b610d1321af2e16d436d</flow>
         <generation_source/>
-        <order>8</order>
+        <order>20</order>
         <parent_ui_id>501ec9f6-d03e-47cd-9db8-2677151c520a</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-12-10 08:18:42</sys_created_on>
         <sys_id>43ed9ca847b1b610d1321af2e16d43ac</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-12-14 07:35:38</sys_updated_on>
+        <sys_updated_on>2025-12-16 08:10:40</sys_updated_on>
         <ui_id>2aac3c5d-fce6-4888-a189-1ca790dcf525</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1YW2/iOBT+K8jPlEkIhMBbVVTtrOYitZ15KVVk7BPwyiTUTjplEP99T2LnMlAorJiHbucF4XOxv3PyfbGd+zURnIzIIIi6MBx2nanrOJ7jBH3mBB5MvYE/8ChzSJvEdAEYqYAliuP4icosN6zXVwpoCjx0OyxTCuJ0s0E/F3op6eq7DUMLmwvJ0U9G9w9tsqQKZ0xBkdF6y3UsJEmnIDH0psS0jTFdLfMxT1i2QFyhKI2fbObYelofx+jBpByO0ybwnELMAXFEVGpokwWNOU0TtSKjVGVowJr511iuqoi5iFNT54I+a/ETF/a6eVwEWBizPaiGoe2PMUdjmtJbnJmlmaralQgG2rSEQ0QzmV41bSbg6zIVSWxSUjqVZXYis0X8xTSEVBM0HkemEQQs8zpz5Kas6Hae/LgpQV6LuOiILVEmjMpqRNNUiWmW5nDWBCQULV7Q5VLEs3CpkidRJCOURWcmcdCJZPID19RiFncoy3F3sKu0c432cWH+TpXIi/iM02Dypk30Sl9JqnVdCvYwfMxyJKYwW0JYdMG0IM9jSizTS1zlCSzmTdvSfcoOcovVVDLT1Wx/Dt3AGwSeH85VyKgOXfsHdin/103ryjhOY/4R6Erm31l4W2gt74thWPh+pX2R1vpiHJb17mHWW0tNe8OXF1gfOG+I9basN0/71xgPPd/r488g8hy36zoB+EHAhg5lge/3e17NIUSANVAZ4qPWOHfN/Uvrad3AYyYU8NZ1olp3ij4hqXbY/0r0aZI4An4pica6Fv/ewqxMND7QeLYlkdvSaOXRPVEe+3cF139PAsnE3VaXjWWnz79HSfly32LxmMHHnEd+d+oPnYBf8MiZXvQCr39BGTgX4Lt96HOf9V3vN6jPcQ+90XnwAkkjAbJ5zCodu0JreE4T1RGodkR1bWHtg2slVQxf2nmK/K2d53zSChznLWnrPR252EGyQWMD+ifJVHxAAeFc6IIZe5XQiDhNEUeALBXxt0G5LYht8P9FD94fPfz/9dDrH6Ra41BfsZolMRc5Yr1zKAN9Ga++3b9wF+9gvySoDhKIzkBtNg/7jmonznGaso4ot7rNZxL0a+VbXdVnOpvU1FZ9ErROq6/eue73b0xe7+Wuww5yLRrW3OIZNgi53vycNSEG9oSMJiROYpiQ9oTkUWFOrsKMEQiuchS29XqzMZZMUTuB2xjW2ZyudBGp2Rw4crOw/mIJCzFY+zm+ph3Rk1J/4wxaY9OU3TaVV6YSp+mL2NnXbm1AMdOHO9Hc3/pn2996f+R3jgtSWF0hcPPCt98ZNfnwL/2Zy9tiFgAA</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=43ed9ca847b1b610d1321af2e16d43ac"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="HR Case Flow">feed9ca847b1b610d1321af2e16d436d</flow>
+        <generation_source/>
+        <order>18</order>
+        <parent_ui_id>d43a7d49-960d-483e-96e6-7fad8d1e26f8</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-16 08:10:40</sys_created_on>
+        <sys_id>6f9553d247313e10d1321af2e16d4349</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-25 09:13:08</sys_updated_on>
+        <ui_id>3f6210ed-cbb0-466a-9a47-379d499f5acc</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VTU/jMBD9K5HPURQ3JZTeVkXsHliQAHGhYDnxpLXW+cB2Ct0q/33HcVoqKFpW4oK0nPDMm/F7L57p3YZIQaYkpRAfndA0T2iSjOJ4NBnTLE0yOhIJBxiTkFS8BERanilg/SEkK65aF3xmdJIcT5KULTXLuWF0+AeY5eYXIoU0jeLr26Hgx1Uww2xw47P5UiqhoSLTu/uQNFxjewuaTDevUh8lq3gGCqE3ju075O26ORg7368NLnyi1sLxiUMCzxYqAUik4MpASEpeCW5rvSZTq1sMaODislLrHWIpK4sNicM+G/kbr53EDlcAKsvB53ZHNpjlw8Upt/waO+e21QM0X9YyB+M9EVDwVtnZfswDLhsr68qX9DKH6lq1ZXXhLSG7Bttvg5EWP5yAxul0zAcZxfWyfrrasjyTVW/JkFR1ztXuxK3VMmut47MhoKDERqzkTSOrBWt0vZJ9MXIpo4XCQ1So+gkvNXJRRTx3xCO0lUdnGD/tw7dcS6fiJ7bB4i4kZm1mihvzogVNZI+tY+KVDRqYt8GV5Fo29htesIKBbhdup0BAfPLuw6LZy0PqH77ZmwB8s3jNvI3jRGw2M3wCFgSjUd5ql4h8vusekC1KcXYsdN02Q8V8OyBzMp2Tc+ArCK7A1GoF2gTfeyQJ5/66HlPE2SQrRkfjY44caSxoMqK8GAFNxTg5Tns4+sOk+CC+ezDLWlv3DXqPZB17dp6OG9WgqHVwSF7LNDyiIy6KGNT5psuhsj1Q173dEv9N/QxT/3G5/n0Gtsv1TIIS5sBQbDcrlOi+BeaH5NV2HZLB7ZAcNiz9rA1L07j/+0J71ov78mt27xf1nYV7/wfNzXWqeAgAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6f9553d247313e10d1321af2e16d4349"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
         <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
@@ -874,15 +1354,87 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-12-10 08:18:42</sys_created_on>
         <sys_id>8fed9ca847b1b610d1321af2e16d43a8</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-12-10 08:46:08</sys_updated_on>
+        <sys_updated_on>2025-12-25 08:18:24</sys_updated_on>
         <ui_id>681830b5-34a7-4ecb-9518-5a995811bb22</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/+1Y0XLaOBT9FUbPhNoYjOEtEybT7uw2M0nal5DxCOk6qCtkIttJKON/77UlYwcICzv0IW1fMtG9uvI51+dYEncrIjgZkUEQdWE47DpT13E8xwn6zAk8mHoDf+BR5pA2UXQOOFMDizXH8ROVWRFYrS400BR46HZYpjWoNM8xz0WykHT51U7DCJsJyTFPRnf3bbKgGldMQZPRaiN1KCRJpyBx6nWFaRNjulwUYx6zbI64QlEF/7aVY5tpfRpjBosKOE6bwEsKigPiiKhMoE3mVHGaxnpJRqnOMICc+ZWSy/WMmVCp4TmnL4n4jg/2usW8CJAYsz1YD0PbHxOOxjSlN7gySzO9blcsGCSmJRwimsn0ohkzE64WqYiVKUnpVFbVsczm6rNpCFkv0HgdWYIgYFHwLJAbWtHNLH6+rkBeClV2xFKUMaNyPaJpqsU0Sws4KwISyhbP6WIh1EO40PGTKIsRyrzzIHHQiWT8jM9MxIPqUFbg7mBXaecS4+My/JVqUZD4B5fB4rxNkmVyIWmS1FSwh+FjViAxxCyFsOyCaUFRx7RYpOf4lCewmPO2lfuU7dUWq6VklqvV/hK6gTcIPD+c6ZDRJHTtP7At+Y/XrQuTOE75B6CrlH9r4W2gtbovh2GZey37sqz12SSs6t39qreRWvZGLztUHzjvSPWW1ruX/X8pHnq+18c/g8hz3K7rBOAHARs6lAW+3+95tYYQAXKgMsRXneDatfbPbaZ1DY+Z0MBbl7FuXalpTDVH8tsOOKDiOGscQKOyRuPZlsebBK1dEnyxJaamVW6qoLVJ90ibvL07uP7vZJRM3G502US2+vxzHFU87osSjxl8KnTkd6f+0An4GY+c6Vkv8PpnlIFzBr7bhz73Wd/1foILHXffl50HO0QaCZDN41aV2DZbI3OcqQ5AtWWqSwvrLbjWUuVw1w5U1m/sQKezVuA478lbv9PRi+0VGzQ2om9xptUOBzzH+t9QxQX5LQ+8yh3nggOAVS74yyDbNMEm4P/jAe+PB359D/T6e6XWONCvv6ssVlwUiJOtAxkk52r55W7HPbyD/ZKgOygg+gA6z+/fOqIducZxzjqA7vomn8nSunvpW1/V5zhb1PRWffqzSeuv3qnu9u/MXr/4PacKFlB3iQbDuwyZ19vSXo1Gw1qTPMPGokeaP4FNiKE7IaMJUbGCCWlPSDErLERZhnEGklonythqlecmkmlqF3Abw7qa02VSzkzYDDhquoy+ioSliWz8FL/AHdCTyrfjDFpj05TtNlXXqwqn6YvY2g9v7IRypQ+3orkv9k+2L/b+2PYUl6lwfd3ATQ+/mie8Ld3/AKBDmxeWFgAA</values>
+        <values>H4sIAAAAAAAA/+1Y0XLaOBT9FUbPhLUxGMNbJkxmu7PbzCRpHzZkPEK6DmqFTGQ7CWX87722ZOwAYWGHPqTtSya6V1c+5/ocS+JuRQQnIzIIoi4Mh11n6jqO5zhBnzmBB1Nv4A88yhzSJorOAWdqYLHmOH6iMisCq9WFBpoCD90Oy7QGleY55rlIFpIuP9tpGGEzITnmyejuvk0WVOOKKWgyWm2kDoUk6RQkTr2uMG1iTJeLYsxjls0RVyiq4N+2cmwzrQ9jzGBRAcdpE3hJQXFAHBGVCbTJnCpO01gvySjVGQaQM79ScrmeMRMqNTzn9CUR3/DBXreYFwESY7YH62Fo+2PC0Zim9AZXZmmm1+2KBYPEtIRDRDOZXjRjZsLVIhWxMiUpncqqOpbZXH00DSHrBRqvI0sQBCwKngVyQyu6mcXP1xXIS6HKjliKMmZUrkc0TbWYZmkBZ0VAQtniOV0shHoIFzp+EmUxQpl3HiQOOpGMn/GZiXhQHcoK3B3sKu1cYnxchj9TLQoS/+AyWJy3SbJMLiRNkpoK9jB8zAokhpilEJZdMC0o6pgWi/Qcn/IEFnPetnKfsr3aYrWUzHK12l9CN/AGgeeHMx0ymoSu/Qe2Jf/ndevCJI5T/gHoKuXfWngbaK3uy2FY5l7LvixrfTQJq3p3v+ptpJa90csO1QfOO1K9pfXuZf9fioee7/XxzyDyHLfrOgH4QcCGDmWB7/d7Xq0hRIAcqAzxVSe4dq39c5tpXcNjJjTw1mWsW1dqGlPNkfy2Aw6oOM4aB9CorNF4tuXxJkFrlwRfbImpaZWbKmht0j3SJm/vDq7/KxklE7cbXTaRrT7/GEcVj/ukxGMGHwod+d2pP3QCfsYjZ3rWC7z+GWXgnIHv9qHPfdZ3vR/gQsfd92XnwQ6RRgJk87hVJbbN1sgcZ6oDUG2Z6tLCeguutVQ53LUDlfUbO9DprBU4znvy1q909GJ7xQaNjehLnGm1wwHPsf4aqrggv+WBV7njXHAAsMoFfxlkmybYBPx/POD99sDP74Fef6/UGgf69XeVxYqLAnGydSCD5Fwt/73bcQ/vYL8k6A4KiD6AzvP7t45oR65xnLMOoLu+yWeytO5e+tZX9TnOFjW9VZ/+bNL6q3equ/07s9dPfs+pggXUXaLB8C5D5vW2tFej0bDWJM+wseiR5k9gE2LoTshoQlSsYELaE1LMCgtRlmGcgaTWiTK2WuW5iWSa2gXcxrCu5nSZlDMTNgOOmi6jryJhaSIbP8UvcAf0pPLtOIPW2DRlu03V9arCafoitvbDGzuhXOmPW9HcF/sn2xd7v217istUuL5u4KaHX80T3pbuvwM3IYPClhYAAA==</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=8fed9ca847b1b610d1321af2e16d43a8"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="HR Case Flow">feed9ca847b1b610d1321af2e16d436d</flow>
+        <generation_source/>
+        <order>22</order>
+        <parent_ui_id>2b018a3d-1dcb-4b14-90e2-053307fbfb71</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-16 08:10:40</sys_created_on>
+        <sys_id>a39553d247313e10d1321af2e16d434b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-16 08:10:40</sys_updated_on>
+        <ui_id>0236cd0a-7cdb-4b63-b845-5b0cbc7b501d</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVXW/aMBT9K8jPKEoIZZS3CYQ2qWslOvHStdHFvgFLzsdsh8IQ/303iRMQVB2V+oLGE75fPufknuRpx6RgI9ZH4Qe3wYCHQRj2fL837AeLQbgIeiIExIB1WQoJUqVGnmlB5zWoogzsdmONYFFEgccLrTG1+z3lhTS5gu3clVGEr6QSlGejp+cuy0HTRIuajXYnqUshKVigotJZg+kUo93m5VlkvEgIVySb4J3rnLhM5/uEMtRUwgn8LsONxVQgAYlBGeyyBFIBNtNbNrK6oACRFg+p2rYVK5nammgCGyP/0M19v6yLkZhxJ0J7jJxAdTiegIVHmsxtoVu9MsnR1JoIjKFQdnwcqwseciuztG6xsFBNd6aKJL2vFWHtgKPnURgCgXnJs0Re04ofV9nrrAE5lWkliaOoMg6qPYG1Wi4KW8LZMVRYaZxAnst0GeU6W8uqmaAk3lLRwYtV9kp3GrlMPeAlbo9UBW9K8UkVnoOWJYkfNIaa911mtmaswJgDFdIw+l2USGpijkJUqVBJEFWbUDZzLXP7la5aowO+77qlX9y8t2H89rBQRzMPi7+JgmH4ZRgOopWOOJgocH/wfPu/zTrjOvExE1wAsTHBz+rRvw3Z+eAsdnfc27mvE84FN5/mguE1ucDRuHob/Gv5/d67r9ejTar23RwtPlQDfxW+H4pq6IuxYP06wIH0UgrFuQku7vuYRy5g0nhkKlEJ8wa1xiCYEGCLUU31xCQu2Zm7ZPu5+DSnBAO/+l2RX/6br8bzX/wZDAAsCQAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a39553d247313e10d1321af2e16d434b"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="HR Case Flow">feed9ca847b1b610d1321af2e16d436d</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id>fbf1348b-ac81-439b-9bbe-e45e7f2e0710</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-16 08:10:40</sys_created_on>
+        <sys_id>a79553d247313e10d1321af2e16d4343</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-16 08:10:40</sys_updated_on>
+        <ui_id>296573bc-2739-4166-a577-d49f62f90b6f</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVXU/bMBT9K5WfqyhpoCt9m1qhTWIglYkXBtGtfUMtOR+znUJX5b/vJnbSCBgqEi9ofYrvh+85p/ckt3smBZuzExRhdBZNeRzF8SQMJ7OTaD2N19FExIAYsTHLIUOq1MgLLei8BVU1gf1+oREsiiQKeKU15rauKS+kKRXsbnwZRfhGKkF5Nr+9G7MSNN1oUbP5/lnqWEgK1qiodNVheo7R7srmLApeZYQrkV3wwncufWb0fUkZamrgROGY4ZPFXCABSUEZHLMMcgG20Ds2t7qiAJEWV7na9RUbmVtHNIMnI//Q5JOwqUuRmHEvQn9MvEAunC7BwjXdzG2le70KydE4TQSmUCm7GMZcwVVpZZG7Fgtr1XUXqsryS6cI6y8Y/B+VIRBYNjwb5I5Wer0pHlcdyHOZt5J4iqrgoPoTWKvlurINnD1Dha3GGZSlzB+SUhdb2TYTlCx4UHQIUlU80kwjH/IAeIM7IFUhOKf4sg3fgJYNiR90DTXXY2Z2ZqHAmAMV0jD5XTVIHDFPIWlVaCVI2k1omrmWpf1Ko7bYA3fBBrTfFHp6pbCu67H3x/r0rWXkZ4fdG4w/eOQpiWbxl1k8TTY64WCSyD/gS6N8W40WLvE+vxwBsfPLz3ZLXofsLfMidjHsHV26hDfM6YcZZvaZDONpfHrH/MMn/fKHkzffxINNavfdDBbfWLDhryoMY8GB1FEKxT20U1y0nfTSBEf3vc8jRzDpPHIuUQnzCrXOIJgRYIuJo/rMJD45uvHJ/svyYU6JpmH7+0R++V8+MPXdX7xskepXCQAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a79553d247313e10d1321af2e16d4343"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="HR Case Flow">feed9ca847b1b610d1321af2e16d436d</flow>
+        <generation_source/>
+        <order>10</order>
+        <parent_ui_id>620d5b01-d9d8-43a9-9c3e-8ba100ba780b</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-16 08:10:40</sys_created_on>
+        <sys_id>a79553d247313e10d1321af2e16d4346</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-16 08:10:40</sys_updated_on>
+        <ui_id>00d9bc71-9b21-435d-a03f-e5638192ce5e</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVXW/aMBT9K8jPKEoIZZS3CYQ2qWslOvHStdHFvgFLzsdsh8IQ/303iRMQVB2V+oLGE75fPufknuRpx6RgI9ZH4Qe3wYCHQRj2fL837AeLQbgIeiIExIB1WQoJUqVGnmlB5zWoogzsdmONYFFEgccLrTG1+z3lhTS5gu3clVGEr6QSlGejp+cuy0HTRIuajXYnqUshKVigotJZg+kUo93m5VlkvEgIVySb4J3rnLhM5/uEMtRUwgn8LsONxVQgAYlBGeyyBFIBNtNbNrK6oACRFg+p2rYVK5nammgCGyP/0M19v6yLkZhxJ0J7jJxAdTiegIVHmsxtoVu9MsnR1JoIjKFQdnwcqwseciuztG6xsFBNd6aKJL2vFWHtgKPnURgCgXnJs0Re04ofV9nrrAE5lWkliaOoMg6qPYG1Wi4KW8LZMVRYaZxAnst0GeU6W8uqmaAk3lLRwYtV9kp3GrlMPeAlbo9UBW9K8UkVnoOWJYkfNIaa911mtmaswJgDFdIw+l2USGpijkJUqVBJEFWbUDZzLXP7la5aowO+77qlX9y8t2H89rBQRzMPi7+JgmH4ZRgOopWOOJgocH/wfPu/zTrjOvExE1wAsTHBz+rRvw3Z+eAsdnfc27mvE84FN5/mguE1ucDRuHob/Gv5/d67r9ejTar23RwtPlQDfxW+H4pq6IuxYP06wIH0UgrFuQku7vuYRy5g0nhkKlEJ8wa1xiCYEGCLUU31xCQu2Zm7ZPu5+DSnBAO/+l2RX/6br8bzX/wZDAAsCQAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a79553d247313e10d1321af2e16d4346"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
         <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
@@ -892,23 +1444,71 @@
         <display_text/>
         <flow display_value="HR Case Flow">feed9ca847b1b610d1321af2e16d436d</flow>
         <generation_source/>
-        <order>4</order>
+        <order>8</order>
         <parent_ui_id>1bd5ac69-ae5b-48bf-8893-5c512557b914</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-12-10 08:18:42</sys_created_on>
         <sys_id>cfed9ca847b1b610d1321af2e16d43a9</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-12-14 07:35:38</sys_updated_on>
+        <sys_updated_on>2025-12-16 08:10:40</sys_updated_on>
         <ui_id>b8be3778-1081-41e2-a49a-bc3f9e74634c</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1YXXPiNhT9K4yeCbUxGMNbJkym22k3M0l2X0LGI6RrUCtkIttJKMN/77UlfwQIhQ77kGZfGHQ/pHOvz7EkP6yJ4GREBkHUheGw60xdx/EcJ+gzJ/Bg6g38gUeZQ9pE0QVgpAYWa47jZyqz3LBeX2mgKfDQ7bBMa1DpZoN+LpKlpKvvNgwtbC4kRz8ZPTy2yZJqnDEFTUbrLdexkCSdgsTQ2xLTNsZ0tczHPGbZAnGFojT+bjPH1tP6MkYPJuVwnDaB1xQUB8QRUZlAmyyo4jSN9YqMUp2hAWvmN0quqoi5UKmpc0FfE/E3Lux187gIsDBme1ANQ9sfY47GNKV3ODNLM121KxYMEtMSDhHNZHrVtJmAm2UqYmVSUjqVZXYss4X6ahpCqgkajyNLEAQs8zpz5Kas6G4ev9yWIK+FKjpiS5Qxo7Ia0TTVYpqlOZw1AQlFixd0uRRqFi51/CyKZISy6MwkDjqRjF9wzUTMVIeyHHcHu0o712gfF+bvVIu8iD9wGkzetEmySq4kTZK6FOxh+JTlSExhtoSw6IJpQZ7HtFiml7jKM1jMm7al+5Qd5BarqWSmq9n+GrqBNwg8P5zrkNEkdO0f2KX8r7etK+M4jflHoCuZf2/hbaG1vC+GYeF7S/sirfXVOCzr3cOst5aa9oYve1gfOB+I9basD0/7f2M89Hyvjz+DyHPcrusE4AcBGzqUBb7f73k1hxAB1kBliI86wblr7l9aT+sWnjKhgbeuY926iaJpTDXH6id6VwTHJZ0mkCOKKQXSWN5W826ZVjQJPl412xLMXWm0YumeKJb39wjX/0xyycT9VpeNZafPP0ZX+XLflHjK4EvOI7879YdOwC945EwveoHXv6AMnAvw3T70uc/6rvcDtOi4h97vPNhD0kiAbB66Sseu3hqe00R1BKodUV1bWO/BtZIqhvv2oSJ/ax86n7QCx/lI2vpMBzB2kGzQ2I7+jDOt9ijgJdZ/hSrOi9/RwBvfaSo4Alipgt8Msm0RbAP+Lxrwfmrg/6+BXv8g1RrH+uq9ymLFRY442TmWQXKpVt8e9tzGO9gvCbqDBKIz0JvN43untBPnOE1ZR5Rb3eczWUj3YPlWV/U5ziY1tVWf/qzT6qt3rhv+B5PXZ7ntsINci4Y1t3iGDUKuNz9oTYiBPSGjCVGxgglpT0geFebkKswYgeAqR2FbrzcbY8k0tRO4jWGdzekqKSITNgeO3CysbyxhIQZrP8f3tCN6UupvnEFrbJqy26bymlTiNH0RO/vanQ0oZvrlXjT3t/7Z9rfeT/md41IUVtcG3Lzw7XdGTT7+AyCYqWhkFgAA</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=cfed9ca847b1b610d1321af2e16d43a9"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="HR Case Flow">feed9ca847b1b610d1321af2e16d436d</flow>
+        <generation_source/>
+        <order>24</order>
+        <parent_ui_id>96b2f65e-69c2-4789-9497-a5af564aab46</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-16 08:10:40</sys_created_on>
+        <sys_id>e39553d247313e10d1321af2e16d434c</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-25 09:13:08</sys_updated_on>
+        <ui_id>3afe3548-b14c-479c-95f0-947ba30a477c</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VTU/jMBD9K5HPURQ3JZTeUBG7h12QAHGhYDnxpLXW+cB2Ct0q/33HcVoqKFpW4oK0nPDMm/F7L57p3YZIQaYkpRAfndA0T2iSjOJ4NBnTLE0yOhIJBxiTkFS8BERanilg/SEkK65aF3xmdJIcT5KULTXLuWF0+AeY5eYXIoU0jeLr26Hg+1Uww2xw47P5UiqhoSLTu/uQNFxjewuaTDevUh8lq3gGCqE3ju075O26ORj7sV8bXPhErYXjE4cEni1UApBIwZWBkJS8EtzWek2mVrcY0MDFZaXWO8RSVhYbEod9NvI3XjuJHa4AVJaDz+2ObDDLh4szbvk1ds5tqwdovqxlDsZ7IqDgrbKz/ZgHXDZW1pUv6WUO1bVqy+rCW0J2DbbfBiMtfjgBjdPpmA8yiutl/XS1ZXkuq96SIanqnKvdiVurZdZax2dDQEGJjVjJm0ZWC9boeiX7YuRSRguFh6hQ9RNeauSiinjuiEdoK4/OMX7Wh2+5lk7FT2yDxV1IzNrMFDfmRQuayB5bx8QrGzQwb4MrybVs7ClesIKBbhdup0BAfPLuw6LZy0PqH77ZmwB8s3jNvI3jRGw2M3wCFgSjUd5ql4h8vusekC1KcXYsdN02Q8V8OyBzMp2TG81XoIIrMLVagTbBtx5Kwrm/rwdBmk2KYnQ0PuZIksaCJiPKixHQVIyTo6SHo0FMig/iuwezrLV1H6E3SdaxpzfwccMaFLUODglsmYZH9MRFEYNK37Q5VLYH6rq3e+K/rZ9j6z8u2L/PwXbBnktQwhwYjO12hRL9t8D8oLzasEMyuB2Sw5aln7VlaRr3f19o13pxX37V7v2qvrN07/8A5U6aB3wIAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e39553d247313e10d1321af2e16d434c"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="HR Case Flow">feed9ca847b1b610d1321af2e16d436d</flow>
+        <generation_source/>
+        <order>12</order>
+        <parent_ui_id>033ca525-4c09-4896-8da6-c93ad69beeae</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-16 08:10:40</sys_created_on>
+        <sys_id>e79553d247313e10d1321af2e16d4347</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-25 09:13:08</sys_updated_on>
+        <ui_id>8c42ba3a-0e4b-4fec-8ac1-0a4c1bb1ca70</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VwU7jMBD9lcjnKIqbUkpvqIjdwy5IgLhQsJx40lrrxMF2Ct2q/77jOC0VFC0rcUHanuqZNzNvnj2TuzWRgkzIiEJ6dEJHRUazbJCmg/GQ5qMspwORcYAhiUnNK0Ck47kC1h1isuSq9cZnRsfZ8TgbsYVhBbeM9n+AOW5/IVJI2yi+uu0Dvl9FU/RGN8FbLKQSBmoyubuPScMNpndgyGT9yvVRsornoBB649m+Q96tmoO2H/ux0UVwaCM8nzQm8OygFoBESq4sxKTiteBOmxWZONOiwQAXl7Va7RALWTtMSDz22crfWHacelwJ2FkBwbc7sl6sYC7PuOPXmLlwremhxULLAmzQREDJW+Wm+7YAuGyc1HUI6drso7Vqq/oiSEJ2CbZ3g5YWL05A4/v0zPs2yuuFfrrasjyXdSdJ71S64Gp34s4ZmbfO81kTUFBhIlbxppH1nDVGL2UXjFyqZK7wkJRKP2FRK+d1wgtPPEFZeXKO9rPOfMuN9F38xDQYvImJXdmp4ta+9IIissfWMwmd9T2wIIMPKYxs3CkWWEJPdxNvp0BAevLuw6L5y0PqHr7dmwB8s1hm1qZpJtbrKT4BB4LRpGiNdyTBv9k8IFtsxcsxN7pt+ojZdkBmZDIjl2WZa24EahVdgdVqCcZG3zo8iWehaIcU+cm4zAdHw2OOTGkqaDagvBwAHYlhxocdHFViUnwQv3mwC22cv4lOKanTwHGflB/bqNQmOtRqyww8ojreihjs+U2uQ2F7oM3m7cb4L/BnC/yPS/fvs7FduucSlLAHhmW7caHCm3DAwvC82rq9M7rtnf3mpZ+1eeko7X5faP+G5r78+t370r6ziO//APTcoOmQCAAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e79553d247313e10d1321af2e16d4347"/>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=feed9ca847b1b610d1321af2e16d436d"/>
-    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=feed9ca847b1b610d1321af2e16d436d^sys_idNOT IN03ed9ca847b1b610d1321af2e16d43a2,43ed9ca847b1b610d1321af2e16d43a7,4bed9ca847b1b610d1321af2e16d43a4,4fed9ca847b1b610d1321af2e16d43a5"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=feed9ca847b1b610d1321af2e16d436d^sys_idNOT IN03ed9ca847b1b610d1321af2e16d43a2,239553d247313e10d1321af2e16d435d,279553d247313e10d1321af2e16d4353,2b9553d247313e10d1321af2e16d435e,2f9553d247313e10d1321af2e16d4351,43ed9ca847b1b610d1321af2e16d43a7,4bed9ca847b1b610d1321af2e16d43a4,4fed9ca847b1b610d1321af2e16d43a5,7b9553d247313e10d1321af2e16d4370,a79553d247313e10d1321af2e16d4357,af9553d247313e10d1321af2e16d4358,bb9553d247313e10d1321af2e16d4362"/>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
         <attributes/>
         <block display_value="">0a5210204731b610d1321af2e16d43f0</block>
@@ -927,18 +1527,153 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-12-10 08:18:42</sys_created_on>
         <sys_id>03ed9ca847b1b610d1321af2e16d43a2</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-12-14 07:35:38</sys_updated_on>
+        <sys_updated_on>2025-12-25 09:13:07</sys_updated_on>
         <ui_id>3012f297-9e4b-4672-a86f-537e973014d1</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/+1VXWvbMBT9K0PPxvijCWvfSkph0K2wlr5sxVxLciImS54+kmYm/31XluOENmML2+PerCPdq3OO7sE90d513tlHfW2tWCpy9eU5IUIFDL97oqDl5IpQrZhwQqtqABKyBunDBn4yYTsJ26cDQldCMsPHbh0YrHHckKv+1ZZgWNBk0OSXNKdlMS+LLCveX+T1vKzzgpXAocSGEmou8ehiT+Pd3YAkv+Tntl3ArTNCLcf13djlYQ9qwwKrPEsIf3FcMY58GpCWJ6QFxcBps50Qw4HdK3kAVkK5KLiFFyt+4IXFbBYONhwl0tGNaVmNTkW4uQEHSMVT581knBaU22gO4w146RbHWDxw3wWpscRBLffVWvpWfYqOkKnB0cN4iyR4F5QG6qOO5mGlN5/3LG+FGlwZN6WmIKcVOPSu9i7w6QmXvMVGVQtdh45WndFrMRQjlzZdSlykjdQbvDRMVwo0EE/RWEhvEb8Z4CcwIqj4iG2wONKswQpaDZOI7dAmTnYJsVu7kGDtQSS6W333gWKUPIqroj+hhBrRuWu8ec1HHbvk7WAfzXTfL/CtHWdVnlJv0BWXUlwvcRp2u68+y0qmVa3BsDhHrxJwdv15ebmEWTPLs9npvFzMT+XlRFLODEnxm5CEF/rDjGRZ9j8kfx0SYas42qO24fJ/mJHnEIh45+Q1FRapPQbsw/4fETa2OFyCHkMbbb4FUQds9xPjPRNRbQYAAA==</values>
+        <values>H4sIAAAAAAAA/+1VXWvbMBT9K0HPxvijCWveSkph0C2wlr5sxVxLciImS54kJ81M/vuuLDsJXbY1bI97i47uxznHOqQjunVN6+yjvrFWrBSZf36OiFAew98dUVBzMidUKyac0KrogYhsQLb+YgGOr7TZTb60SZKzyVKVGgwTaoVFTNhGwu7pLbV0LSQzfGDQgME9jhsy715dCYajqgSq9JqmNM9meZYk2burtJzlZZqxHDjkOFBCyaXfOlKf3PdI9EtNbtd43DoTKPnz/TDlYQS1YZ5VmkSEvziuGEc+FUjLI1KDYuBQ4QExHNhSySOwFsrhOOKLX6z4jguz6dQXVhwlUh4uD8di8DDA1S04QCotda0ZSulaC8ptMIfxClrpFqdYKFg2XmpocVDKsVvLtlYfgyPkMGD8ZIi0Fknwxiv11Acd1cNabz+NLO+E6l0ZLqWmIA8ncOhd2TrPpyNc8hoHFTU0DTpaNEZvRN+MXOp4JfEQV1Jvcal/kTFQTzxGYyG+Q/y2h5/ACK/iA47B5kCzBCto0b9eHIc2cbKPiN3ZhQRrjyLR3eJb6ykGyYO4IvjjW6gRjbvBzRs+6NhHP4fhJAddt8Bv7Tgr0pi2Bl1xMR3e+34fHrz+TTYu7r8sL9cwraZpMj2fl6vZubycScqFIcn+EBL/hd6YkSRJ/ofkr0MibBGe9qCtX/4PM/LsAxF2HrymwiK1R4+9H/9X/MUOH5egp9BWm69e1BHb/wCxvoZeoQYAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">bbd4641247f57a10d1321af2e16d4381</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="HR Case Flow">feed9ca847b1b610d1321af2e16d436d</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>15</order>
+        <outputs_assigned/>
+        <parent_ui_id>4278cc85-6381-403c-9455-9e5575e59e04</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-16 08:10:40</sys_created_on>
+        <sys_id>239553d247313e10d1321af2e16d435d</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-25 09:13:08</sys_updated_on>
+        <ui_id>0034a5d3-0236-413f-9a0c-ec1989bd1c25</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VyW7bMBD9lYBnWdDm9RY4CFogbYAkyKUNhBE1stlSoipSdlzB/96hFtto3CVojr2Zb7b3RvPghqnalLXRD+pSa7Eq2OLTk8NEYTH63bACcmQLxlWRCiNUEbeAwzYgaxu4wy/IbeDiHRSpFMWKgqnQpYTd4+9y+FrItMJ+YgkV9TVYsUXzU0ik1CLzIPPn3OdhMAkDzwtmkZ9MwsQP0hAQQmooIUFJqcuB6sVNizi/1GB2pcW1qTpK9n3Td7kfQFWllpXvOQyfDRYpEp8MpEaH5SQHjKp2B6RCSG8LeQTWojDUjtnkZy2+08BgPLaJGZJEjl3w8Iz73XVwdgUGiErNTV31qXytBEfdLSfFDGpplqdYl3BbWqldiYFEDtVK1nnxsdsIOzQYPhUhtSYSWFqllnqvI7tfq+3dwPJaFO1W+qBUHOThBYZ2l9TG8mkYSsypUZxDWdJG47JSG9EWE5fcXUl6uJlUWxpqL9CF9lRcWiy414RftfAjVMKq+EBtqLijmYAWPG6vldrRmpDtHaZ3eilB66NI2m78rbYUO8m9uLjbjy3hlSjNJU3eYK9j77w8/pO7b5pklmA4nc5GvjfzR5GPwQiiOYwSHmZznEaTMOIusSW9IGNtwOB+/7n2vJBu2xqCDumFVd6q7evcNYdxNva98Xl3RZNz7jrjq1daKviDpez3/EtHeZ7331L/bCmh484IvbZ2+Bs66snap5t52DUXmqg9WOz98K9jAzs6LsFPoa2qvlpRR2z/A4A2WI2/BgAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">bfd4641247f57a10d1321af2e16d4371</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="HR Case Flow">feed9ca847b1b610d1321af2e16d436d</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <parent_ui_id>3012f297-9e4b-4672-a86f-537e973014d1</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-16 08:10:40</sys_created_on>
+        <sys_id>279553d247313e10d1321af2e16d4353</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-25 09:13:08</sys_updated_on>
+        <ui_id>605a4d4d-59ce-423a-a6cb-219bb6cd8766</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VXW/aMBT9K5OfQ5QPwoA3RFVpUrdKa9WXrYpubAesOXZmO1CG+O+7zgeglmqr1se94XN9r885uUfsiW5c3Th7rxfWipUi82+PARHKY/h7TxRUnMwJ1YoJJ7TKWyAgG5CNLyzq2ugNZwgxYWsJu4eXFboWkhneT6/B4AzHDZnvn5UEw8YygjKe0ZimySRNoiiZjuNikhZxwlLgkOJACQWXeHU50Ppw0yLBq3zdrva4dUaoVX++6afcDaA2zLOKo4DwJ8cVQ/bzEqTlAalAMXDa7I6I4cBulTwBa6EcjiP+8pMVv/DBJMv8xZKjRMq74vGY9451cHkFDpBKQ11j+qt0rQXltjOH8RIa6ZbnWHfhtvZSuxYHhRy6tWwq9aVzhBwHDB8IkcYiCV57pZ56r6O8W+vt14HltVCtK31RagryeAKH3hWN83z2hEte4aC8grpGR3O/AKJtRi5VuJJ4CEupt/io37YQqCceorEQXiN+1cIPYIRX8RnHYHNHswAraN5uJo5Dmzg5BMTu7FKCtSeR6G7+s/EUO8m9uLzzx7dQI2q3wJc3vNdxCF4u+tmO7/eTaTxNoyIbpWP4OBpzWoxmWTwdZTCbZdM4LookCaFdeJC5deD44fC9iaKUwasBea+xb0vXDLIyi6PscrrGk0vpupCrN0Yq+UOk/Pf8y0RFUfQ/Uv8cKWHzLgi9tvbxd0zUo49P9+bRayosUrv32KfhH8YXdrhcgp5DW21+eFEn7PAbH0Vr7KsGAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">bbd4641247f57a10d1321af2e16d4384</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="HR Case Flow">feed9ca847b1b610d1321af2e16d436d</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>17</order>
+        <outputs_assigned/>
+        <parent_ui_id>4278cc85-6381-403c-9455-9e5575e59e04</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-16 08:10:40</sys_created_on>
+        <sys_id>2b9553d247313e10d1321af2e16d435e</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-25 09:13:08</sys_updated_on>
+        <ui_id>d43a7d49-960d-483e-96e6-7fad8d1e26f8</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Vy27bMBD8FYNnWaAky6+b4SBAgbQB6iCXNhBWJBUTpURVpOK4gv+9Sz1sI3XQBM2xN3N2uTsz4sAN0bUta2vu9MoY+ViQ5bcHj8jCYfi7IQXkgiwJ0wWXVuoiaQGPPIGqXWFVlpXGw2hjwYqRNKMOERybuDSlgv39W3rZVipeiZ5BCRXusaIiy+ZFSXIclVHIggULWBROo5DScD4J0mmUBiGPQECEAxWkQmHreqA+umkR71VNdl863NhKFo/9+aafshlAXXHHKqAeEc9WFBzZLzNQRngkh4KD1dX+iFQC+G2hTsBWFhbHEdf8bOQvXBjGsWvMBEpkoisej0nvYQdnV2ABqdTM1lXfyrZaMmE6c7jIoFZ2fY51Dbelk9pdsZCq4bZWdV586RwhxwHDJ0OkNkhClE6po97ryDZbvfs6sLyWRetKX1SagTqewKJ3aW0dn4YIJXIclORQluho4h6AbC8jl9x/VHjwM6V3uNS9SB+YI+6jseBfI37VwvdQSafiM47Byx3NFIxkSft6cRzaJMjBI2Zv1gqMOYlEd5OftaPYSe7FJZ0/7gqrZGlXuPlJ9DoO3p9hOMtB0yzSKJgGnI7ncUjHk8VCjBd0Fo2B83A2mQXzCXAf+ggkxkXgcPheUxpxeDUyHzX2felaQJzFAY0vp2syvZSuC7l6Z6TCv0TKfc83JopS+j9S/xwpaZIuCL22dvkHJurBxafbefSaSYPU7hz2afgXcoU9Pi7JzqGdrn44USfs8Bt5albEzwYAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">f7d4641247f57a10d1321af2e16d4361</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="HR Case Flow">feed9ca847b1b610d1321af2e16d436d</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <parent_ui_id>3012f297-9e4b-4672-a86f-537e973014d1</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-16 08:10:40</sys_created_on>
+        <sys_id>2f9553d247313e10d1321af2e16d4351</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-25 09:13:07</sys_updated_on>
+        <ui_id>fbf1348b-ac81-439b-9bbe-e45e7f2e0710</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Vy27bMBD8lYJnWdDDcm3fAgcBCqQNkAS5tIGwoiibLUWqJGXHFfzvXeplI3HQBs2xN3OWu5wZ7cANUbWtamvu1YUxfC3J8uujR7h0GP5uiISSkSWhSubcciXTFvDIFkTtCrfsO6OW5Qjl3FQC9g8vK3TDRa5ZP70CjTMs02TZPCvxHBuLAIpwQUMaR7M4CoJoPg2zWZyFUR4DgxgHCsiYwKurgdaH6xbxXuVr95XDjdVcrvvzdT/lbgCVzh2rMPAIe7JM5sh+WYAwzCMlyBys0vsR0QzyGymOwIZLi+OIu/xk+C98MEoSd7FgKJGyrjge096xDi4uwQJSqamtdX+VbhSnzHTm5KyAWtjVKdZduKmc1K7FQiaGbiXqUn7pHCHjgOEDIVIbJMEqp9RR73UUdxu1ux1YXnHZutIXhaIgxhNY9C6rrePTECZYiYPSEqoKHU0rrba8bUYupb8WePALoXb4qNs2H6gj7qOx4F8hftnCD6C5U/EZx2BzRzMDw2nabiaOQ5sYOXjE7M1KgDFHkehu+rN2FDvJvbi088e1UM0re4Evb1mv4+C9XPSTHW+a2Tycx0GWTOIpfJxMGc0miyScTxJYLJJ5GGZZFPnIFvWCSI0Fyw6Hb3UQxLjbrwXkvca+LV0LSIokDJLz6ZrOzqXrTK7eGKnoD5Fy3/MvExUEwf9I/XOkuEm7IPTa2sffMVGPLj7dm6PXlBukdu+wT8M/jCvscbk4PYV2Sv9woo7Y4TdChtL6qwYAAA==</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
         <attributes/>
         <block display_value="">ad2bdc2047b1b610d1321af2e16d43b5</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="HR Case Flow">feed9ca847b1b610d1321af2e16d436d</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>19</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-10 08:18:42</sys_created_on>
+        <sys_id>43ed9ca847b1b610d1321af2e16d43a7</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-25 09:13:08</sys_updated_on>
+        <ui_id>501ec9f6-d03e-47cd-9db8-2677151c520a</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Vy27bMBD8FYNnQdAjNhrfAgcBCqQN0Bi5tIGwIimbKEWqfNhxBf97l3rYRuogNdpjb+ZwuTsz2oFbor1rvLNLfWOtWCky//ocEaEChr9boqDmZE6oVkw4oVXRARHZgPThYgGOr7TZTb75JMnZZGlgwyUWMGEbCbun9+roWkhm+DC5AYP9HTdk3r66EgzbVAlU6TVNaZ7N8ixJsg9XaTnLyzRjOXDIsaGEEhvjxJHy5L5Doje1uF0TcOuMUKvhfD90eRxBbVhglSYR4S+OK8aRTwXS8ojUoBg4VHdADAf2oOQRWAvlsB0JxS9W/MSB2XQaCiuOEinvLw/HYvCvh6tbcIBUPHXeDKV0rQXltjeH8Qq8dItTrC94aILU/omDUo6vtfS1+tw7Qg4Nxs+FiLdIgjdBaaA+6Kge13r7ZWR5J1TnynApNQV5OIFD70rvAp+WcMlrbFTU0DToaNEYvRHdY+RSxyuJh7iSeotDwybGQAPxGI2F+A7x2w5+AiOCik/YBh/3NEuwghbd1mI7tImTfUTszi4kWHsUie4WP3yg2EsexBW9P+EJNaJxNzh5wwcd++j3EJzsf9su8Fs7zoo0pt6gKy6mw67v9/2yuzcycdHby3JyDdNqmibT8zm5mp3LyZmEXBiO7J1whC/zh9lIkuR/OP46HMIW/UoP2rrh/zAbzyEI/cyD11RYpLYM2MfxfyRc7HC5BD2Fttp8D6KO2P4XB3wMopEGAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">76a7d4a04771b610d1321af2e16d43a7</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -953,41 +1688,14 @@
         <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-12-10 08:18:42</sys_created_on>
-        <sys_id>43ed9ca847b1b610d1321af2e16d43a7</sys_id>
-        <sys_mod_count>10</sys_mod_count>
-        <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-12-14 07:35:38</sys_updated_on>
-        <ui_id>501ec9f6-d03e-47cd-9db8-2677151c520a</ui_id>
-        <updation_source/>
-        <values>H4sIAAAAAAAA/+1VXWvbMBT9K0PPxvijCWvfSkph0K2wlr5sxVxLciImS54+kmYm/31XluOENmML2+PerCPdq3OO7sE90d513tlHfW2tWCpy9eU5IUIFDL97oqDl5IpQrZhwQqtqABKyBunDBn4yYTsJ26cDQldCMsPHbh0YrHHckKv+1ZZgWNBk0OSXNKdlMS+LLCveX+T1vKzzgpXAocSGEmou8ehiT+Pd3YAkv+Tntl3ArTNCLcf13djlYQ9qwwKrPEsIf3FcMY58GpCWJ6QFxcBps50Qw4HdK3kAVkK5KLiFFyt+4IXFbBYONhwl0tGNaVmNTkW4uQEHSMVT581knBaU22gO4w146RbHWDxw3wWpscRBLffVWvpWfYqOkKnB0cN4iyR4F5QG6qOO5mGlN5/3LG+FGlwZN6WmIKcVOPSu9i7w6QmXvMVGVQtdh45WndFrMRQjlzZdSlykjdQbvDRMVwo0EE/RWEhvEb8Z4CcwIqj4iG2wONKswQpaDZOI7dAmTnYJsVu7kGDtQSS6W333gWKUPIqroj+hhBrRuWu8ec1HHbvk7WAfzXTfL/CtHWdVnlJv0BWXUlwvcRp2u68+y0rmDKyHAXw1/WfVnpeTS5g1szybnc7JxfxUTk4k5MxwFL8JR3iZP8xGlmX/w/HX4RC2iiM9ahsu/4fZeA5BiHdOXlNhkdpjwD7s/w1hY4vDJegxtNHmWxB1wHY/AUFoQ35lBgAA</values>
-        <workflow_reference/>
-    </sys_hub_flow_logic_instance_v2>
-    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
-        <attributes/>
-        <block display_value="">76a7d4a04771b610d1321af2e16d43a7</block>
-        <comment/>
-        <connected_to/>
-        <decision_table/>
-        <display_text/>
-        <flow display_value="HR Case Flow">feed9ca847b1b610d1321af2e16d436d</flow>
-        <flow_variables_assigned/>
-        <generation_source/>
-        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>3</order>
-        <outputs_assigned/>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-12-10 08:18:42</sys_created_on>
         <sys_id>4bed9ca847b1b610d1321af2e16d43a4</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-12-14 07:35:38</sys_updated_on>
+        <sys_updated_on>2025-12-25 09:13:08</sys_updated_on>
         <ui_id>1bd5ac69-ae5b-48bf-8893-5c512557b914</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/+1VXWvbMBT9K0PPxvijCWvfSkph0K2wlr5sxVxLciImS54+kmYm/31XluOENmML2+PerCPdq3OO7sE90d513tlHfW2tWCpy9eU5IUIFDL97oqDl5IpQrZhwQqtqABKyBunDBn4yYTsJ26cDQldCMsPHbh0YrHHckKv+1ZZgWNBk0OSXNKdlMS+LLCveX+T1vKzzgpXAocSGEmou8ehiT+Pd3YAkv+Tntl3ArTNCLcf13djlYQ9qwwKrPEsIf3FcMY58GpCWJ6QFxcBps50Qw4HdK3kAVkK5KLiFFyt+4IXFbBYONhwl0tGNaVmNTkW4uQEHSMVT581knBaU22gO4w146RbHWDxw3wWpscRBLffVWvpWfYqOkKnB0cN4iyR4F5QG6qOO5mGlN5/3LG+FGlwZN6WmIKcVOPSu9i7w6QmXvMVGVQtdh45WndFrMRQjlzZdSlykjdQbvDRMVwo0EE/RWEhvEb8Z4CcwIqj4iG2wONKswQpaDZOI7dAmTnYJsVu7kGDtQSS6W333gWKUPIqroj+hhBrRuWu8ec1HHbvk7WAfzXTfL/CtHWdVnlJv0BWXUlwvcRp2u68+y0qmm6bWYFgcpFcROL/BeYm5hFkzy7PZ6cRczE8l5kRWzoxJ8ZuYhDf6w5RkWfY/Jn8dE2GrONyjtuHyf5iS5xCJeOfkNRUWqT0G7MP+LxE2tjhcgh5DG22+BVEHbPcTZ5LA5W8GAAA=</values>
+        <values>H4sIAAAAAAAA/+1Vy27bMBD8FYNnQdAjNhrfAgcBCqQ10AS5tIGwIimbKCWqfNhxBf97l6JkG6nbxmiPvZnD5e7MaAfuiHK2ddY8qhtjxKoh88/PERGNx/B3RxqoOZkTqhomrFBN0QMR2YB0/mIBlq+U3k2+uCTJ2WRZVaUCzUSzwiomTCth9/SmYroWkmk+cGhB4yTLNZl3r64Ew15VAlV6TVOaZ7M8S5Ls3VVazvIyzVgOHHJsKKHk0o8dyU/ueyT6pSq7az1urA6U/Pl+6PIwgkozzypNIsJfLG8YRz4VSMMjUkPDwKLEA6I5sGUjj8BaNBbbEV/8YsR3HJhNp76w4iiR8nB5OBaDiQGubsECUnHUOj2U0rUSlJtgDuMVOGkXp1goWLZeanhioZTjayVd3XwMjpBDg/GbIeIMkuCtV+qpDzqqh7XafhpZ3ommd2W4lIqCPJzAonels55PR7jkNTYqamhbdLRotdqI/jFyqeOVxENcSbXFoX4nY6CeeIzGQnyH+G0PP4EWXsUHbIOPA80SjKBFv7/YDm3iZB8RszMLCcYcRaK7xTfnKQbJg7gi+OOfUC1ae4OTN3zQsY9+jsNJErpugd/aclakMXUaXbExHRZ+vw8br36XjssbXJaYa5hW0zSZnk/M1excYs5k5cKYZH+Iif9Gb0xJkiT/Y/LXMRGmCMs9aOuH/8OUPPtIhJkHr6kwSO3RY+/H/xZ/scPlEvQU2ir91Ys6YvsfLt66E6UGAAA=</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
@@ -1001,20 +1709,128 @@
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>5</order>
+        <order>13</order>
         <outputs_assigned/>
         <parent_ui_id/>
         <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-12-10 08:18:42</sys_created_on>
         <sys_id>4fed9ca847b1b610d1321af2e16d43a5</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-12-14 07:35:38</sys_updated_on>
+        <sys_updated_on>2025-12-25 09:13:08</sys_updated_on>
         <ui_id>4278cc85-6381-403c-9455-9e5575e59e04</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/+1VXWvbMBT9K0PPxvijCWvfSkph0K2wlr5sxVxLciImS54+kmYm/31XluOENmML2+PerCPdq3OO7sE90d513tlHfW2tWCpy9eU5IUIFDL97oqDl5IpQrZhwQqtqABKyBunDBn4yYTsJ26cDQldCMsPHbh0YrHHckKv+1ZZgWNBk0OSXNKdlMS+LLCveX+T1vKzzgpXAocSGEmou8ehiT+Pd3YAkv+Tntl3ArTNCLcf13djlYQ9qwwKrPEsIf3FcMY58GpCWJ6QFxcBps50Qw4HdK3kAVkK5KLiFFyt+4IXFbBYONhwl0tGNaVmNTkW4uQEHSMVT581knBaU22gO4w146RbHWDxw3wWpscRBLffVWvpWfYqOkKnB0cN4iyR4F5QG6qOO5mGlN5/3LG+FGlwZN6WmIKcVOPSu9i7w6QmXvMVGVQtdh45WndFrMRQjlzZdSlykjdQbvDRMVwo0EE/RWEhvEb8Z4CcwIqj4iG2wONKswQpaDZOI7dAmTnYJsVu7kGDtQSS6W333gWKUPIqroj+hhBrRuWu8ec1HHbvk7WAfzXTfL/CtHWdVnlJv0BWXUlwvcRp2u68+y0omOaz52+E/p/S8lFzCrJnl2ex0Si7mp1JyIh9nRqP4TTTCu/xhMrIs+x+Nv46GsFUc6FHbcPk/TMZziEG8c/KaCovUHgP2Yf9nCBtbHC5Bj6GNNt+CqAO2+wlr595yYwYAAA==</values>
+        <values>H4sIAAAAAAAA/+1VXWvbMBT9K0HPxthxE9a+lZTCIFthLX3ZirmW5ERMljx9JM1M/vuuLDsJW0YXtse9RedK955zfA/piPau9c4+6VtrxUqRm88vCREqYPi7IwoaTm4I1YoJJ7QqeyAhG5A+FBbg+Eqb3eSLz7KCTZYcNqHOhG0l7J7fuEbXQjLDh7ktGOzuuCE33U8lwbBLnUGdX9OcFtN5Mc2y6burvJoXVT5lBXAosKGEisswcCQ8WfZI8lslbtcG3Doj1Go4L4cujyOoDQus8iwh/NVxxTjyqUFanpAGFAOH4g6I4cAelDwCa6EctiPh8qsV33HgdDYLF2uOEimPxcOxHOyLcH0HDpCKp86b4Spda0G5jeYwXoOXbnGKxQsPbZAanzio5PhaS9+oj9ERcmgwfi1EvEUSvA1KA/VBR/241ttPI8t7oXpXhqLUFOThBA69q7wLfDrCJW+wUdlA26KjZWv0RvSPkUuTriQe0lrqLQ4Ne5gCDcRTNBbSe8TvevgZjAgqPmAbfBxpVmAFLfudxXZoEyf7hNidXUiw9igS3S2/+UAxSh7EldGf8IQa0bpbnIy7GXXsk18jcLL9XbfAb+04K/OUeoOuuJQOq77fx12X5xNxydPLUnINs3qWZ7PzKbman0vJmXxcGI3pG9EI3+UPk5Fl2f9o/HU0hC3jQg/a+uH/MBkvIQZx5sFrKixSewrY+/E/JBR2uFyCnkJbbb4GUUds/wO+TtGcjQYAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">fbd4641247f57a10d1321af2e16d438d</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="HR Case Flow">feed9ca847b1b610d1321af2e16d436d</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>23</order>
+        <outputs_assigned/>
+        <parent_ui_id>501ec9f6-d03e-47cd-9db8-2677151c520a</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-16 08:10:40</sys_created_on>
+        <sys_id>7b9553d247313e10d1321af2e16d4370</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-25 09:13:08</sys_updated_on>
+        <ui_id>96b2f65e-69c2-4789-9497-a5af564aab46</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VXW/aMBT9K8jPIcoHYcAboqo0qVulUfVlq6KL7RRrjp3ZTimL+O+7zgegjWqt1se94XOv7z3nxEc0RNeuqp2900trxaMii68PARHKY/i7IQpKThaEasWEE1rlLRCQJ5C1Lyyrymg8jNYOHB8JO+oQzrCJCVtJ2N+/ppduhWSG9wwqMLjHcUMWzW8lwXBUEUERz2lM02SaJlGUzCbxZppu4oSlwCHFgRI2XGLraqA+ummR4EVNbl953Doj1GN/vumnrAdQG+ZZxVFA+LPjiiH7RQHS8oCUoBg4bfZHxHBgt0qegK1QDscR3/xsxU9cmGSZbyw4SqS8Kx6Pee9hBxdX4ACp1NTVpm+lWy0ot505jBdQS7c6x7qG28pL7a442MjhtpZ1qT53jpDjgOGTIVJbJMErr9RT73UU663efRlYXgvVutIXpaYgjydw6N2mdp5PQ7jkJQ7KS6gqdDT3D0C0l5FLGT5KPISF1Dtc6l9kCNQTD9FYCK8Rv2rhezDCq/iEY/ByR3MDVtC8fb04Dm3i5BAQu7crCdaeRKK7+Y/aU+wk9+Lyzh9/hRpRuSVufuK9jkPwZxjOctA0CQBNacbGBeXT8WQ2m40hns3HMYUP84jRIkuyEPoI5NZH4HD4VkdRyuDFyLzX2Lelaw5ZkcVRdjldk+mldF3I1RsjlfwlUv57vjJRURT9j9Q/R0rYvAtCr61d/o6JevDx6XYevabCIrU7j30c/oV8YY+PS9BzaKfNdy/qhB1+AR7XVn/PBgAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">7bd4641247f57a10d1321af2e16d4378</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="HR Case Flow">feed9ca847b1b610d1321af2e16d436d</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>9</order>
+        <outputs_assigned/>
+        <parent_ui_id>1bd5ac69-ae5b-48bf-8893-5c512557b914</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-16 08:10:40</sys_created_on>
+        <sys_id>a79553d247313e10d1321af2e16d4357</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-25 09:13:08</sys_updated_on>
+        <ui_id>620d5b01-d9d8-43a9-9c3e-8ba100ba780b</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VyW7bMBD9lYBnWdDm9RY4CFogbYAkyKUNhBE1stlSoipSdlzB/96hFtto3CVojr2Zb7b3RvPghqnalLXRD+pSa7Eq2OLTk8NEYTH63bACcmQLxlWRCiNUEbeAwzYgaxu4wy/IbeDiHRSpFMWKgqnQpYTd4+9y+FrItMJ+YgkV9TVYsUXzU0ik1CLzIPPn3OdhMAkDzwtmkZ9MwsQP0hAQQmooIUFJqcuB6sVNizi/1GB2pcW1qTpK9n3Td7kfQFWllpXvOQyfDRYpEp8MpEaH5SQHjKp2B6RCSG8LeQTWojDUjtnkZy2+08BgPLaJGZJEjl3w8Iz73XVwdgUGiErNTV31qXytBEfdLSfFDGpplqdYl3BbWqldiYFEDtVK1nnxsdsIOzQYPhUhtSYSWFqllnqvI7tfq+3dwPJaFO1W+qBUHOThBYZ2l9TG8mkYSsypUZxDWdJG47JSG9EWE5fcXUl6uJlUWxpqL9CF9lRcWiy414RftfAjVMKq+EBtqLijmYAWPG6vldrRmpDtHaZ3eilB66NI2m78rbYUO8m9uLjbjy3hlSjNJU3eYK9j77w8/pO7b5pklmA4nc5GvjfzR5GPwQiiOYwSHmZznEaTMOIusSW9IGNtwOB+/7n2vJBu2xqCDumFVd6q7evcNYdxNva98Xl3RZNz7jrjq1daKviDpez3/EtHeZ7331L/bCmh484IvbZ2+Bs66snap5t52DUXmqg9WOz98K9jAzs6LsFPoa2qvlpRR2z/A4A2WI2/BgAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">7bd4641247f57a10d1321af2e16d437b</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="HR Case Flow">feed9ca847b1b610d1321af2e16d436d</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>11</order>
+        <outputs_assigned/>
+        <parent_ui_id>1bd5ac69-ae5b-48bf-8893-5c512557b914</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-16 08:10:40</sys_created_on>
+        <sys_id>af9553d247313e10d1321af2e16d4358</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-25 09:13:08</sys_updated_on>
+        <ui_id>033ca525-4c09-4896-8da6-c93ad69beeae</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Vy27bMBD8FYNnWdDLz5vhIECBtAHqIJc2EFYkFROlSFWk4riC/71LPWwjddAEzbE3c3a5OzPiwA3RtS1ra+70yhjxqMjy24NHhHIY/m6IgoKTJaFaMWGFVmkLeOQJZO0Kq7KsNB5GGwuWj4QZdQhn2MSEKSXs79/SS7dCsor3DEqocI/lFVk2L0qC4ag8gDxc0JDG0TSOgiCaJ2E2jbMwYjFwiHGghIxLbF0P1Ec3LeK9qsnuS4cbWwn12J9v+imbAdQVc6zCwCP82XLFkP0yB2m4RwpQDKyu9kek4sBulTwBW6EsjiOu+dmIX7gwmkxcY85RIuVd8XhMew87OL8CC0ilprau+la61YJy05nDeA61tOtzrGu4LZ3U7oqFTA63tawL9aVzhBwHDJ8MkdogCV46pY56ryPfbPXu68DyWqjWlb4oNQV5PIFF77LaOj4N4ZIXOCgtoCzR0dQ9ANFeRi6F/yjx4OdS73Cpe5E+UEfcR2PBv0b8qoXvoRJOxWccg5c7mhkYQdP29eI4tImTg0fM3qwlGHMSie6mP2tHsZPci0s7f9wVWonSrnDzE+91HLw/w3CWg6bJ5hmPZ7P5OAzm4TgJeTSGZAHjjMb5gs+SaZxQH/oIpMZF4HD4XgdBzODVyHzU2PelawGTfBIGk8vpSqaX0nUhV++MVPSXSLnv+cZEBUHwP1L/HClh0i4IvbZ2+Qcm6sHFp9t59JoKg9TuHPZp+BdyhT0+LkHPoZ2ufjhRJ+zwG/nFnLjPBgAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">fbd4641247f57a10d1321af2e16d438a</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="HR Case Flow">feed9ca847b1b610d1321af2e16d436d</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>21</order>
+        <outputs_assigned/>
+        <parent_ui_id>501ec9f6-d03e-47cd-9db8-2677151c520a</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-16 08:10:40</sys_created_on>
+        <sys_id>bb9553d247313e10d1321af2e16d4362</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-25 09:13:08</sys_updated_on>
+        <ui_id>2b018a3d-1dcb-4b14-90e2-053307fbfb71</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VyW7bMBD9lYBnWdDm9RY4CFogbYAkyKUNhBE1stlSoipSdlzB/96hFtto3CVojr2Zb7b3RvPghqnalLXRD+pSa7Eq2OLTk8NEYTH63bACcmQLxlWRCiNUEbeAwzYgaxu4wy/IbeDiHRSpFMWKgqnQpYTd4+9y+FrItMJ+YgkV9TVYsUXzU0ik1CLzIPPn3OdhMAkDzwtmkZ9MwsQP0hAQQmooIUFJqcuB6sVNizi/1GB2pcW1qTpK9n3Td7kfQFWllpXvOQyfDRYpEp8MpEaH5SQHjKp2B6RCSG8LeQTWojDUjtnkZy2+08BgPLaJGZJEjl3w8Iz73XVwdgUGiErNTV31qXytBEfdLSfFDGpplqdYl3BbWqldiYFEDtVK1nnxsdsIOzQYPhUhtSYSWFqllnqvI7tfq+3dwPJaFO1W+qBUHOThBYZ2l9TG8mkYSsypUZxDWdJG47JSG9EWE5fcXUl6uJlUWxpqL9CF9lRcWiy414RftfAjVMKq+EBtqLijmYAWPG6vldrRmpDtHaZ3eilB66NI2m78rbYUO8m9uLjbjy3hlSjNJU3eYK9j77w8/pO7b5pklmA4nc5GvjfzR5GPwQiiOYwSHmZznEaTMOIusSW9IGNtwOB+/7n2vJBu2xqCDumFVd6q7evcNYdxNva98Xl3RZNz7jrjq1daKviDpez3/EtHeZ7331L/bCmh484IvbZ2+Bs66snap5t52DUXmqg9WOz98K9jAzs6LsFPoa2qvlpRR2z/A4A2WI2/BgAA</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=feed9ca847b1b610d1321af2e16d436d"/>
@@ -1070,7 +1886,7 @@
     <sys_hub_flow action="UPDATE">
         <sys_id>c2e81b40473d7210d1321af2e16d4391</sys_id>
         <latest_snapshot>feed9ca847b1b610d1321af2e16d436d</latest_snapshot>
-        <compiler_build>glide-zurich-07-01-2025__patch3-10-16-2025_10-24-2025_0919.zip</compiler_build>
+        <compiler_build>glide-zurich-07-01-2025__patch4-11-14-2025_12-03-2025_1405.zip</compiler_build>
         <version_record/>
     </sys_hub_flow>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=c2e81b40473d7210d1321af2e16d4391^sys_idNOT IN57eddca847b1b610d1321af2e16d4352"/>
@@ -1078,18 +1894,18 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"57eddca847b1b610d1321af2e16d4352","name":"plan","plan_signature":null}}</plan>
         <plan_id>c2e81b40473d7210d1321af2e16d4391</plan_id>
-        <snapshot>a9aab83147bdf650d1321af2e16d43bf</snapshot>
+        <snapshot>759a3515470af6d0d1321af2e16d4367</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-12-10 08:18:43</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>57eddca847b1b610d1321af2e16d4352</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-12-14 07:35:39</sys_updated_on>
-        <trigger display_value="">936af8fd477df650d1321af2e16d4386</trigger>
+        <sys_updated_on>2025-12-25 09:13:09</sys_updated_on>
+        <trigger display_value="">a63ab991470af6d0d1321af2e16d43dc</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=c2e81b40473d7210d1321af2e16d4391"/>
 </record_update>

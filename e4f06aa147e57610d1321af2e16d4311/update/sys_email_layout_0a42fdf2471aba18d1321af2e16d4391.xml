@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_email_layout">
+    <sys_email_layout action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <advanced_layout/>
+        <description/>
+        <layout><![CDATA[<table style="width: 100%; background-color: #f4f4f4; padding: 20px;">
+<tbody>
+<tr>
+<td>
+<table style="width: 450px; background-color: #ffffff; border-collapse: collapse; border: 1px solid #dddddd;" align="center">
+<tbody>
+<tr>
+<td>
+<div style="position: relative; width: 450px; height: 213px;"><img style="display: block;" src="/sys_attachment.do?sys_id=fb8839f6471aba18d1321af2e16d43c1" alt="Header" width="450" height="213">
+<div style="position: absolute; top: 15px; left: 15px;"><img src="/sys_attachment.do?sys_id=77c8f9fa475aba18d1321af2e16d4397" alt="HR Logo" width="144" height="158"></div>
+</div>
+</td>
+</tr>
+<tr>
+<td style="padding: 40px 30px; font-family: 'Verdana', sans-serif; text-align: center;">
+<div style="font-size: 11pt; color: #333333; line-height: 1.6; text-align: center;">${notification:body}</div>
+<div style="margin-top: 25px;">
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="margin: 0 auto;">
+<tbody>
+<tr>
+<td align="center" bgcolor="#68A1AF" style="border-radius: 25px; padding: 12px 30px;">
+<div style="font-family: 'Verdana', sans-serif; font-size: 11pt; color: #ffffff; font-weight: bold; text-decoration: none;">${URI_REF}</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div style="margin-top: 30px; text-align: center; border-top: 1px solid #eeeeee; padding-top: 10px;">
+<div style="font-family: 'Verdana', sans-serif; font-size: 10pt; color: #666666; text-align: center; line-height: 1.5;">Regards,<br>HR Case Management System</div>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div style="position: relative; width: 450px; height: 213px;"><img style="display: block;" src="/sys_attachment.do?sys_id=b97935fe475aba18d1321af2e16d4351" alt="Footer Image" width="450" height="213">
+<div style="position: absolute; top: 40%; left: 50%; transform: translate(-50%, -50%); width: 90%; text-align: center; font-family: 'Verdana', sans-serif; font-size: 8pt; color: #999999; line-height: 1.4; z-index: 2;">This is an automated message from the <strong>HR Department</strong>.<br>Please do not reply to this system-generated email.</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>]]></layout>
+        <name>HR Email Template</name>
+        <sys_class_name>sys_email_layout</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-11 10:45:46</sys_created_on>
+        <sys_id>0a42fdf2471aba18d1321af2e16d4391</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>HR Email Template</sys_name>
+        <sys_package display_value="HR Case Management" source="x_1837836_hr_cas_1">e4f06aa147e57610d1321af2e16d4311</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
+        <sys_update_name>sys_email_layout_0a42fdf2471aba18d1321af2e16d4391</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-11 12:24:40</sys_updated_on>
+    </sys_email_layout>
+</record_update>

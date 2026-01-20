@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>category</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Automate Assignment Rules</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+  if (isLoading) return;
+
+  // Category is a CHOICE field, so newValue will be: leave/travel/onboarding...
+  var map = {
+    "leave":       "f0b8bf2547a1b610d1321af2e16d4376",
+    "offboarding": "db98fb2547a1b610d1321af2e16d43a4",
+    "onboarding":  "5358f32547a1b610d1321af2e16d4397",
+    "others":      "70c833614761b610d1321af2e16d4338",
+    "payroll":     "dda83f2547a1b610d1321af2e16d4381",
+    "travel":      "e6b8ff2547a1b610d1321af2e16d4353"
+  };
+
+  // Clear if category cleared
+  if (!newValue) {
+    g_form.setValue("assignment_group", "");
+    return;
+  }
+
+  var groupId = map[newValue];
+
+  // If no match, clear it (or remove this line if you prefer keeping current value)
+  g_form.setValue("assignment_group", groupId || "");
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-05 10:37:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9ea632b447967e94d1321af2e16d436f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Automate Assignment Rules</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HR Case Management" source="x_1837836_hr_cas_1">e4f06aa147e57610d1321af2e16d4311</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
+        <sys_update_name>sys_script_client_9ea632b447967e94d1321af2e16d436f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-05 11:05:25</sys_updated_on>
+        <table>x_1837836_hr_cas_1_hr_case</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
