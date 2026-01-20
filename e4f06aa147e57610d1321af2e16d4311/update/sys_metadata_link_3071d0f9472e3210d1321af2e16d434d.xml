@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>c74898f547a5b610d1321af2e16d4360</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="x_1837836_hr_cas_1_hr_case">
+    <x_1837836_hr_cas_1_hr_case action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_due/>
+        <additional_assignee_list/>
+        <approval>not requested</approval>
+        <approval_history/>
+        <approval_set/>
+        <assigned_to/>
+        <assignment_group display_value="Offboarding Resolvers Group" name="Offboarding Resolvers Group">db98fb2547a1b610d1321af2e16d43a4</assignment_group>
+        <business_duration/>
+        <business_service/>
+        <calendar_duration/>
+        <caller display_value="Abel Tuter">62826bf03710200044e0bfc8bcbe5df1</caller>
+        <category>offboarding</category>
+        <close_notes/>
+        <closed_at/>
+        <closed_by/>
+        <cmdb_ci/>
+        <comments/>
+        <comments_and_work_notes/>
+        <company/>
+        <contact_type/>
+        <contract/>
+        <correlation_display/>
+        <correlation_id/>
+        <delivery_plan/>
+        <delivery_task/>
+        <department display_value="Product Management">9a7ed3f03710200044e0bfc8bcbe5db7</department>
+        <descriptio0/>
+        <description/>
+        <due_date/>
+        <email>abel.tuter@example.com</email>
+        <escalation>0</escalation>
+        <expected_start/>
+        <follow_up/>
+        <group_list/>
+        <impact>3</impact>
+        <knowledge>false</knowledge>
+        <location/>
+        <made_sla>true</made_sla>
+        <number>HRC1031</number>
+        <opened_at>2025-12-01 18:50:51</opened_at>
+        <opened_by display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</opened_by>
+        <order/>
+        <parent/>
+        <priority>4</priority>
+        <reassignment_count>0</reassignment_count>
+        <rejection_goto/>
+        <route_reason/>
+        <service_offering/>
+        <short_descriptio0>Submit ID during offboarding</short_descriptio0>
+        <short_description/>
+        <skills/>
+        <sla_due/>
+        <stat0>on_hold</stat0>
+        <state>1</state>
+        <subcategory>submit_id</subcategory>
+        <sys_class_name>x_1837836_hr_cas_1_hr_case</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-01 18:50:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c74898f547a5b610d1321af2e16d4360</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-01 19:36:43</sys_updated_on>
+        <task_effective_number>HRC1031</task_effective_number>
+        <task_for/>
+        <time_worked/>
+        <u_ip_address/>
+        <u_ip_address_info/>
+        <u_requested_for/>
+        <u_requested_onboarding/>
+        <universal_request/>
+        <upon_approval>proceed</upon_approval>
+        <upon_reject>cancel</upon_reject>
+        <urgency>3</urgency>
+        <user_input/>
+        <variables/>
+        <watch_list/>
+        <wf_activity/>
+        <work_end/>
+        <work_notes/>
+        <work_notes_list/>
+        <work_start/>
+    </x_1837836_hr_cas_1_hr_case>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-20 11:23:43</sys_created_on>
+        <sys_id>3071d0f9472e3210d1321af2e16d434d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Abel Tuter</sys_name>
+        <sys_package display_value="HR Case Management" source="x_1837836_hr_cas_1">e4f06aa147e57610d1321af2e16d4311</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
+        <sys_update_name>sys_metadata_link_3071d0f9472e3210d1321af2e16d434d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-20 11:23:43</sys_updated_on>
+        <tablename>x_1837836_hr_cas_1_hr_case</tablename>
+    </sys_metadata_link>
+</record_update>

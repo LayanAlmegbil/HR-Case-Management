@@ -41,13 +41,11 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<div style="font-family: 'Verdana', sans-serif; font-size: 11pt; color: #333333; line-height: 1.6;">
-<p data-path-to-node="4">Hello Reviewers,</p>
-<p data-path-to-node="5">The HR Case <strong>${number}</strong> for <strong>${caller}</strong> has been closed with state:<strong> </strong></p>
-<p data-path-to-node="5"><strong>${state}</strong>.</p>
-<p data-path-to-node="6">Short description: <strong>${short_description}</strong></p>
-<p data-path-to-node="6">To review the full details of this case, please click the button below:</p>
-</div>]]></message_html>
+        <message_html><![CDATA[<p>Hello HR Case Reviewers,</p>
+<p>The HR Case ${number} for ${caller_id} has been closed with state: ${state}.</p>
+<p>Short description: ${short_description}</p>
+<p>To review this case, click the following link:<br>${URI_REF}</p>
+<p>Regards,<br>HR Case Management System</p>]]></message_html>
         <message_list/>
         <message_text/>
         <messaging_channels/>
@@ -63,7 +61,7 @@
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>HR Case ${number} Closed/Cancelled – Review Required</subject>
+        <subject>HR Case ${number} Closed/Cancelled – Review Required ${URI_REF}</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -71,7 +69,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>defe7cb1476db610d1321af2e16d43bf</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>HR Case Closed/Cancelled - Review</sys_name>
         <sys_overrides/>
         <sys_package display_value="HR Case Management" source="x_1837836_hr_cas_1">e4f06aa147e57610d1321af2e16d4311</sys_package>
@@ -79,9 +77,9 @@
         <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
         <sys_update_name>sysevent_email_action_defe7cb1476db610d1321af2e16d43bf</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-01-11 12:27:06</sys_updated_on>
+        <sys_updated_on>2026-01-20 16:11:56</sys_updated_on>
         <sys_version>2</sys_version>
-        <template display_value="HR Email Template">cd603d3e47d6ba18d1321af2e16d4387</template>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
         <weight>0</weight>
     </sysevent_email_action>
