@@ -1,4 +1,7 @@
 # 🧾 Custom HR Case Management System
+![Platform](https://img.shields.io/badge/Platform-ServiceNow-blue)
+![Category](https://img.shields.io/badge/Category-HR%20Case%20Management-green)
+![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
 
 ## Project Overview
 
@@ -48,11 +51,11 @@ Each scenario follows a straightforward flow:
 
 1. **HR Case Creation Form**  
 (Shows how employees submit requests)  
-<img src="hr_case.png" width="600"/>
+<img src="images/hr_case.png" width="600"/>
 
 2. **Manager Approval Screen**  
 (Shows how managers approve or reject)  
-<img src="manager_approval.png" width="600"/>
+<img src="images/manager_approval.png" width="600"/>
 
 3. **Fulfillment Task View for HR**  
 (Shows how tasks reach HR resolvers)  
@@ -60,15 +63,15 @@ Each scenario follows a straightforward flow:
 
 4. **Case Progress Dashboard**  
 (Shows how HR monitors open and resolved cases)  
-<img src="dashboard.png" width="600"/>
+<img src="images/dashboard.png" width="600"/>
 
 5. **Notification Example**  
 (Email showing case updates with links)  
-<img src="email_template.png" width="600"/>
+<img src="images/email_template.png" width="600"/>
 
 6. **End-to-End Case Lifecycle Diagram**  
 (Visual summary of the entire journey)  
-<img src="HR_Case_Diagram.png" width="600"/>
+<img src="images/HR_Case_Diagram.png" width="600"/>
 
 ---
 
