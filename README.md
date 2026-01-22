@@ -1,4 +1,4 @@
-# 🧾 Custom HR Case Management System
+# <img src="images/HR.jpg" width="32" alt="HR Logo"> Custom HR Case Management System
 ![Platform](https://img.shields.io/badge/Platform-ServiceNow-blue)
 ![Category](https://img.shields.io/badge/Category-HR%20Case%20Management-green)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
@@ -25,7 +25,6 @@ The system supports common HR scenarios such as:
 Each scenario follows a straightforward flow:  
 **submit → review/approval → action → closure**
 
----
 
 ### Main Entities Involved
 
@@ -34,7 +33,6 @@ Each scenario follows a straightforward flow:
 - **Managers** (approve certain cases)
 - **HR Operations** (get notified on special events)
 
----
 
 ### How It Works (Simple Flow)
 
@@ -45,9 +43,8 @@ Each scenario follows a straightforward flow:
 5. When the task is closed, the main HR case automatically moves to **Resolved**.
 6. Notifications are sent throughout the process to keep everyone informed.
 
----
 
-## Screenshot / Diagram Suggestions
+### Screenshot / Diagram Suggestions
 
 1. **HR Case Creation Form**  
 (Shows how employees submit requests)  
@@ -73,7 +70,6 @@ Each scenario follows a straightforward flow:
 (Visual summary of the entire journey)  
 <img src="images/HR_Case_Diagram.png" width="600"/>
 
----
 
 ### Key Features
 
@@ -85,9 +81,8 @@ Each scenario follows a straightforward flow:
 - Knowledge Base Articles for self-help
 - Basic Dashboards & Reports for HR visibility
 
----
 
-## Example Outputs
+### Example Outputs
 
 These components were part of the final delivered solution:
 
@@ -103,9 +98,8 @@ Assigned to HR teams with clear instructions.
 4. **Resolution & Feedback**  
 Case ends with status *Resolved* or *Cancelled*.
 
----
 
-## Value & Outcomes
+### Value & Outcomes
 
 The system improves HR operations by:
 
@@ -117,9 +111,8 @@ The system improves HR operations by:
 - Providing HR visibility through dashboards
 - Serving as a cost-effective alternative to HRSD
 
----
 
-## Tools Used
+### Tools Used
 
 - **ServiceNow**
   - Case Form
