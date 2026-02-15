@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="My HR Query">9366849e47feb290d1321af2e16d4328</sc_cat_item>
+        <sc_category display_value="HR Case Management">ef77acb54729b610d1321af2e16d439f</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-03 10:44:18</sys_created_on>
+        <sys_id>bfae80124772f290d1321af2e16d4382</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HR Case Management.My HR Query</sys_name>
+        <sys_package display_value="HR Case Management" source="x_1837836_hr_cas_1">e4f06aa147e57610d1321af2e16d4311</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
+        <sys_update_name>sc_cat_item_category_bfae80124772f290d1321af2e16d4382</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-03 10:44:18</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>
