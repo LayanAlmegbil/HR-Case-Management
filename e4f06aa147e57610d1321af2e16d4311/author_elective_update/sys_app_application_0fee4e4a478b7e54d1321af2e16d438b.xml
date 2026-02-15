@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name/>
+        <order>100</order>
+        <roles/>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-15 11:42:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0fee4e4a478b7e54d1321af2e16d438b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HR Case Management</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HR Case Management" source="x_1837836_hr_cas_1">e4f06aa147e57610d1321af2e16d4311</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
+        <sys_update_name>sys_app_application_0fee4e4a478b7e54d1321af2e16d438b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-15 11:42:06</sys_updated_on>
+        <title>HR Case Management</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</application>
+        <file_path/>
+        <instance_id>ac3f14e63b4ba258872712c5e4e45a7e</instance_id>
+        <instance_name>dev351794</instance_name>
+        <name>sys_app_application_0fee4e4a478b7e54d1321af2e16d438b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name/><order>100</order><roles/><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-15 11:42:06</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0fee4e4a478b7e54d1321af2e16d438b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>HR Case Management</sys_name><sys_overrides/><sys_package display_value="HR Case Management" source="x_1837836_hr_cas_1">e4f06aa147e57610d1321af2e16d4311</sys_package><sys_policy/><sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope><sys_update_name>sys_app_application_0fee4e4a478b7e54d1321af2e16d438b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-15 11:42:06</sys_updated_on><title>HR Case Management</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>1365836868</payload_hash>
+        <record_name>HR Case Management</record_name>
+        <reverted_from/>
+        <source>ccac34da4761be10d1321af2e16d434c</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-15 11:42:06</sys_created_on>
+        <sys_id>a3fe428a478b7e54d1321af2e16d4370</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19c611ba0060000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-15 11:42:06</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>63fe428a7e8b7e546e06bd7872559b6f</update_guid>
+        <update_guid_history>63fe428a7e8b7e546e06bd7872559b6f:1365836868</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="HR Case Management">c12fca8a478b7e54d1321af2e16d4398</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-15 11:42:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>1264d06f4bcf45cea95df61712d0bf51</sys_id>
+        <sys_metadata>0fee4e4a478b7e54d1321af2e16d438b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HR Case Management</sys_name>
+        <sys_package display_value="HR Case Management" source="x_1837836_hr_cas_1">e4f06aa147e57610d1321af2e16d4311</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
+        <sys_scope_delete display_value="">0855ea1441d943bc8406fb2f65521b71</sys_scope_delete>
+        <sys_update_name>sys_app_application_0fee4e4a478b7e54d1321af2e16d438b</sys_update_name>
+        <sys_update_version display_value="sys_app_application_0fee4e4a478b7e54d1321af2e16d438b">a3fe428a478b7e54d1321af2e16d4370</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-15 11:42:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

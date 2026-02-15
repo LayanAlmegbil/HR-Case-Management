@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description>Validate that the form matches the following condition:
+Category = Others
+and State = New
+With a failure timeout of 10 Seconds</description>
+        <display_name>Field Values Validation</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>7</order>
+        <step_config display_value="Field Values Validation">1b97cd31872022008182c9ded0e3ece5</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-04 09:46:07</sys_created_on>
+        <sys_id>bf8acd2a473ef690d1321af2e16d4338</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Field Values Validation</sys_name>
+        <sys_package display_value="HR Case Management" source="x_1837836_hr_cas_1">e4f06aa147e57610d1321af2e16d4311</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
+        <sys_update_name>sys_atf_step_bf8acd2a473ef690d1321af2e16d4338</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-08 10:05:54</sys_updated_on>
+        <table>x_1837836_hr_cas_1_hr_case</table>
+        <test display_value="Create HR Case – Others">d9cab86e473af690d1321af2e16d4302</test>
+        <timeout>1970-01-01 00:00:10</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=bf8acd2a473ef690d1321af2e16d4338"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>bf8acd2a473ef690d1321af2e16d4338</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-04 09:46:07</sys_created_on>
+        <sys_id>59fa89aa473ef690d1321af2e16d43e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-04 09:46:07</sys_updated_on>
+        <value>category=others^stat0=new^EQ</value>
+        <variable display_value="Conditions">4aa838f25320220002c6435723dc34e1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>bf8acd2a473ef690d1321af2e16d4338</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-04 09:46:07</sys_created_on>
+        <sys_id>9dfa89aa473ef690d1321af2e16d43e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-04 09:46:07</sys_updated_on>
+        <value>x_1837836_hr_cas_1_hr_case</value>
+        <variable display_value="Table">a0e13cc35320220002c6435723dc3467</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>bf8acd2a473ef690d1321af2e16d4338</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-04 09:46:07</sys_created_on>
+        <sys_id>d1fa89aa473ef690d1321af2e16d43e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-04 09:46:07</sys_updated_on>
+        <value>standard_ui</value>
+        <variable display_value="Form UI">c83b5337e7633300e12127d8d2f6a98b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_atf_input_variable_1b97cd31872022008182c9ded0e3ece5^id=bf8acd2a473ef690d1321af2e16d4338"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</application>
+        <file_path/>
+        <instance_id>ac3f14e63b4ba258872712c5e4e45a7e</instance_id>
+        <instance_name>dev351794</instance_name>
+        <name>sys_atf_step_bf8acd2a473ef690d1321af2e16d4338</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><callable_outputs/><copied_from/><description>Validate that the form matches the following condition:
+Category = Others
+and State = New
+With a failure timeout of 10 Seconds</description><display_name>Field Values Validation</display_name><inputs/><mugshots_cache_json/><notes/><order>7</order><step_config display_value="Field Values Validation">1b97cd31872022008182c9ded0e3ece5</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-04 09:46:07</sys_created_on><sys_id>bf8acd2a473ef690d1321af2e16d4338</sys_id><sys_mod_count>5</sys_mod_count><sys_name>Field Values Validation</sys_name><sys_package display_value="HR Case Management" source="x_1837836_hr_cas_1">e4f06aa147e57610d1321af2e16d4311</sys_package><sys_policy/><sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope><sys_update_name>sys_atf_step_bf8acd2a473ef690d1321af2e16d4338</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-08 10:05:54</sys_updated_on><table>x_1837836_hr_cas_1_hr_case</table><test display_value="Create HR Case – Others">d9cab86e473af690d1321af2e16d4302</test><timeout>1970-01-01 00:00:10</timeout><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=bf8acd2a473ef690d1321af2e16d4338"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>bf8acd2a473ef690d1321af2e16d4338</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-04 09:46:07</sys_created_on><sys_id>59fa89aa473ef690d1321af2e16d43e5</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-04 09:46:07</sys_updated_on><value>category=others^stat0=new^EQ</value><variable display_value="Conditions">4aa838f25320220002c6435723dc34e1</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>bf8acd2a473ef690d1321af2e16d4338</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-04 09:46:07</sys_created_on><sys_id>9dfa89aa473ef690d1321af2e16d43e5</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-04 09:46:07</sys_updated_on><value>x_1837836_hr_cas_1_hr_case</value><variable display_value="Table">a0e13cc35320220002c6435723dc3467</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>bf8acd2a473ef690d1321af2e16d4338</document_key><order>50</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-04 09:46:07</sys_created_on><sys_id>d1fa89aa473ef690d1321af2e16d43e5</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-04 09:46:07</sys_updated_on><value>standard_ui</value><variable display_value="Form UI">c83b5337e7633300e12127d8d2f6a98b</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_1b97cd31872022008182c9ded0e3ece5^id=bf8acd2a473ef690d1321af2e16d4338"/></record_update>]]></payload>
+        <payload_hash>-646672182</payload_hash>
+        <record_name>Field Values Validation</record_name>
+        <reverted_from/>
+        <source>ccac34da4761be10d1321af2e16d434c</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-08 10:05:54</sys_created_on>
+        <sys_id>0ed535bb4736fad0d1321af2e16d4343</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19c3cb70a870000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-08 10:05:54</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>4ad535bba036fad0a566c5b167db3642</update_guid>
+        <update_guid_history>4ad535bba036fad0a566c5b167db3642:-646672182,100a992aec323a90a1620e699e5fb0d4:-887973506,96b9d5e68c323a90c8acff9bca66f849:1850518687,11fa89aa243ef690b7311825ffc286e9:294043584</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-08 11:18:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>0979bfcad17149d89ab3e05c04022499</sys_id>
+        <sys_metadata>bf8acd2a473ef690d1321af2e16d4338</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Field Values Validation</sys_name>
+        <sys_package display_value="HR Case Management" source="x_1837836_hr_cas_1">e4f06aa147e57610d1321af2e16d4311</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
+        <sys_scope_delete display_value="">0855ea1441d943bc8406fb2f65521b71</sys_scope_delete>
+        <sys_update_name>sys_atf_step_bf8acd2a473ef690d1321af2e16d4338</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_bf8acd2a473ef690d1321af2e16d4338">0ed535bb4736fad0d1321af2e16d4343</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-08 11:18:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

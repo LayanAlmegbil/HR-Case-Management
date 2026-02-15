@@ -5,13 +5,13 @@
         <attributes>edge_encryption_enabled=true,encode_utf8=false</attributes>
         <audit>false</audit>
         <calculation/>
-        <choice>0</choice>
+        <choice/>
         <choice_field/>
         <choice_table/>
         <column_label>Caller</column_label>
         <comments/>
         <create_roles/>
-        <default_value/>
+        <default_value>javascript:incidentGetCaller()</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -19,7 +19,7 @@
         <display>true</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
-        <dynamic_default_value/>
+        <dynamic_default_value display_value="Incident Get Caller">0d39d9105f220100a9ad2572f2b47796</dynamic_default_value>
         <dynamic_ref_qual/>
         <element>caller</element>
         <element_reference>false</element_reference>
@@ -53,12 +53,12 @@
         <sys_scope display_value="HR Case Management">e4f06aa147e57610d1321af2e16d4311</sys_scope>
         <sys_update_name>sys_dictionary_x_1837836_hr_cas_1_hr_case_caller</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-12-01 13:08:36</sys_updated_on>
+        <sys_updated_on>2026-02-03 09:19:35</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
+        <use_dynamic_default>true</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
         <virtual_type>script</virtual_type>
